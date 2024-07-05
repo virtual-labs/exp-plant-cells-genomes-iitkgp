@@ -46,6 +46,25 @@
     transform:rotate(90deg);
 }
 
+#fingerthumbcss{
+    position: absolute;
+    top:10%;
+    left:95%;
+    width:6%;
+    cursor: pointer; /* stem outline 2D7600 */
+    display: none;
+    z-index: 3;
+}
+
+#fingerindexcss{
+    position: absolute;
+    top:10%;
+    left:95%;
+    width:6%;
+    cursor: pointer; /* stem outline 2D7600 */
+    display: none;
+}
+
 
 
 #petridishcss {
@@ -174,7 +193,7 @@
     width:1.4%;
     cursor: pointer;
     transform: rotate(20deg);
-    z-index: 3;
+    z-index: 2;
 }
 
 #petridishwatercss{

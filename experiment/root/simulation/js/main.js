@@ -20,8 +20,10 @@ function bladejsclick() {
       document.getElementById("bladecss").style.top = 40 + "%";
       document.getElementById("bladecss").style.left = 32 + "%";
       document.getElementById("rootsectioncss").style.display = "block";
-      document.getElementById("fingerthumbcss").style.display="none";
-      document.getElementById("fingerindexcss").style.display="none";
+      document.getElementById("fingerthumbcss").style.top = 10 + "%";
+  document.getElementById("fingerthumbcss").style.left = 90 + "%";
+  document.getElementById("fingerindexcss").style.top = 10+ "%";
+  document.getElementById("fingerindexcss").style.left = 90 + "%";
       clearInterval(imgblade);
 
       document.getElementById("bladecss").removeAttribute("onclick", "bladejsclick()");
@@ -40,6 +42,10 @@ function bladejsclick() {
 function brushmovetoblade() {
   document.getElementById("brushcss").style.top = -20 + "%";
   document.getElementById("brushcss").style.left = 42 + "%";
+  document.getElementById("fingerthumbcss").style.top = -5 + "%";
+  document.getElementById("fingerthumbcss").style.left = 42 + "%";
+  document.getElementById("fingerindexcss").style.top = -5+ "%";
+  document.getElementById("fingerindexcss").style.left = 42 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "brushmoveroottopdish()");
 }
 
@@ -51,18 +57,30 @@ function brushmoveroottopdish() {
   document.getElementById("bladecss").style.top = 5 + "%";
   document.getElementById("bladecss").style.left = 25 + "%";
   document.getElementById("bladecss").style.transform = "rotate(0deg)";
+  document.getElementById("fingerthumbcss").style.top = 8 + "%";
+  document.getElementById("fingerthumbcss").style.left = 45 + "%";
+  document.getElementById("fingerindexcss").style.top = 8+ "%";
+  document.getElementById("fingerindexcss").style.left = 45 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "brushmovetoorg()");
 }
 
 function brushmovetoorg(){
   document.getElementById("brushcss").style.top = 0+ "%";
   document.getElementById("brushcss").style.left = 90 + "%";
+  document.getElementById("fingerthumbcss").style.top = 10 + "%";
+  document.getElementById("fingerthumbcss").style.left = 90 + "%";
+  document.getElementById("fingerindexcss").style.top = 10+ "%";
+  document.getElementById("fingerindexcss").style.left = 90 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "brushmovetopdish()");
 }
 
 function brushmovetopdish(){
   document.getElementById("brushcss").style.top = -5 + "%";
   document.getElementById("brushcss").style.left = 45 + "%";
+  document.getElementById("fingerthumbcss").style.top = 8 + "%";
+  document.getElementById("fingerthumbcss").style.left = 45 + "%";
+  document.getElementById("fingerindexcss").style.top = 8+ "%";
+  document.getElementById("fingerindexcss").style.left = 45 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "rootmovetoglassslide()");
 }
 
@@ -71,12 +89,18 @@ function rootmovetoglassslide(){
   document.getElementById("brushcss").style.left = 72 + "%";
   document.getElementById("rootsectioncss").style.top = 73 + "%";
   document.getElementById("rootsectioncss").style.left = 69 + "%";
+  document.getElementById("fingerthumbcss").style.top = 8 + "%";
+  document.getElementById("fingerthumbcss").style.left = 73 + "%";
+  document.getElementById("fingerindexcss").style.top = 8+ "%";
+  document.getElementById("fingerindexcss").style.left = 73 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "brushmovetoorg1()");
 }
 
 function brushmovetoorg1(){
   document.getElementById("brushcss").style.top = 0+ "%";
   document.getElementById("brushcss").style.left = 90 + "%";
+  document.getElementById("fingerthumbcss").style.display = "none";
+  document.getElementById("fingerindexcss").style.display="none";
   document.getElementById("safranindroppercss").setAttribute("onclick", "clickdroppertomove()");
 }
 

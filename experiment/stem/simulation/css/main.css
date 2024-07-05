@@ -263,7 +263,7 @@
  #watercontainingcss {
     position: absolute;
     top: 34.7%;  
-    left:26.5%; 
+    left:47%; /*26.5  */
     width:2.2%;
     height:28%;
     cursor: pointer;

@@ -8,5 +8,5 @@
 
 
 **Part B:** To study characteristics of plant genome.
-- Arabidopsis
-- Rice
+- Arabidopsis 
+- Rice 

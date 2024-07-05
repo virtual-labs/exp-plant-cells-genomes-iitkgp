@@ -110,14 +110,14 @@ function brushclick() {
 }
 
 function brushclickforwater() {
-  document.getElementById("brushcss").style.top = 17 + "%";
-  document.getElementById("brushcss").style.left = 30 + "%";
+  document.getElementById("brushcss").style.top = 16 + "%";
+  document.getElementById("brushcss").style.left = 50 + "%";
   document.getElementById("smallcutstemseccss").style.top = 48 + "%";
-  document.getElementById("smallcutstemseccss").style.left = 27 + "%";
+  document.getElementById("smallcutstemseccss").style.left = 47 + "%";
   document.getElementById("fingerindexcss").style.top = 25 + "%";
-  document.getElementById("fingerindexcss").style.left = 30 + "%";
+  document.getElementById("fingerindexcss").style.left = 50 + "%";
   document.getElementById("fingerthumbcss").style.top = 25 + "%";
-  document.getElementById("fingerthumbcss").style.left = 30 + "%";
+  document.getElementById("fingerthumbcss").style.left = 50 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "brushclicktoorg()");
 }
 
@@ -135,14 +135,14 @@ function brushclicktoorg() {
 }
 
 function brushpickwaterstemclick() {
-  document.getElementById("brushcss").style.top = 17 + "%";
-  document.getElementById("brushcss").style.left = 30 + "%";
+  document.getElementById("brushcss").style.top = 16 + "%";
+  document.getElementById("brushcss").style.left = 50 + "%";
   document.getElementById("smallcutstemseccss").style.top = 48 + "%";
-  document.getElementById("smallcutstemseccss").style.left = 27 + "%";
+  document.getElementById("smallcutstemseccss").style.left = 47 + "%";
   document.getElementById("fingerindexcss").style.top = 25 + "%";
-  document.getElementById("fingerindexcss").style.left = 30 + "%";
+  document.getElementById("fingerindexcss").style.left = 50 + "%";
   document.getElementById("fingerthumbcss").style.top = 25 + "%";
-  document.getElementById("fingerthumbcss").style.left = 30 + "%";
+  document.getElementById("fingerthumbcss").style.left = 50 + "%";
 
   document.getElementById("brushcss").setAttribute("onclick", "brushclicktoglassslide()");
 }
@@ -294,6 +294,7 @@ function dropperdropwatergslideclick() {
   document.getElementById("droppercss").style.display = "block";
   document.getElementById("fastgreendropcss").style.display = "none";
   document.getElementById("dropperwatercss").style.display = "none";
+  document.getElementById("distwaterdropcss").style.display = "none";
   document.getElementById("droppercss").removeAttribute("onclick", "droppermovetowaterbeakerclick()");
   document.getElementById("coverslipcss").setAttribute("onclick", "coverslipclick()");
 }
@@ -310,4 +311,5 @@ function clicktomovetomicroscope() {
   document.getElementById("coverslipcss").style.display = "none";
   document.getElementById("smallcutstemseccss").style.display = "none";
   document.getElementById("waterdropcss").style.display = "none";
+  document.getElementById("distwaterdropcss").style.display = "none";
 }

@@ -11,6 +11,26 @@
     width:10%;
     cursor: pointer; /* stem outline 2D7600 */
     display: block;
+    z-index: 2;
+}
+
+#fingerthumbcss{
+    position: absolute;
+    top:20%;
+    left:10%;
+    width:6%;
+    cursor: pointer; /* stem outline 2D7600 */
+    display: block;
+    z-index: 3;
+}
+
+#fingerindexcss{
+    position: absolute;
+    top:20%;
+    left:10%;
+    width:6%;
+    cursor: pointer; /* stem outline 2D7600 */
+    display: block;
 }
 
 #cutstemcss{
@@ -43,7 +63,7 @@
     z-index: 2;
 }
 
-#petridishcss {
+#safpetridishcss {
     position: absolute;
     top: 45%;
     left:20%;
@@ -51,10 +71,9 @@
     cursor: pointer;
     display: block;
     
-    
 }
 
-#petridish1css {
+#petridishcss {
     position: absolute;
     top: 45%;
     left:40%;
@@ -62,10 +81,7 @@
     cursor: pointer;
     display: block;
     
-    
 }
-
-
 
 
 #bladecss {
@@ -75,7 +91,9 @@
     width: 12%;
     cursor: pointer;
     display: block;
-    z-index: 2;
+    z-index: 3;
+    
+    
     
 }
 
@@ -102,7 +120,7 @@
 
 #coverslipcss {
     position: absolute;
-    top: 25%;  /*45 */
+    top: 23%;  /*45 */
     left:79%; /*65 */
     width: 4.8%;
     cursor: pointer;
@@ -131,27 +149,36 @@
 
 #safbeakercss{
     position: absolute;
-    top: 75%;
-    left:85%;
-    width:11%;
+    top: 77%;
+    left:90%;
+    width:7%;
     cursor: pointer;
     z-index: 2;
+}
+
+#fastgreenbottlecss{
+    position: absolute;
+    top: 77%;
+    left:82%;
+    width:7%;
+    cursor: pointer;
+    z-index: 2;  
 }
 
 #brushcss{
     position: absolute;
     top: 0%;  /*0*/
     left:90%; /*90*/
-    width:4%;
+    width:1.4%;
     cursor: pointer;
-    transform: rotate(30deg);
+    transform: rotate(20deg);
     z-index: 1;
 }
 
 
 #forcepcss{
     position: absolute;
-    top: 1%;
+    top: 0.5%;
     left:75%;
     width:5%;
     cursor: pointer;
@@ -198,34 +225,70 @@
     display: none;
 }
 
-#safranincss{
+#safranindroppercss{
     position: absolute;
-    top: 67%; /* 25- 68*/
-    left:90%; /*68- 75 */
+    top: 69.8%; /* 25- 68*/
+    left:91.7%; /*68- 75 */
     width:3.5%;
     cursor: pointer;
-    display: none;
+    display: block;
+}
+
+#fastgreendroppercss{
+    position: absolute;
+    top: 69.8%; 
+    left:83.6%; 
+    width:3.5%;
+    cursor: pointer;
+    display: block;
 }
 
 #safranindropcss{
     position: absolute;
-    top: 46.3%;  /*45 */
-    left:25%; 
-    width:4%;
-    cursor: pointer;
+    top: 47%;  
+    left:67%; 
+    width:3%;
+   cursor: pointer;
     display: none;
     z-index: 11;
-    opacity: 70%;
+    opacity: 85%;
+    
+    /*   top: 34.7%;  
+    left:26.5%; 
+    transform: rotate(90deg); 
+    width:2.2%;
+    height:28%;*/
 }
+
+ #watercontainingcss {
+    position: absolute;
+    top: 34.7%;  
+    left:26.5%; 
+    width:2.2%;
+    height:28%;
+    cursor: pointer;
+    display: block;
+    z-index: 11;
+    opacity: 85%;
+    transform: rotate(90deg);
+  }
+
+
 #distwaterdropcss{
     position: absolute;
-    top: 46.3%;  /*45 */
-    left:46%; 
-    width:3.5%;
+    top: 47%;  /*45 */
+    left:67%; 
+    width:3%;
     cursor: pointer;
     display: none;
     z-index: 11;
-    opacity: 70%;
+    opacity: 80%;
+    /*transform: rotate(90deg);
+     top: 34%;  
+     left:46.5%; 
+     width:2.8%;
+     height:28%;
+    */
 }
 
 
@@ -247,6 +310,15 @@
     top: 45%;  /*45 -- 48*/
     left:69.3%; 
     width:0.8%;
+    cursor: pointer;
+    display: none;
+}
+
+#fastgreendropcss{
+    position: absolute;
+    top: 47%;  /*45 -- 48*/
+    left:67%; 
+    width:4%;
     cursor: pointer;
     display: none;
 }

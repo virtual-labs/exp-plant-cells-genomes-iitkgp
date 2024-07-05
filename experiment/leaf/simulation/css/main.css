@@ -63,7 +63,7 @@
 #leafsection1 {
     
     position: absolute;
-    top: 23%;  /*23 */
+    top: 17.5%;  /*23 */
     left:80%; /* 80*/
     width:2.2%;
     display: none;
@@ -165,6 +165,29 @@
     cursor: pointer;
     opacity: 50%;
     z-index: 5;
+}
+
+#brushcss{
+    position: absolute;
+    top: 0%;  /*0 -- -10 --  15  */
+    left:95%; /*95 -- 85 --  72 */
+    width:1.4%;
+    cursor: pointer;
+    transform: rotate(20deg);
+    z-index: 3;
+}
+
+#petridishwatercss{
+
+    position: absolute;
+    top: 21.5%;  /*45 */
+    left:75%; 
+    width:15%;
+    height: 4%;
+    cursor: pointer;
+    display: block;
+    z-index: 11;
+    opacity: 70%;
 }
 
 #beakercss {

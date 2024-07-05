@@ -15,7 +15,7 @@ Sample collection: Choose a fresh stem of a plant.
 - Add fast green for a few seconds to a minute. Fast green stains cellulose cell walls green.
 - Rinse the section in distilled water.
 - Add a drop of water to the leaf section to prevent drying out and to create a wet mount.
-- Carefully place a coverslip over the leaf section, using a needle to gently lower it to and avoid trapping air bubbles.
+- Carefully place a coverslip over the stem section, using a needle to gently lower it to and avoid trapping air bubbles.
 
 #### Microscope Setup:
 - Place the prepared slide on the stage of the simple microscope.

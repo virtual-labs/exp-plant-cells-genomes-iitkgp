@@ -234,11 +234,46 @@ function dropfastgreenclick() {
   document.getElementById("fastgreendropcss").style.display = "block";
   document.getElementById("fastgreendroppercss").style.top = 69.8 + "%";
   document.getElementById("fastgreendroppercss").style.left = 83.6 + "%";
-  document.getElementById("droppercss").setAttribute("onclick", "droppermovetowaterbeakerclick()");
+  document.getElementById("droppercss").setAttribute("onclick", "droppermovedistbeakerclick1() ");
   document.getElementById("fastgreendroppercss").removeAttribute("onclick", "droppermovefastgdropperclick()");
   document.getElementById("fastgreendroppercss").removeAttribute("onclick", "dropfastgreenclick()");
+}
+
+
+
+function droppermovedistbeakerclick1() {
+  document.getElementById("droppercss").style.display = "none";
+  document.getElementById("dropperdistwatercss").style.display = "block";
+  
+  document.getElementById("dropperdistwatercss").style.top= 67+ "%";
+  document.getElementById("dropperdistwatercss").style.left= 65+ "%";
+  document.getElementById("dropperdistwatercss").setAttribute("onclick", "droppershowdistdropperclick1()");
 
 }
+
+function droppershowdistdropperclick1() {
+  document.getElementById("dropperdistwatercss").style.top = 24 + "%";
+  document.getElementById("dropperdistwatercss").style.left = 67 + "%";
+  document.getElementById("dropperdistwatercss").setAttribute("onclick", "dropperdropdistgslideclick1()");
+}
+
+function dropperdropdistgslideclick1() {
+  document.getElementById("distwaterdropcss").style.display = "block";
+  document.getElementById("fastgreendropcss").style.display = "none";
+  document.getElementById("droppercss").style.display = "block";
+  document.getElementById("dropperdistwatercss").style.display = "none";
+  document.getElementById("safranindropcss").style.display = "none";
+  //document.getElementById("brushcss").setAttribute("onclick", "brushpickdiststemclick()");
+  document.getElementById("droppercss").removeAttribute("onclick", "droppermovedistdropperclick1()");
+  document.getElementById("droppercss").setAttribute("onclick", "droppermovetowaterbeakerclick()");
+
+}
+
+
+
+
+
+
 
 function droppermovetowaterbeakerclick() {
 
@@ -265,7 +300,7 @@ function dropperdropwatergslideclick() {
 
 function coverslipclick() {
   document.getElementById("coverslipcss").style.top = 45 + "%";
-  document.getElementById("coverslipcss").style.left = 66 + "%";
+  document.getElementById("coverslipcss").style.left = 66.5 + "%";
   document.getElementById("glassslidecss").setAttribute("onclick", "clicktomovetomicroscope()");
 
 }

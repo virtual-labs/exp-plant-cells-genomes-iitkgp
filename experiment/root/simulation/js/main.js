@@ -8,14 +8,16 @@ var bladeimg;
 function bladejsclick() {
   bladeimg = document.getElementById("bladecss");
   document.getElementById("bladecss").style.left = 2 + '%';
+  document.getElementById("bladecss").style.top = -5 + '%';
   document.getElementById("bladecss").style.transform = "rotateX(80deg)";
-  var bladetop = 5; //initial  position
+
+  var bladetop = -5; //initial  position
   clearInterval(imgblade);
 
   imgblade = setInterval(frame, 90); /* frame is 90 denotes the speed of the movement*/
 
   function frame() {
-    if (bladetop == -5) {
+    if (bladetop == 5) {
       document.getElementById("bladecss").style.transform = "rotate(160deg)";
       document.getElementById("bladecss").style.top = 40 + "%";
       document.getElementById("bladecss").style.left = 32 + "%";
@@ -30,7 +32,7 @@ function bladejsclick() {
       document.getElementById("brushcss").setAttribute("onclick", "brushmovetoblade()");
     } else {
       document.getElementById("bladecss").style.transform = "rotateX(80deg)";
-      bladetop--;
+      bladetop++;
       bladeimg.style.top = bladetop + '%';
 
     }

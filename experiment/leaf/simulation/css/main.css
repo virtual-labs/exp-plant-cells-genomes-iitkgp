@@ -48,7 +48,7 @@
 
 #fingerthumbcss{
     position: absolute;
-    top:10%;
+    top:8%;
     left:95%;
     width:6%;
     cursor: pointer; /* stem outline 2D7600 */
@@ -58,7 +58,7 @@
 
 #fingerindexcss{
     position: absolute;
-    top:10%;
+    top:8%;
     left:95%;
     width:6%;
     cursor: pointer; /* stem outline 2D7600 */

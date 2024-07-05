@@ -173,10 +173,10 @@ function bladejscorkclick() {
 function brushclickmoveleaf(){
   document.getElementById("brushcss").style.top = -15 + "%";
   document.getElementById("brushcss").style.left = 84.4 + "%";
-  document.getElementById("fingerthumbcss").style.top = -3 + "%";
-  document.getElementById("fingerthumbcss").style.left = 84.4 + "%";
-  document.getElementById("fingerindexcss").style.top = -3 + "%";
-  document.getElementById("fingerindexcss").style.left = 84.4 + "%";
+  document.getElementById("fingerthumbcss").style.top = -8 + "%";
+  document.getElementById("fingerthumbcss").style.left = 85 + "%";
+  document.getElementById("fingerindexcss").style.top = -8 + "%";
+  document.getElementById("fingerindexcss").style.left = 85 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "brushleafmovetopetridish()");
   document.getElementById("bladecsscorkcut").removeAttribute("onclick", "bladejscorkclick()");
 }
@@ -184,9 +184,9 @@ function brushclickmoveleaf(){
 function brushleafmovetopetridish(){
   document.getElementById("leafsection1").style.top=23+"%";
   document.getElementById("leafsection1").style.left=82+"%";
-  document.getElementById("fingerthumbcss").style.top = 10 + "%";
+  document.getElementById("fingerthumbcss").style.top = 8 + "%";
   document.getElementById("fingerthumbcss").style.left = 95 + "%";
-  document.getElementById("fingerindexcss").style.top = 10+ "%";
+  document.getElementById("fingerindexcss").style.top = 8+ "%";
   document.getElementById("fingerindexcss").style.left = 95 + "%";
   //document.getElementById("brushcss").setAttribute("onclick", "brushmoveorgposition()");
   //document.getElementById("brushcss").setAttribute("onclick", "bladeorgposition()");
@@ -218,10 +218,10 @@ function brushleafmovetopetridish(){
 function brushmovetopetridish() {
   document.getElementById("brushcss").style.top = -10 + "%";
   document.getElementById("brushcss").style.left = 84.4 + "%";
-  document.getElementById("fingerthumbcss").style.top = -3 + "%";
-  document.getElementById("fingerthumbcss").style.left = 84 + "%";
-  document.getElementById("fingerindexcss").style.top = -3+ "%";
-  document.getElementById("fingerindexcss").style.left = 84 + "%";
+  document.getElementById("fingerthumbcss").style.top = -8 + "%";
+  document.getElementById("fingerthumbcss").style.left = 85 + "%";
+  document.getElementById("fingerindexcss").style.top = -8+ "%";
+  document.getElementById("fingerindexcss").style.left = 85 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "putinglassslide()");
 }
 

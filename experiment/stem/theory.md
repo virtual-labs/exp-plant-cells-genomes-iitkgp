@@ -38,6 +38,11 @@ Endodermis: In stems, the endodermis may not be as prominent as in roots, but ce
 
 Dicot and monocot stems exhibit distinct differences primarily in their vascular bundle arrangement, growth patterns, and internal structure. In dicot stems, such as those of sunflowers (Helianthus annuus L.), the vascular bundles are arranged in a ring around the perimeter, which allows for secondary growth and the development of wood and bark. This is in contrast to monocot stems like those of corn (Zea mays L.), where the vascular bundles are scattered throughout the stem’s ground tissue, lacking the vascular cambium necessary for secondary growth, resulting in stems that grow in length but not in thickness. Additionally, dicot stems have distinct regions of pith and cortex, while monocot stems have a more uniform ground tissue without distinct pith and cortex. These structural differences influence how these plants grow and adapt to their environments.
 
+
+<div align="center">
+<img src="images/stem.JPG" class="img-fluid">
+</div>
+
 Microscopic study of cells in a plant stem involves a series of steps to prepare, stain, and examine the cells under a microscope. 
 
 ### EQUIPMENT REQUIRED:

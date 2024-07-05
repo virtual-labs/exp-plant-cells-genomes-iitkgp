@@ -48,7 +48,7 @@ These cells support the function of other leaf cells and structures. They may in
 e.g., In maize (Zea mays), a C4 plant, bundle sheath cells play a critical role in concentrating CO2 around the enzyme Rubisco, thereby increasing photosynthetic efficiency.
 
  <div align="center">
-<img src="experiment/images/" width="10%">
+<img src="images/leaf.JPG" class="img-fluid">
 </div>
 
 These are just a few examples of the diverse types of cells found in leaves. Each type plays a unique role in the overall function and physiology of the leaf, contributing to processes such as photosynthesis, gas exchange, water regulation, and defence against environmental stresses.

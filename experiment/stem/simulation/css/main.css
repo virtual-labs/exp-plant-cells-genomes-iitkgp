@@ -7,8 +7,8 @@
 #stemcss{
     position: relative;
     top:5%;
-    left:5%;
-    width:10%;
+    left:1%;
+    width:28%;
     cursor: pointer; /* stem outline 2D7600 */
     display: block;
     z-index: 2;
@@ -20,7 +20,7 @@
     left:10%;
     width:6%;
     cursor: pointer; /* stem outline 2D7600 */
-    display: block;
+    display: none;
     z-index: 3;
 }
 
@@ -30,23 +30,23 @@
     left:10%;
     width:6%;
     cursor: pointer; /* stem outline 2D7600 */
-    display: block;
+    display: none;
 }
 
 #cutstemcss{
     position: relative;
     top:2%;
-    left:5%;
-    width:10%;
+    left:1%;
+    width:28%;
     cursor: pointer;
     display: none;
 }
 
 #cutstemseccss{
     position: absolute; 
-    top: 45%;
-    left:70%;
-    width:1%;
+    top: 40.5%;
+    left:72%;
+    width:1.2%;
     cursor: pointer;
     transform: rotate(270deg);
     z-index: 2;
@@ -57,7 +57,7 @@
     position: absolute;
     top:48.5%;
     left:67%;
-    width:0.8%;
+    width:0.7%;
     cursor: pointer;
     display: none;
     z-index: 2;
@@ -86,8 +86,8 @@
 
 #bladecss {
     position: absolute;
-    top: 5%; /* 5 -- 54*/
-    left:40%; /* 40 -- 60*/
+    top: 5%; /* 5 -- 63 -- 54 */
+    left:40%; /* 3-- 40 -- 60*/
     width: 12%;
     cursor: pointer;
     display: block;

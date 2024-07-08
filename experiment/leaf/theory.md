@@ -49,6 +49,7 @@ e.g., In maize (Zea mays), a C4 plant, bundle sheath cells play a critical role 
 
  <div align="center">
 <img src="images/leaf.jpg" class="img-fluid">
+<p>Fig. Transverse section of a dicot leaf</p>
 </div>
 
 These are just a few examples of the diverse types of cells found in leaves. Each type plays a unique role in the overall function and physiology of the leaf, contributing to processes such as photosynthesis, gas exchange, water regulation, and defence against environmental stresses.

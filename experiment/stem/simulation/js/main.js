@@ -8,8 +8,8 @@ var imgtbdowncut = null;
 var bladeimg;
 function bladejsclick() {
   bladeimg = document.getElementById("bladecss");
-  document.getElementById("bladecss").style.top = 6 + '%';
-  var bladeleft = 5; //initial  position
+  document.getElementById("bladecss").style.top = 67 + '%';
+  var bladeleft = 3; //initial  position
   clearInterval(imgblade);
 
   imgblade = setInterval(frame, 90); /* frame is 90 denotes the speed of the movement*/
@@ -26,6 +26,9 @@ function bladejsclick() {
       document.getElementById("bladecss").style.transform = "rotate(0deg)";
       document.getElementById("fingerthumbcss").style.display = "none";
       document.getElementById("fingerindexcss").style.display = "none";
+      document.getElementById("bladecss").style.top = 5 + '%';
+      document.getElementById("bladecss").style.left = 40 + '%';
+
     } else {
       document.getElementById("bladecss").style.transform = "rotateX(80deg)";
       bladeleft++;
@@ -87,7 +90,7 @@ function pickforcepclick() {
   document.getElementById("forcepcss").style.display = "block";
   document.getElementById("pickforcepcss").style.display = "none";
   document.getElementById("cutstemseccss").style.left = 67 + "%";
-  document.getElementById("cutstemseccss").style.top = 15 + "%";
+  document.getElementById("cutstemseccss").style.top = 12 + "%";
   document.getElementById("fingerthumbcss").style.display = "block";
   document.getElementById("fingerindexcss").style.display = "block";
   document.getElementById("fingerindexcss").style.top = 10 + "%";

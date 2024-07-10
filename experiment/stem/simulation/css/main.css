@@ -16,21 +16,21 @@
 
 #fingerthumbcss{
     position: absolute;
-    top:20%;
-    left:10%;
+    top:55%;
+    left:12%;
     width:6%;
     cursor: pointer; /* stem outline 2D7600 */
-    display: none;
+    display: block;
     z-index: 3;
 }
 
 #fingerindexcss{
     position: absolute;
-    top:20%;
-    left:10%;
+    top:55%;
+    left:12%;
     width:6%;
     cursor: pointer; /* stem outline 2D7600 */
-    display: none;
+    display: block;
 }
 
 #cutstemcss{
@@ -323,13 +323,25 @@
     display: none;
 }
 
+/* column 1 ends */
+
+/* column 2 starts */
 
 #mircoscopecss {
     cursor: pointer;
     position: relative;
     top: 5%;
     left:1%;
-    width:68%
+    width:40%
+   
+}
+
+#labpersoncss {
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left:55%;
+    width:40%
    
 }
 
@@ -337,14 +349,14 @@
     cursor: pointer;
     position:absolute;
     top:61%;
-    left:25.5%;
-    width:5%;
+    left:16%;
+    width:3.5%;
     height:3%;
     transform: rotate(90deg);
     display:none;
 }
 
-/* column 1 ends */
+/* column 2 ends */
 
 
 

@@ -153,7 +153,7 @@ function brushpickwaterstemclick() {
 function brushclicktoglassslide() {
 
   document.getElementById("brushcss").style.top = 17 + "%";
-  document.getElementById("brushcss").style.left = 70 + "%";
+  document.getElementById("brushcss").style.left = 70.3 + "%";
   document.getElementById("smallcutstemseccss").style.top = 48.5 + "%";
   document.getElementById("smallcutstemseccss").style.left = 68 + "%";
   document.getElementById("fingerindexcss").style.top = 25 + "%";

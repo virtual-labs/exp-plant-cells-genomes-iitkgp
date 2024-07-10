@@ -7,8 +7,8 @@
 #flowercss{
     position: relative;
     top:10%;
-    left:2%;
-    width:32%;
+    left:1%;
+    width:45%;
     cursor: pointer; /* stem outline 2D7600 */
     display: block;
     z-index: 2;
@@ -90,6 +90,28 @@
    /*transform: rotateX(80deg);*/
    
     
+}
+
+#forcepcss{
+    position: absolute;
+    top: 0.5%;
+    left:75%;
+    width:5%;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+
+
+#pickforcepcss{
+    position: absolute;
+    top: 29.2%;
+    left:74%;
+    width:1.5%;
+    cursor: pointer;
+    transform: rotate(46deg);
+    z-index: 2;
+    display: block;
 }
 
 #glassslidecss {
@@ -181,16 +203,26 @@
     
 }
 
+/* column 1 ends */
 
+/* column 2 starts */
 #mircoscopecss {
     cursor: pointer;
     position: relative;
     top: 5%;
     left:1%;
-    width:68%
+    width:40%
    
 }
 
+#labpersoncss {
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    left:55%;
+    width:40%
+   
+}
 #mircoscopeslidecss {
     cursor: pointer;
     position:absolute;
@@ -199,10 +231,10 @@
     width:5%;
     height:3%;
     transform: rotate(90deg);
-    display:none;
+    display:block;
 }
 
-/* column 1 ends */
+/* column 2 ends */
 
 
 

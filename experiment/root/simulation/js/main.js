@@ -7,19 +7,19 @@ var imgtbdown = null;
 var bladeimg;
 function bladejsclick() {
   bladeimg = document.getElementById("bladecss");
-  document.getElementById("bladecss").style.left = 2 + '%';
-  document.getElementById("bladecss").style.top = -5 + '%';
+  document.getElementById("bladecss").style.left = 10 + '%';
+  document.getElementById("bladecss").style.top = -3 + '%';
   document.getElementById("bladecss").style.transform = "rotateX(80deg)";
 
-  var bladetop = -5; //initial  position
+  var bladetop = -3; //initial  position
   clearInterval(imgblade);
 
   imgblade = setInterval(frame, 90); /* frame is 90 denotes the speed of the movement*/
 
   function frame() {
-    if (bladetop == 5) {
+    if (bladetop == 1) {
       document.getElementById("bladecss").style.transform = "rotate(160deg)";
-      document.getElementById("bladecss").style.top = 40 + "%";
+      document.getElementById("bladecss").style.top = 40.5 + "%";
       document.getElementById("bladecss").style.left = 32 + "%";
       document.getElementById("rootsectioncss").style.display = "block";
       document.getElementById("fingerthumbcss").style.top = 10 + "%";
@@ -42,27 +42,27 @@ function bladejsclick() {
 
 
 function brushmovetoblade() {
-  document.getElementById("brushcss").style.top = -20 + "%";
+  document.getElementById("brushcss").style.top = 8 + "%";
   document.getElementById("brushcss").style.left = 42 + "%";
-  document.getElementById("fingerthumbcss").style.top = -5 + "%";
-  document.getElementById("fingerthumbcss").style.left = 42 + "%";
-  document.getElementById("fingerindexcss").style.top = -5+ "%";
-  document.getElementById("fingerindexcss").style.left = 42 + "%";
+  document.getElementById("fingerthumbcss").style.top = 15 + "%";
+  document.getElementById("fingerthumbcss").style.left = 43 + "%";
+  document.getElementById("fingerindexcss").style.top = 15+ "%";
+  document.getElementById("fingerindexcss").style.left = 43 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "brushmoveroottopdish()");
 }
 
 function brushmoveroottopdish() {
-  document.getElementById("brushcss").style.top = -5 + "%";
+  document.getElementById("brushcss").style.top = 17 + "%";
   document.getElementById("brushcss").style.left = 45 + "%";
-  document.getElementById("rootsectioncss").style.top = 73 + "%";
+  document.getElementById("rootsectioncss").style.top = 60 + "%";
   document.getElementById("rootsectioncss").style.left = 42 + "%";
   document.getElementById("bladecss").style.top = 5 + "%";
   document.getElementById("bladecss").style.left = 25 + "%";
   document.getElementById("bladecss").style.transform = "rotate(0deg)";
-  document.getElementById("fingerthumbcss").style.top = 8 + "%";
-  document.getElementById("fingerthumbcss").style.left = 45 + "%";
-  document.getElementById("fingerindexcss").style.top = 8+ "%";
-  document.getElementById("fingerindexcss").style.left = 45 + "%";
+  document.getElementById("fingerthumbcss").style.top = 21 + "%";
+  document.getElementById("fingerthumbcss").style.left = 47 + "%";
+  document.getElementById("fingerindexcss").style.top = 21+ "%";
+  document.getElementById("fingerindexcss").style.left = 47 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "brushmovetoorg()");
 }
 
@@ -77,24 +77,24 @@ function brushmovetoorg(){
 }
 
 function brushmovetopdish(){
-  document.getElementById("brushcss").style.top = -5 + "%";
+  document.getElementById("brushcss").style.top = 17.2 + "%";
   document.getElementById("brushcss").style.left = 45 + "%";
-  document.getElementById("fingerthumbcss").style.top = 8 + "%";
-  document.getElementById("fingerthumbcss").style.left = 45 + "%";
-  document.getElementById("fingerindexcss").style.top = 8+ "%";
-  document.getElementById("fingerindexcss").style.left = 45 + "%";
+  document.getElementById("fingerthumbcss").style.top = 21 + "%";
+  document.getElementById("fingerthumbcss").style.left = 47 + "%";
+  document.getElementById("fingerindexcss").style.top = 21+ "%";
+  document.getElementById("fingerindexcss").style.left = 47 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "rootmovetoglassslide()");
 }
 
 function rootmovetoglassslide(){
-  document.getElementById("brushcss").style.top = -5 + "%";
+  document.getElementById("brushcss").style.top = 17.2 + "%";
   document.getElementById("brushcss").style.left = 72 + "%";
-  document.getElementById("rootsectioncss").style.top = 73 + "%";
+  document.getElementById("rootsectioncss").style.top = 60 + "%";
   document.getElementById("rootsectioncss").style.left = 69 + "%";
-  document.getElementById("fingerthumbcss").style.top = 8 + "%";
-  document.getElementById("fingerthumbcss").style.left = 73 + "%";
-  document.getElementById("fingerindexcss").style.top = 8+ "%";
-  document.getElementById("fingerindexcss").style.left = 73 + "%";
+  document.getElementById("fingerthumbcss").style.top = 21 + "%";
+  document.getElementById("fingerthumbcss").style.left = 74 + "%";
+  document.getElementById("fingerindexcss").style.top = 21+ "%";
+  document.getElementById("fingerindexcss").style.left = 74 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "brushmovetoorg1()");
 }
 

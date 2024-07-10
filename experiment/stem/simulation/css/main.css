@@ -7,8 +7,8 @@
 #stemcss{
     position: relative;
     top:5%;
-    left:5%;
-    width:10%;
+    left:1%;
+    width:28%;
     cursor: pointer; /* stem outline 2D7600 */
     display: block;
     z-index: 2;
@@ -16,8 +16,8 @@
 
 #fingerthumbcss{
     position: absolute;
-    top:20%;
-    left:10%;
+    top:55%;
+    left:12%;
     width:6%;
     cursor: pointer; /* stem outline 2D7600 */
     display: block;
@@ -26,8 +26,8 @@
 
 #fingerindexcss{
     position: absolute;
-    top:20%;
-    left:10%;
+    top:55%;
+    left:12%;
     width:6%;
     cursor: pointer; /* stem outline 2D7600 */
     display: block;
@@ -36,17 +36,17 @@
 #cutstemcss{
     position: relative;
     top:2%;
-    left:5%;
-    width:10%;
+    left:1%;
+    width:28%;
     cursor: pointer;
     display: none;
 }
 
 #cutstemseccss{
     position: absolute; 
-    top: 45%;
-    left:70%;
-    width:1%;
+    top: 40.5%;
+    left:72%;
+    width:1.2%;
     cursor: pointer;
     transform: rotate(270deg);
     z-index: 2;
@@ -57,7 +57,7 @@
     position: absolute;
     top:48.5%;
     left:67%;
-    width:0.8%;
+    width:0.7%;
     cursor: pointer;
     display: none;
     z-index: 2;
@@ -86,8 +86,8 @@
 
 #bladecss {
     position: absolute;
-    top: 5%; /* 5 -- 54*/
-    left:40%; /* 40 -- 60*/
+    top: 5%; /* 5 -- 63 -- 54 */
+    left:40%; /* 3-- 40 -- 60*/
     width: 12%;
     cursor: pointer;
     display: block;
@@ -323,13 +323,25 @@
     display: none;
 }
 
+/* column 1 ends */
+
+/* column 2 starts */
 
 #mircoscopecss {
     cursor: pointer;
     position: relative;
     top: 5%;
     left:1%;
-    width:68%
+    width:40%
+   
+}
+
+#labpersoncss {
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left:55%;
+    width:40%
    
 }
 
@@ -337,14 +349,14 @@
     cursor: pointer;
     position:absolute;
     top:61%;
-    left:25.5%;
-    width:5%;
+    left:16%;
+    width:3.5%;
     height:3%;
     transform: rotate(90deg);
     display:none;
 }
 
-/* column 1 ends */
+/* column 2 ends */
 
 
 

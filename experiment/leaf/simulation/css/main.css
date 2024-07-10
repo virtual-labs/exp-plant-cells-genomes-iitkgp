@@ -7,35 +7,33 @@
     position: relative;
     top: 85%;
     left:7%;
-    width:38%;
-    transform: rotate(19deg);
+    width:30%;
     z-index: 1;
 }
 
 
-#leafcutsection {
+#leafcutcss {
     cursor: pointer;
     position: relative;
     top: 85%;
     left:7%;
-    width:38%;
+    width:30%;
     display: none;
-    transform: rotate(19deg);
     z-index: 1;
 }
 
-#leafcutcss {
+#leafcutsectioncss {
     cursor: pointer;
     display: none;
     position: absolute;
     top:18%;
     left:40%;
     width: 12.2%;
-    z-index: 2;
+    z-index: 1;
     
 }
 
-#leafsection {
+#leafthinsection {
     cursor: pointer;
     position: absolute;
     top: 23.5%;
@@ -45,6 +43,20 @@
     z-index: 2;
     transform:rotate(90deg);
 }
+
+#leafthinsection1 {
+    
+    position: absolute;
+    top: 17.5%;  /*23 */
+    left:80%; /* 80*/
+    width:2%;
+    height:0.2%;
+    display: none;
+    z-index: 10;
+    cursor: pointer;
+   transform: rotate(30deg);
+}
+
 
 #fingerthumbcss{
     position: absolute;
@@ -79,17 +91,6 @@
 }
 
 
-#leafsection1 {
-    
-    position: absolute;
-    top: 17.5%;  /*23 */
-    left:80%; /* 80*/
-    width:2.2%;
-    display: none;
-    z-index: 10;
-    cursor: pointer;
-   transform: rotate(30deg);
-}
 
 
  /*#canvasleafsection{
@@ -254,6 +255,9 @@
     cursor: pointer;
     display: none;
 }
+/* column 1 ends */
+
+/* column 2 starts */
 
 
 #mircoscopecss {
@@ -261,7 +265,15 @@
     position: relative;
     top: 5%;
     left:1%;
-    width:68%
+    width:40%
+   
+}
+#labpersoncss {
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    left:52%;
+    width:45%
    
 }
 
@@ -269,14 +281,14 @@
     cursor: pointer;
     position:absolute;
     top:61%;
-    left:25.5%;
-    width:5%;
+    left:16%;
+    width:3.5%;
     height:3%;
     transform: rotate(90deg);
     display:none;
 }
 
-/* column 1 ends */
+/* column 2 ends */
 
 
 

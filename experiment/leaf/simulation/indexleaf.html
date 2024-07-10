@@ -68,16 +68,19 @@
 								<td>
 									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
+										Leaf</button>
+									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
 										Blade</button>
-									<button class="btn btn-info " type="button" id="corki" data-bs-toggle="modal"
+										<button class="btn btn-info " type="button" id="pdishi" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
 										Cork</button>
 									<button class="btn btn-info " type="button" id="pdishi" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
-										Petri dish</button>
+										Petridish containing water</button>
 										<button class="btn btn-info " type="button" id="beakeri" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
-										Beaker</button>
+										Beaker containing water</button>
 									<button class="btn btn-info " type="button" id="dropperi" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
 										Dropper</button>
@@ -115,20 +118,20 @@
 		<div class="row ">
 			<div class="col-md-8 ">
 				<div class="card card-body border border-0" ><!-- style="background-color: #362020bb;"-->
-					<img src="./images/hibiscus.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+					<img src="./images/hibiscus_leaf.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="Leaf of Hibiscus" id="leafcss">
-						<img src="./images/leafcutsection.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Leaf" id="leafcutsection">
-					<img src="./images/hibiscuscut.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Leaf" id="leafcutcss" onclick="placeincork()">
+						<img src="./images/hibiscus_leaf_cut.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Leaf of Hibiscus" id="leafcutcss">
+					<img src="./images/hibiscus_leafcut_section.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Leaf" id="leafcutsectioncss" onclick="placeincork()">
 
 						<img src="./images/fingerthumb.png" class="img-fluid"  id="fingerthumbcss" >
 						<img src="./images/fingerindex.png" class="img-fluid" id="fingerindexcss" >
 						
 						<img src="./images/leafsection.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Leaf" id="leafsection">
+						title="Leaf" id="leafthinsection">
 						<img src="./images/leafsection_glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-							title="Leaf" id="leafsection1" > <!-- onclick="putinglassslide()"-->
+							title="Leaf" id="leafthinsection1" > <!-- onclick="putinglassslide()"-->
 							<img src="./images/petridish.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="Petridish containing water" id="petridishcss">
 
@@ -158,7 +161,8 @@
 						<img src="./images/drop.png" class="img-fluid"  id="dropcss" >
 						
 						<img src="./images/water.png" class="img-fluid"  id="watercss" >
-						<img src="./images/water.png" class="img-fluid"  id="petridishwatercss" >
+						<img src="./images/water.png" class="img-fluid"  id="petridishwatercss"  data-toggle="tooltip" data-placement="bottom"
+						title="Petridish containing water">
 						
 
 				</div>
@@ -205,7 +209,7 @@
 				<div class="card card-body border border-0">
 				<img src="./images/microscope.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 					title="Microscope" id="mircoscopecss">
-
+					<img src="./images/lab_person.png" class="img-fluid"  id="labpersoncss">
 					<img src="./images/micro_glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 					title="Prepared slide" id="mircoscopeslidecss">
 				</div>

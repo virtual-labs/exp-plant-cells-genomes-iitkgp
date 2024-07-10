@@ -52,7 +52,7 @@ function bladejsclick() {
         //bladeimg.style.left = 60 + '%';
         // bladeimg.style.top = 5 + '%';
         document.getElementById("leafcss").style.display = "none";
-        document.getElementById("leafcutsection").style.display = "block";
+        document.getElementById("leafcutsectioncss").style.display = "block";
         document.getElementById("leafcutcss").style.display = "block";
 
 
@@ -69,8 +69,8 @@ function bladejsclick() {
 
 
 function placeincork() {
-  document.getElementById("leafcutcss").style.left = 55 + "%";
-  document.getElementById("leafcutcss").style.top = 19 + "%";
+  document.getElementById("leafcutsectioncss").style.left = 55 + "%";
+  document.getElementById("leafcutsectioncss").style.top = 19 + "%";
   document.getElementById("bladecsscorkcut").setAttribute("onclick", "bladejscorkclick()");
 
 }
@@ -127,8 +127,8 @@ function bladejscorkclick() {
         bladecorkimg.style.top = 5 + '%';
         bladecorkimg.style.left = 65 + '%';
         document.getElementById("corkcss").style.transform = "rotate(90deg)";
-        document.getElementById("leafcutcss").style.display = "none";
-        document.getElementById("leafsection").style.display = "block";
+        document.getElementById("leafcutsectioncss").style.display = "none";
+        document.getElementById("leafthinsection").style.display = "block";
         imgblademovedowncork = setInterval(framemovedown, 200);
 
       } else {
@@ -154,7 +154,7 @@ function bladejscorkclick() {
        bladecorkimg.style.top = 10 + '%';
        bladecorkimg.style.left = 76 + '%';
        bladecorkimg.style.transform = "rotate(20deg)";
-        document.getElementById("leafsection1").style.display = "block";
+        document.getElementById("leafthinsection1").style.display = "block";
         document.getElementById("fingerthumbcss").style.display = "block";
         document.getElementById("fingerindexcss").style.display = "block";
         //bladeorgpos = setInterval(bladeorgposition, 200);
@@ -182,8 +182,8 @@ function brushclickmoveleaf(){
 }
 
 function brushleafmovetopetridish(){
-  document.getElementById("leafsection1").style.top=23+"%";
-  document.getElementById("leafsection1").style.left=82+"%";
+  document.getElementById("leafthinsection1").style.top=23+"%";
+  document.getElementById("leafthinsection1").style.left=82+"%";
   document.getElementById("fingerthumbcss").style.top = 8 + "%";
   document.getElementById("fingerthumbcss").style.left = 95 + "%";
   document.getElementById("fingerindexcss").style.top = 8+ "%";
@@ -228,8 +228,8 @@ function brushmovetopetridish() {
 function putinglassslide(){
   document.getElementById("brushcss").style.top = 15 + "%";
   document.getElementById("brushcss").style.left = 72 + "%";
-  document.getElementById("leafsection1").style.top = 48 + "%";
-  document.getElementById("leafsection1").style.left = 69 + "%";
+  document.getElementById("leafthinsection1").style.top = 48 + "%";
+  document.getElementById("leafthinsection1").style.left = 69 + "%";
   document.getElementById("fingerthumbcss").style.top = 30 + "%";
   document.getElementById("fingerthumbcss").style.left = 71 + "%";
   document.getElementById("fingerindexcss").style.top = 30+ "%";
@@ -305,7 +305,7 @@ function coverslipcover() {
 
 function glasslidetomicroscope() {
   document.getElementById("mircoscopeslidecss").style.display = "block";
-  document.getElementById("leafsection1").style.display = "none";
+  document.getElementById("leafthinsection1").style.display = "none";
   document.getElementById("glassslidecss").style.display = "none";
   document.getElementById("coverslipcss").style.display = "none";
   document.getElementById("watercss").style.display = "none";

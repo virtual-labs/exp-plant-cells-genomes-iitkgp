@@ -9,6 +9,7 @@
     top:10%;
     left:1%;
     width:45%;
+    
     cursor: pointer; /* stem outline 2D7600 */
     display: block;
     z-index: 2;
@@ -218,9 +219,9 @@
 #labpersoncss {
     cursor: pointer;
     position: absolute;
-    top: 1%;
-    left:55%;
-    width:40%
+    top: 40%;
+    left:50%;
+    width:50%
    
 }
 #mircoscopeslidecss {

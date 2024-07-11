@@ -122,7 +122,7 @@ function clicktodrop(){
 }
 
 function addcoverslip(){
-  document.getElementById("coverslipcss").style.top = 65+ "%";
+  document.getElementById("coverslipcss").style.top = 55+ "%";
   document.getElementById("coverslipcss").style.left = 68+ "%";
   document.getElementById("glassslidecss").setAttribute("onclick", "clickglassslide()");
 }

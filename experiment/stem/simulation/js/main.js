@@ -28,6 +28,7 @@ function bladejsclick() {
       document.getElementById("fingerindexcss").style.display = "none";
       document.getElementById("bladecss").style.top = 5 + '%';
       document.getElementById("bladecss").style.left = 40 + '%';
+      document.getElementById("instshowsteps").innerHTML = "Click on the forcep.";
 
     } else {
       document.getElementById("bladecss").style.transform = "rotateX(80deg)";
@@ -41,6 +42,7 @@ function bladejsclick() {
 
 
 function forcepclick() {
+  document.getElementById("instshowsteps").innerHTML = "Click on the blade to cut a small sectiom of stem.";
   document.getElementById("forcepcss").style.display = "none";
   document.getElementById("pickforcepcss").style.display = "block";
   document.getElementById("bladecss").removeAttribute("onclick", "bladejsclick()");
@@ -74,7 +76,7 @@ function bladejscutsectionclick() {
       document.getElementById("bladecss").style.left = 40 + '%';
       document.getElementById("bladecss").style.top = 5 + '%';
       document.getElementById("bladecss").style.transform = "rotate(0deg)";
-     
+      document.getElementById("instshowsteps").innerHTML ="Click on the forcep to remove the excess stem.";
 
     } else {
       document.getElementById("bladecss").style.transform = "rotateZ(90deg)";
@@ -87,6 +89,7 @@ function bladejscutsectionclick() {
 }
 
 function pickforcepclick() {
+  document.getElementById("instshowsteps").innerHTML =" Click on the brush to pick the stem section.";
   document.getElementById("forcepcss").style.display = "block";
   document.getElementById("pickforcepcss").style.display = "none";
   document.getElementById("cutstemseccss").style.left = 67 + "%";
@@ -97,12 +100,12 @@ function pickforcepclick() {
   document.getElementById("fingerindexcss").style.left = 90 + "%";
   document.getElementById("fingerthumbcss").style.top = 10 + "%";
   document.getElementById("fingerthumbcss").style.left = 90 + "%";
-  document.getElementById("forcepcss").setAttribute("onclick", "forcepclick()");
   document.getElementById("brushcss").setAttribute("onclick", "brushclick()");
 
 }
 
 function brushclick() {
+  document.getElementById("instshowsteps").innerHTML ="Click on the brush to move the stem cut onto a petridish containing water.";
   document.getElementById("fingerindexcss").style.top = 25 + "%";
   document.getElementById("fingerindexcss").style.left = 70.3 + "%";
   document.getElementById("fingerthumbcss").style.top = 25 + "%";
@@ -113,6 +116,7 @@ function brushclick() {
 }
 
 function brushclickforwater() {
+  document.getElementById("instshowsteps").innerHTML ="Click on the brush to move the brush to its original place.";
   document.getElementById("brushcss").style.top = 16 + "%";
   document.getElementById("brushcss").style.left = 50 + "%";
   document.getElementById("smallcutstemseccss").style.top = 48 + "%";
@@ -125,6 +129,7 @@ function brushclickforwater() {
 }
 
 function brushclicktoorg() {
+  document.getElementById("instshowsteps").innerHTML ="Click on the brush to pick the cut stem section from petridish containing water. ";
   document.getElementById("brushcss").style.top = 0 + "%";
   document.getElementById("brushcss").style.left = 90 + "%";
   document.getElementById("fingerindexcss").style.top = 10 + "%";
@@ -138,6 +143,7 @@ function brushclicktoorg() {
 }
 
 function brushpickwaterstemclick() {
+  document.getElementById("instshowsteps").innerHTML ="Click on brush to move the cut stem section onto a glass slide. ";
   document.getElementById("brushcss").style.top = 16 + "%";
   document.getElementById("brushcss").style.left = 50 + "%";
   document.getElementById("smallcutstemseccss").style.top = 48 + "%";
@@ -151,7 +157,7 @@ function brushpickwaterstemclick() {
 }
 
 function brushclicktoglassslide() {
-
+  document.getElementById("instshowsteps").innerHTML ="Click on the brush to move the brush to its original place.";
   document.getElementById("brushcss").style.top = 17 + "%";
   document.getElementById("brushcss").style.left = 70.3 + "%";
   document.getElementById("smallcutstemseccss").style.top = 48.5 + "%";
@@ -164,6 +170,7 @@ function brushclicktoglassslide() {
 }
 
 function brushclicktoorg1() {
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper of safranin bottle to draw safranin from the bottle and the dropper will be place above the glass slide. Click the dropper to add a drop of  safranin on the cut stem section. ";
   document.getElementById("brushcss").style.top = 0 + "%";
   document.getElementById("brushcss").style.left = 90 + "%";
   document.getElementById("fingerthumbcss").style.display = "none";
@@ -189,6 +196,7 @@ function droppermovesafgslideclick() {
 }
 
 function dropperdropsafclick() {
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper to draw distilled water from the beaker. Click to the dropper place the dropper above the glass slide. Click the dropper to add a drop of distilled water on the cut stem section. ";
   document.getElementById("safranindropcss").style.display = "block";
   //document.getElementById("droppercss").style.display="block";
   document.getElementById("safranindroppercss").style.top = 69.8 + "%";
@@ -212,6 +220,7 @@ function droppershowdistdropperclick() {
 }
 
 function dropperdropdistgslideclick() {
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper of fast green to draw fast green from the bottle and the dropper will be place above the glass slide. Click the dropper to add a drop of fast green on the cut stem section.";
   document.getElementById("distwaterdropcss").style.display = "block";
   document.getElementById("droppercss").style.display = "block";
   document.getElementById("dropperdistwatercss").style.display = "none";
@@ -233,6 +242,7 @@ function droppermovefastgdropperclick() {
 }
 
 function dropfastgreenclick() {
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper to draw distilled water from the beaker. Click the dropper to place the dropper above the glass slide. Click the dropper to add a drop of distilled water on the cut stem section. ";
   document.getElementById("distwaterdropcss").style.display = "none";
   document.getElementById("fastgreendropcss").style.display = "block";
   document.getElementById("fastgreendroppercss").style.top = 69.8 + "%";
@@ -261,6 +271,7 @@ function droppershowdistdropperclick1() {
 }
 
 function dropperdropdistgslideclick1() {
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper to draw  water from the beaker. Click to the dropper place the dropper above the glass slide. Click the dropper to add a drop of  water on the cut stem section. ";
   document.getElementById("distwaterdropcss").style.display = "block";
   document.getElementById("fastgreendropcss").style.display = "none";
   document.getElementById("droppercss").style.display = "block";
@@ -293,6 +304,7 @@ function droppermovetoglasssliderclick() {
 }
 
 function dropperdropwatergslideclick() {
+  document.getElementById("instshowsteps").innerHTML="Click on the coverslip to place  over the stem section.";
   document.getElementById("waterdropcss").style.display = "block";
   document.getElementById("droppercss").style.display = "block";
   document.getElementById("fastgreendropcss").style.display = "none";
@@ -300,15 +312,18 @@ function dropperdropwatergslideclick() {
   document.getElementById("distwaterdropcss").style.display = "none";
   document.getElementById("droppercss").removeAttribute("onclick", "droppermovetowaterbeakerclick()");
   document.getElementById("coverslipcss").setAttribute("onclick", "coverslipclick()");
+
 }
 
 function coverslipclick() {
+  document.getElementById("instshowsteps").innerHTML="Click on the prepared slide to place on the stage of the microscope.";
   document.getElementById("coverslipcss").style.top = 45 + "%";
   document.getElementById("coverslipcss").style.left = 66.5 + "%";
   document.getElementById("glassslidecss").setAttribute("onclick", "clicktomovetomicroscope()");
 
 }
 function clicktomovetomicroscope() {
+  document.getElementById("instshowsteps").innerHTML="Click on the lens of the microscope.";
   document.getElementById("mircoscopeslidecss").style.display = "block";
   document.getElementById("glassslidecss").style.display = "none";
   document.getElementById("coverslipcss").style.display = "none";

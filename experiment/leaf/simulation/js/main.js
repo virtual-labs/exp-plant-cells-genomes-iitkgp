@@ -159,6 +159,7 @@ function bladejscorkclick() {
         document.getElementById("fingerindexcss").style.display = "block";
         //bladeorgpos = setInterval(bladeorgposition, 200);
         document.getElementById("brushcss").setAttribute("onclick", "brushclickmoveleaf()");
+        document.getElementById("bladecsscorkcut").removeAttribute("onclick", "bladejscorkclick()");
       }
       else {
         bladecorkimg.style.transform = "rotate(90deg)";

@@ -208,7 +208,7 @@ function dropperdropsafclick() {
 
 
 function droppermovedistbeakerclick() {
-  document.getElementById("instshowsteps").innerHTML ="Click onthe dropper to place the dropper above the glass slide. ";
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper to place the dropper above the glass slide. ";
   document.getElementById("droppercss").style.display = "none";
   document.getElementById("dropperdistwatercss").style.display = "block";
   document.getElementById("dropperdistwatercss").setAttribute("onclick", "droppershowdistdropperclick()");

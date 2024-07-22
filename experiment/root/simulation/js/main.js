@@ -115,11 +115,38 @@ function clickdroppertomove(){
 
 function clicktodrop(){
   document.getElementById("safranindropcss").style.display="block";
-  document.getElementById("safranindroppercss").style.top = 31+ "%";
+  document.getElementById("safranindroppercss").style.top = 81+ "%";
   document.getElementById("safranindroppercss").style.left = 93.85+ "%";
+  document.getElementById("droppercss").setAttribute("onclick", "dropperdrawwater()");
+
+}
+
+function dropperdrawwater(){
+  document.getElementById("droppercss").style.display="none";
+  document.getElementById("waterdroppercss").style.display="block";
+  document.getElementById("waterdroppercss").setAttribute("onclick", "waterdroponglassslide()");
+
+}
+
+function waterdroponglassslide(){
+  
+  document.getElementById("waterdroppercss").style.display="block";
+  document.getElementById("waterdroppercss").style.top = 25+ "%";
+  document.getElementById("waterdroppercss").style.left = 68.5+ "%";
+  document.getElementById("waterdroppercss").setAttribute("onclick", "waterdroponroot()");
+
+}
+
+function waterdroponroot(){
+  document.getElementById("safranindropcss").style.display="none";
+  document.getElementById("watercss").style.display="block";
+  document.getElementById("droppercss").style.display="block";
+  document.getElementById("waterdroppercss").style.display="none";
   document.getElementById("coverslipcss").setAttribute("onclick", "addcoverslip()");
 
 }
+
+
 
 function addcoverslip(){
   document.getElementById("coverslipcss").style.top = 55+ "%";
@@ -130,6 +157,7 @@ function addcoverslip(){
 function clickglassslide(){
   document.getElementById("mircoscopeslidecss").style.display="block";
   document.getElementById("safranindropcss").style.display="none";
+  document.getElementById("watercss").style.display="none";
   document.getElementById("glassslidecss").style.display="none";
   document.getElementById("coverslipcss").style.display="none";
   document.getElementById("rootsectioncss").style.display="none";

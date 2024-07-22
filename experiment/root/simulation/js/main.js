@@ -7,31 +7,40 @@ var imgtbdown = null;
 var bladeimg;
 function bladejsclick() {
   bladeimg = document.getElementById("bladecss");
-  document.getElementById("bladecss").style.left = 10 + '%';
-  document.getElementById("bladecss").style.top = -3 + '%';
-  document.getElementById("bladecss").style.transform = "rotateX(80deg)";
-
-  var bladetop = -3; //initial  position
+  document.getElementById("bladecss").style.left = 28 + '%';
+  document.getElementById("bladecss").style.top = 40 + '%';
+  document.getElementById("rootcss").style.top = 1+ "%";
+    document.getElementById("rootcss").style.transform = "rotate(90deg)";
+    document.getElementById("fingerthumbcss").style.top = 40 + "%";
+  document.getElementById("fingerthumbcss").style.left = 22 + "%";
+  document.getElementById("fingerindexcss").style.top = 40+ "%";
+  document.getElementById("fingerindexcss").style.left = 23 + "%";
+  document.getElementById("fingerindexcss").style.transform = "rotate(195deg)";
+ document.getElementById("fingerthumbcss").style.transform = "rotate(187deg)";
+  var bladetop = 40; //initial  position
   clearInterval(imgblade);
 
   imgblade = setInterval(frame, 90); /* frame is 90 denotes the speed of the movement*/
 
   function frame() {
-    if (bladetop == 1) {
-      document.getElementById("bladecss").style.transform = "rotate(160deg)";
+    if (bladetop == 45) {
+      document.getElementById("bladecss").style.transform = "rotate(130deg)";
       document.getElementById("bladecss").style.top = 40.5 + "%";
       document.getElementById("bladecss").style.left = 32 + "%";
       document.getElementById("rootsectioncss").style.display = "block";
-      document.getElementById("fingerthumbcss").style.top = 10 + "%";
+     document.getElementById("fingerthumbcss").style.top = 10 + "%";
   document.getElementById("fingerthumbcss").style.left = 90 + "%";
   document.getElementById("fingerindexcss").style.top = 10+ "%";
   document.getElementById("fingerindexcss").style.left = 90 + "%";
+  document.getElementById("rootcss").style.transform = "rotate(0deg)";
+  document.getElementById("fingerindexcss").style.transform = "rotate(0deg)";
+  document.getElementById("fingerthumbcss").style.transform = "rotate(0deg)";
       clearInterval(imgblade);
 
       document.getElementById("bladecss").removeAttribute("onclick", "bladejsclick()");
       document.getElementById("brushcss").setAttribute("onclick", "brushmovetoblade()");
     } else {
-      document.getElementById("bladecss").style.transform = "rotateX(80deg)";
+      document.getElementById("bladecss").style.transform = "rotate(90deg)";
       bladetop++;
       bladeimg.style.top = bladetop + '%';
 

@@ -219,7 +219,7 @@
     width:3.5%;
     height:3%;
     transform: rotate(90deg);
-    display:block;
+    display:none;
 }
 
 /* column 2 ends */

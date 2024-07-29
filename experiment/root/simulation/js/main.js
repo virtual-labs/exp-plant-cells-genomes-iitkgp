@@ -124,11 +124,38 @@ function clickdroppertomove(){
 
 function clicktodrop(){
   document.getElementById("safranindropcss").style.display="block";
-  document.getElementById("safranindroppercss").style.top = 81+ "%";
+  document.getElementById("safranindroppercss").style.top = 87+ "%";
   document.getElementById("safranindroppercss").style.left = 93.85+ "%";
+  document.getElementById("droppercss").setAttribute("onclick", "dropperdradistwwater()");
+
+}
+
+
+function dropperdradistwwater(){
+  document.getElementById("droppercss").style.display="none";
+  document.getElementById("distwaterdroppercss").style.display="block";
+  document.getElementById("distwaterdroppercss").setAttribute("onclick", "distwaterdroponglassslide()");
+
+}
+
+function distwaterdroponglassslide(){
+  
+  document.getElementById("distwaterdroppercss").style.display="block";
+  document.getElementById("distwaterdroppercss").style.top = 25+ "%";
+  document.getElementById("distwaterdroppercss").style.left = 68.5+ "%";
+  document.getElementById("distwaterdroppercss").setAttribute("onclick", "distwaterdroponroot()");
+
+}
+
+function distwaterdroponroot(){
+  document.getElementById("safranindropcss").style.display="none";
+  document.getElementById("distwaterdropcss").style.display="block";
+  document.getElementById("droppercss").style.display="block";
+  document.getElementById("distwaterdroppercss").style.display="none";
   document.getElementById("droppercss").setAttribute("onclick", "dropperdrawwater()");
 
 }
+
 
 function dropperdrawwater(){
   document.getElementById("droppercss").style.display="none";
@@ -167,6 +194,7 @@ function clickglassslide(){
   document.getElementById("mircoscopeslidecss").style.display="block";
   document.getElementById("safranindropcss").style.display="none";
   document.getElementById("watercss").style.display="none";
+  document.getElementById("distwaterdropcss").style.display="none";
   document.getElementById("glassslidecss").style.display="none";
   document.getElementById("coverslipcss").style.display="none";
   document.getElementById("rootsectioncss").style.display="none";

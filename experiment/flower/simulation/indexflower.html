@@ -22,10 +22,18 @@
 					</div>
 
 					<div class="card-body">
-						<ol id="inst1">
+						<select id="selectflowersection" class="form-select" aria-label="Default select example" onchange="selectflowersec()">
+							<option value="0" selected>Select</option>
+							<option value="1">L.S of flower</option>
+							<option value="2">T.S of flower</option>
+							
+						</select>
 
+					<p id="ls" style="display: none;"> A Hibiscus flower is chosen. Click on the glass slide. </p>	
+					<p id="ts" style="display: none;"> A Hibiscus flower is chosen. Click on the blade to cut a section of ovary of the flower. Follow the instrtuction as they appear. </p>	
 
-						</ol>
+						
+						
 					</div>
 				</div>
 			</div>
@@ -44,6 +52,9 @@
 						<table class="table table-bordered">
 							<tr>
 								<td>
+									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Hibiscus flower</button>
 									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
 										Blade</button>
@@ -83,69 +94,106 @@
 										Re-Do the Experiment</button>
 								</td>
 							</tr>
-							<!--tr>
-								<td>
-									<select class="form-select" aria-label="Default select example">
-										<option selected>Select</option>
-										<option value="1">Green Leaf</option>
-										<option value="2">Flower</option>
-										<option value="3">Stem</option>
-										<option value="3">Root</option>
-									</select>
-								</td>
-							</tr-->
+							
 
 						</table>
+						
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row ">
-			<div class="col-md-8">
-				<div class="card card-body border border-0">
-					<img src="./images/hibiscus_flower_leaf.png" class="img-fluid" data-toggle="tooltip"
-						data-placement="bottom" title="Hibiscus flower" id="flowercss">
-					<img src="./images/flowersection.png" class="img-fluid" data-toggle="tooltip"
-						data-placement="bottom" title="Leaf" id="flowersectioncss">
-					<img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Blade" id="bladecss">
+			<div class="col-md-12">
+				<div class="card card-body border border-1" style="display: none;" id="flowersteps">
+					<h5 id="instshowsteps" style="text-align: center;" > A fresh hibiscus flower is chosen and petals has been removed. Click on the glass slide. </h5>
+					</div>
+					</div>
+					</div>
+		<div class="row " >
+			<div class="col-md-8" id="lscardcol" style="display: none;" >
+				<div class="card card-body border border-0" >
+					<img src="./images/flower.png" class="img-fluid" data-toggle="tooltip"
+					data-placement="bottom" title="Hibiscus flower" id="flowercss">
 
-					<img src="./images/petridish.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Petridish containing water" id="petridishcss">
-					<img src="./images/brush.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Brush" id="brushcss">
+				<img src="./images/flower_ls.png" class="img-fluid" data-toggle="tooltip"
+					data-placement="bottom" title="Hibiscus flower" id="flowersectioncss">
+					<!--img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Blade" id="bladecss" >
+
+					
 					<img src="./images/forceps.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="Forcep" id="forcepcss">
 					<img src="./images/picksectionforcep.png" class="img-fluid" data-toggle="tooltip"
-						data-placement="bottom" title="Forcep" id="pickforcepcss">
+						data-placement="bottom" title="Forcep" id="pickforcepcss"-->
 
-					<img src="./images/coverglass.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Coverslip" id="coverslipcss">
+				
 					<img src="./images/glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Glass Slide" id="glassslidecss">
+						title="Glass Slide" id="glassslidecss" onclick="clickglassslide()">
 
-					<img src="./images/beaker.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Beaker" id="beakercss">
-					<img src="./images/dropper.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="dropper" id="droppercss">
-					<img src="./images/waterdropper.png" class="img-fluid" id="dropperwatercss">
-
-
-					<img src="./images/waterdrop.png" class="img-fluid" id="waterdropcss">
-					<img src="./images/waterdrop.png" class="img-fluid" id="petridishwatercss">
+				
 				</div>
 			</div>
 
-			<div class="col-md-4">
-				<div class="card card-body border border-0">
-					<img src="./images/microscope.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Microscope" id="mircoscopecss">
+			<div class="col-md-4" id="lscardcol1" style="display: none;">
+				<div class="card card-body border border-0" >
+					
 					<img src="./images/user.png" class="img-fluid" id="labpersoncss">
-					<img src="./images/prepared_slide.png" class="img-fluid" data-toggle="tooltip"
-						data-placement="bottom" title="Prepared slide" id="mircoscopeslidecss">
+					
 				</div>
 			</div>
 		</div>
+
+<!---------------------------------------  TS flower --------------------------------------------------------------------->
+
+<div class="row">
+	<div class="col-md-8" id="tscardcol" style="display: none;">
+		<div class="card card-body border border-0" >
+			<img src="./images/flower.png" class="img-fluid" data-toggle="tooltip"
+			data-placement="bottom" title="Hibiscus flower" id="flowercss">
+
+		<img src="./images/flower_ls.png" class="img-fluid" data-toggle="tooltip"
+			data-placement="bottom" title="L.S of Hibiscus flower" id="flowersectioncss">
+			<img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+				title="Blade" id="bladecss" >
+
+			<img src="./images/petridish.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+				title="Petridish containing water" id="petridishcss">
+			<img src="./images/brush.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+				title="Brush" id="brushcss">
+			<img src="./images/forceps.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+				title="Forcep" id="forcepcss">
+			<img src="./images/picksectionforcep.png" class="img-fluid" data-toggle="tooltip"
+				data-placement="bottom" title="Forcep" id="pickforcepcss">
+
+			<img src="./images/coverglass.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+				title="Coverslip" id="coverslipcss">
+			<img src="./images/glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+				title="Glass Slide" id="glassslidecss" onclick="clickglassslide()">
+
+			<img src="./images/beaker.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+				title="Beaker" id="beakercss">
+			<img src="./images/dropper.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+				title="dropper" id="droppercss">
+			<img src="./images/waterdropper.png" class="img-fluid" id="dropperwatercss">
+
+
+			<img src="./images/waterdrop.png" class="img-fluid" id="waterdropcss">
+			<img src="./images/waterdrop.png" class="img-fluid" id="petridishwatercss">
+		</div>
+	</div>
+
+	<div class="col-md-4" id="tscardcol1" style="display: none;">
+		<div class="card card-body border border-0" >
+			<img src="./images/microscope.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+				title="Microscope" id="mircoscopecss">
+			<img src="./images/user.png" class="img-fluid" id="labpersoncss">
+			<img src="./images/prepared_slide.png" class="img-fluid" data-toggle="tooltip"
+				data-placement="bottom" title="Prepared slide" id="mircoscopeslidecss">
+		</div>
+	</div>
+</div>
+
+
 	</div>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

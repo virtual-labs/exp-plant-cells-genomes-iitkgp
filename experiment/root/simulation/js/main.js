@@ -35,6 +35,7 @@ function bladejsclick() {
   document.getElementById("rootcss").style.transform = "rotate(0deg)";
   document.getElementById("fingerindexcss").style.transform = "rotate(0deg)";
   document.getElementById("fingerthumbcss").style.transform = "rotate(0deg)";
+  document.getElementById("instshowsteps").innerHTML = "Click on the brush to place near blade. ";
       clearInterval(imgblade);
 
       document.getElementById("bladecss").removeAttribute("onclick", "bladejsclick()");
@@ -51,6 +52,7 @@ function bladejsclick() {
 
 
 function brushmovetoblade() {
+  document.getElementById("instshowsteps").innerHTML = " Click on the brush to shift the root section in watch glass / petridish containing water. ";
   document.getElementById("brushcss").style.top = 8 + "%";
   document.getElementById("brushcss").style.left = 42 + "%";
   document.getElementById("fingerthumbcss").style.top = 15 + "%";
@@ -61,6 +63,7 @@ function brushmovetoblade() {
 }
 
 function brushmoveroottopdish() {
+  document.getElementById("instshowsteps").innerHTML = "Click on the brush to move the brush to its original position.";
   document.getElementById("brushcss").style.top = 17 + "%";
   document.getElementById("brushcss").style.left = 45 + "%";
   document.getElementById("rootsectioncss").style.top = 60 + "%";
@@ -76,6 +79,7 @@ function brushmoveroottopdish() {
 }
 
 function brushmovetoorg(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the brush to place over petridish. ";
   document.getElementById("brushcss").style.top = 0+ "%";
   document.getElementById("brushcss").style.left = 90 + "%";
   document.getElementById("fingerthumbcss").style.top = 10 + "%";
@@ -86,6 +90,7 @@ function brushmovetoorg(){
 }
 
 function brushmovetopdish(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the brush to transfer the root section onto a glass microscope slide.";
   document.getElementById("brushcss").style.top = 17.2 + "%";
   document.getElementById("brushcss").style.left = 45 + "%";
   document.getElementById("fingerthumbcss").style.top = 21 + "%";
@@ -96,6 +101,7 @@ function brushmovetopdish(){
 }
 
 function rootmovetoglassslide(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the brush to move the brush to its original position.";
   document.getElementById("brushcss").style.top = 17.2 + "%";
   document.getElementById("brushcss").style.left = 72 + "%";
   document.getElementById("rootsectioncss").style.top = 60 + "%";
@@ -108,6 +114,7 @@ function rootmovetoglassslide(){
 }
 
 function brushmovetoorg1(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the dropper 1 of Safranin bottle to place above glassslide.";
   document.getElementById("brushcss").style.top = 0+ "%";
   document.getElementById("brushcss").style.left = 90 + "%";
   document.getElementById("fingerthumbcss").style.display = "none";
@@ -116,6 +123,7 @@ function brushmovetoorg1(){
 }
 
 function clickdroppertomove(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the dropper 1 to add a drop of safranin solution.";
   document.getElementById("safranindroppercss").style.top = 25+ "%";
   document.getElementById("safranindroppercss").style.left = 68.5 + "%";
   document.getElementById("safranindroppercss").setAttribute("onclick", "clicktodrop()");
@@ -123,6 +131,7 @@ function clickdroppertomove(){
 }
 
 function clicktodrop(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the dropper 2 to draw distilled water from the beaker.";
   document.getElementById("safranindropcss").style.display="block";
   document.getElementById("safranindroppercss").style.top = 87+ "%";
   document.getElementById("safranindroppercss").style.left = 93.85+ "%";
@@ -132,6 +141,7 @@ function clicktodrop(){
 
 
 function dropperdradistwwater(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the dropper 2 to place the dropper 2 above glass slide.";
   document.getElementById("droppercss").style.display="none";
   document.getElementById("distwaterdroppercss").style.display="block";
   document.getElementById("distwaterdroppercss").setAttribute("onclick", "distwaterdroponglassslide()");
@@ -139,7 +149,7 @@ function dropperdradistwwater(){
 }
 
 function distwaterdroponglassslide(){
-  
+  document.getElementById("instshowsteps").innerHTML = "Click on the dropper 2 to add distilled water to the root section. ";
   document.getElementById("distwaterdroppercss").style.display="block";
   document.getElementById("distwaterdroppercss").style.top = 25+ "%";
   document.getElementById("distwaterdroppercss").style.left = 68.5+ "%";
@@ -148,6 +158,7 @@ function distwaterdroponglassslide(){
 }
 
 function distwaterdroponroot(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the dropper 2 to draw water from the beaker. ";
   document.getElementById("safranindropcss").style.display="none";
   document.getElementById("distwaterdropcss").style.display="block";
   document.getElementById("droppercss").style.display="block";
@@ -158,6 +169,7 @@ function distwaterdroponroot(){
 
 
 function dropperdrawwater(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the dropper 2 to place the dropper above glass slide.";
   document.getElementById("droppercss").style.display="none";
   document.getElementById("waterdroppercss").style.display="block";
   document.getElementById("waterdroppercss").setAttribute("onclick", "waterdroponglassslide()");
@@ -165,7 +177,7 @@ function dropperdrawwater(){
 }
 
 function waterdroponglassslide(){
-  
+  document.getElementById("instshowsteps").innerHTML = " Click on the dropper 2 to add a drop of water to the root section.";
   document.getElementById("waterdroppercss").style.display="block";
   document.getElementById("waterdroppercss").style.top = 25+ "%";
   document.getElementById("waterdroppercss").style.left = 68.5+ "%";
@@ -174,6 +186,7 @@ function waterdroponglassslide(){
 }
 
 function waterdroponroot(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the coverslip to place over the root section.";
   document.getElementById("safranindropcss").style.display="none";
   document.getElementById("watercss").style.display="block";
   document.getElementById("droppercss").style.display="block";
@@ -185,12 +198,14 @@ function waterdroponroot(){
 
 
 function addcoverslip(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the prepared slide to place on the stage of the microscope.";
   document.getElementById("coverslipcss").style.top = 55+ "%";
   document.getElementById("coverslipcss").style.left = 68+ "%";
   document.getElementById("glassslidecss").setAttribute("onclick", "clickglassslide()");
 }
 
 function clickglassslide(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the lens to see the cross section of the root.";
   document.getElementById("mircoscopeslidecss").style.display="block";
   document.getElementById("safranindropcss").style.display="none";
   document.getElementById("watercss").style.display="none";

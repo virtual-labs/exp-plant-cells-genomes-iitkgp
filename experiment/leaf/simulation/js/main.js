@@ -54,7 +54,7 @@ function bladejsclick() {
         document.getElementById("leafcss").style.display = "none";
         document.getElementById("leafcutsectioncss").style.display = "block";
         document.getElementById("leafcutcss").style.display = "block";
-
+        document.getElementById("instshowsteps").innerHTML = "Click on the small section of the leaf to place it in a cork.";
 
       } else {
 
@@ -69,6 +69,7 @@ function bladejsclick() {
 
 
 function placeincork() {
+  document.getElementById("instshowsteps").innerHTML = "Click on the blade to cut a small section of the leaf.";
   document.getElementById("leafcutsectioncss").style.left = 55 + "%";
   document.getElementById("leafcutsectioncss").style.top = 19 + "%";
   document.getElementById("bladecsscorkcut").setAttribute("onclick", "bladejscorkclick()");
@@ -83,6 +84,7 @@ var imgblademovedowncork1 = null;
 var bladeorgpos = null;
 var bladecorkimg;
 function bladejscorkclick() {
+ 
   bladecorkimg = document.getElementById("bladecsscorkcut");
 
   var bladetop = 15; //initial  position
@@ -160,6 +162,7 @@ function bladejscorkclick() {
         //bladeorgpos = setInterval(bladeorgposition, 200);
         document.getElementById("brushcss").setAttribute("onclick", "brushclickmoveleaf()");
         document.getElementById("bladecsscorkcut").removeAttribute("onclick", "bladejscorkclick()");
+        document.getElementById("instshowsteps").innerHTML = "Click on the brush to place near blade.";
       }
       else {
         bladecorkimg.style.transform = "rotate(90deg)";
@@ -172,17 +175,19 @@ function bladejscorkclick() {
   }
 }
 function brushclickmoveleaf(){
-  document.getElementById("brushcss").style.top = -15 + "%";
+  document.getElementById("instshowsteps").innerHTML = "Click on the brush to shift the leaf section in watch glass/   petridish containing water.";
+  document.getElementById("brushcss").style.top = -14 + "%";
   document.getElementById("brushcss").style.left = 84.4 + "%";
-  document.getElementById("fingerthumbcss").style.top = -8 + "%";
-  document.getElementById("fingerthumbcss").style.left = 85 + "%";
-  document.getElementById("fingerindexcss").style.top = -8 + "%";
-  document.getElementById("fingerindexcss").style.left = 85 + "%";
+  document.getElementById("fingerthumbcss").style.top = -2 + "%";
+  document.getElementById("fingerthumbcss").style.left = 84 + "%";
+  document.getElementById("fingerindexcss").style.top = -2 + "%";
+  document.getElementById("fingerindexcss").style.left = 84 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "brushleafmovetopetridish()");
   document.getElementById("bladecsscorkcut").removeAttribute("onclick", "bladejscorkclick()");
 }
 
 function brushleafmovetopetridish(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the brush to place over petridish.";
   document.getElementById("leafthinsection1").style.top=23+"%";
   document.getElementById("leafthinsection1").style.left=82+"%";
   document.getElementById("fingerthumbcss").style.top = 8 + "%";
@@ -217,16 +222,18 @@ function brushleafmovetopetridish(){
 }*/
 
 function brushmovetopetridish() {
+  document.getElementById("instshowsteps").innerHTML = "Click on the brush to transfer the leaf section onto a glass microscope slide. ";
   document.getElementById("brushcss").style.top = -10 + "%";
   document.getElementById("brushcss").style.left = 84.4 + "%";
-  document.getElementById("fingerthumbcss").style.top = -8 + "%";
+  document.getElementById("fingerthumbcss").style.top = 1 + "%";
   document.getElementById("fingerthumbcss").style.left = 85 + "%";
-  document.getElementById("fingerindexcss").style.top = -8+ "%";
+  document.getElementById("fingerindexcss").style.top = 1 + "%";
   document.getElementById("fingerindexcss").style.left = 85 + "%";
   document.getElementById("brushcss").setAttribute("onclick", "putinglassslide()");
 }
 
 function putinglassslide(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the brush to move the brush to its original position.";
   document.getElementById("brushcss").style.top = 15 + "%";
   document.getElementById("brushcss").style.left = 72 + "%";
   document.getElementById("leafthinsection1").style.top = 48 + "%";
@@ -241,6 +248,7 @@ function putinglassslide(){
 
 
 function brushmoveorgpos(){
+  document.getElementById("instshowsteps").innerHTML = "Click on the dropper to draw water from the beaker. ";
   document.getElementById("brushcss").style.top = 0 + "%";
   document.getElementById("brushcss").style.left = 95 + "%";
   document.getElementById("fingerthumbcss").style.display = "none";
@@ -249,12 +257,14 @@ function brushmoveorgpos(){
 }
 
 function dropperwater() {
+  document.getElementById("instshowsteps").innerHTML = "Click on the dropper to place the dropper above glass slide. ";
   document.getElementById("droppercss").style.left = 65 + "%";
   document.getElementById("droppercss").removeAttribute("onclick", "dropperwater()");
   document.getElementById("droppercss").setAttribute("onclick", "droppermoveglassslide()");
 }
 
 function droppermoveglassslide() {
+  document.getElementById("instshowsteps").innerHTML = "Click on the dropper to add a drop of water onto the leaf section.";
   document.getElementById("dropperwatercss").style.display = "block";
   document.getElementById("dropperwatercss").style.left = 68 + "%";
   document.getElementById("dropperwatercss").style.top = 23 + "%";
@@ -267,6 +277,7 @@ function droppermoveglassslide() {
 var dropwater = null;
 var dropimage;
 function dropwaterglassslide() {
+
   dropimage = document.getElementById("dropcss").style.display = "block";
   var waterdroptop = 45;
   clearInterval(dropwater);
@@ -283,7 +294,7 @@ function dropwaterglassslide() {
       document.getElementById("droppercss").style.left = 75 + "%";
       document.getElementById("dropcss").style.display = "none";
       document.getElementById("coverslipcss").setAttribute("onclick", "coverslipcover()");
-
+      document.getElementById("instshowsteps").innerHTML = "Click on the coverslip to place over the leaf section.";
     }
     else {
 
@@ -297,6 +308,7 @@ function dropwaterglassslide() {
 
 
 function coverslipcover() {
+  document.getElementById("instshowsteps").innerHTML = "Click on the prepared slide to place on the stage of the microscope.";
   document.getElementById("coverslipcss").style.left = 68 + "%";
   document.getElementById("coverslipcss").style.top = 45 + "%";
   document.getElementById("coverslipcss").removeAttribute("onclick", "coverslipcover()");
@@ -305,6 +317,7 @@ function coverslipcover() {
 }
 
 function glasslidetomicroscope() {
+  document.getElementById("instshowsteps").innerHTML = "Click on the lens to see the cross section of the leaf.";
   document.getElementById("mircoscopeslidecss").style.display = "block";
   document.getElementById("leafthinsection1").style.display = "none";
   document.getElementById("glassslidecss").style.display = "none";

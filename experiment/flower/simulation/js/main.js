@@ -15,6 +15,7 @@ function selectflowersec(){
     document.getElementById("tscardcol").style.display="none";
     document.getElementById("tscardcol1").style.display="none";
     document.getElementById("flowersteps").style.display="block";
+    document.getElementById("instshowsteps").innerHTML="A fresh hibiscus flower is chosen and petals has been removed. Click on the glass slide.";
 
   }
   if (selectflowerltsection.options[selectflowerltsection.selectedIndex].value == 2) {
@@ -26,6 +27,7 @@ function selectflowersec(){
     document.getElementById("lscardcol").style.display="none";
     document.getElementById("lscardcol1").style.display="none";
     document.getElementById("flowersteps").style.display="block";
+    document.getElementById("instshowsteps").innerHTML="Click on the blade.";
   }
 }
 

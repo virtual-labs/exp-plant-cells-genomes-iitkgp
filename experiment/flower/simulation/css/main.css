@@ -44,6 +44,15 @@
     z-index: 2;
 }
 
+#flowersectioncssts{
+    position:relative;
+    top:5%;
+    left:0%;
+    width:45%;
+    cursor: pointer; /* stem outline 2D7600 */
+    display: block;
+    z-index: 2;
+}
 
 
 #beakercss {

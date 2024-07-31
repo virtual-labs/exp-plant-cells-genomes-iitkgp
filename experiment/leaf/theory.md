@@ -1,5 +1,7 @@
 ## Theory
 
+Microscopic study of leaf cells is a fundamental component of plant biology education. It provides students with hands-on experience in observing biological structures and processes, fostering a deeper appreciation and understanding of plant anatomy and physiology. Anatomy on leaf cells under the microscope can have practical applications in agriculture, forestry, and environmental science. For example, understanding how different plant species or cultivars respond to environmental stress can inform crop breeding and management strategies.
+
 Leaf cells are diverse and specialized to perform various functions essential for plant growth, development, and survival. Plant leaf cells are crucial for photosynthesis, gas exchange, water regulation, protection, structural integrity, nutrient storage, production of metabolites, environmental interaction. Their functions assist in the growth, survival, and reproduction of plants. Another unique aspect of leaves is that they support the ecological chain and form an important part of consumption. Leafy vegetable are an important source of nutrition.
 
 Some facts about leaf cells:

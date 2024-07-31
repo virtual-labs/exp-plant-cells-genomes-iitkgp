@@ -42,7 +42,7 @@ function bladejsclick() {
 
 
 function forcepclick() {
-  document.getElementById("instshowsteps").innerHTML = "Click on the blade to cut a small sectiom of stem.";
+  document.getElementById("instshowsteps").innerHTML = "Click on the blade to cut a small section of stem.";
   document.getElementById("forcepcss").style.display = "none";
   document.getElementById("pickforcepcss").style.display = "block";
   document.getElementById("bladecss").removeAttribute("onclick", "bladejsclick()");
@@ -170,7 +170,7 @@ function brushclicktoglassslide() {
 }
 
 function brushclicktoorg1() {
-  document.getElementById("instshowsteps").innerHTML ="Click on the dropper of safranin bottle to draw safranin from the bottle and the dropper will be place above the glass slide.  ";
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper 1 to draw safranin from the bottle and the dropper 1 will be place above the glass slide.  ";
   document.getElementById("brushcss").style.top = 0 + "%";
   document.getElementById("brushcss").style.left = 90 + "%";
   document.getElementById("fingerthumbcss").style.display = "none";
@@ -189,7 +189,7 @@ function brushclicktoorg1() {
 
 
 function droppermovesafgslideclick() {
-  document.getElementById("instshowsteps").innerHTML =" Click on the dropper to add a drop of  safranin on the cut stem section. ";
+  document.getElementById("instshowsteps").innerHTML =" Click on the dropper 1 to add a drop of safranin on the cut stem section. ";
   document.getElementById("safranindroppercss").style.top = 23 + "%"; /** 23 */
   document.getElementById("safranindroppercss").style.left = 67 + "%"; /** 26 */
   document.getElementById("safranindroppercss").setAttribute("onclick", "dropperdropsafclick()");
@@ -197,7 +197,7 @@ function droppermovesafgslideclick() {
 }
 
 function dropperdropsafclick() {
-  document.getElementById("instshowsteps").innerHTML ="Click on the dropper to draw distilled water from the beaker.  ";
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper 3 to draw distilled water from the beaker.  ";
   document.getElementById("safranindropcss").style.display = "block";
   //document.getElementById("droppercss").style.display="block";
   document.getElementById("safranindroppercss").style.top = 69.8 + "%";
@@ -208,7 +208,7 @@ function dropperdropsafclick() {
 
 
 function droppermovedistbeakerclick() {
-  document.getElementById("instshowsteps").innerHTML ="Click on the dropper to place the dropper above the glass slide. ";
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper 3 to place the dropper above the glass slide. ";
   document.getElementById("droppercss").style.display = "none";
   document.getElementById("dropperdistwatercss").style.display = "block";
   document.getElementById("dropperdistwatercss").setAttribute("onclick", "droppershowdistdropperclick()");
@@ -216,14 +216,14 @@ function droppermovedistbeakerclick() {
 }
 
 function droppershowdistdropperclick() {
-  document.getElementById("instshowsteps").innerHTML ="Click on the dropper to add a drop of distilled water on the cut stem section. ";
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper 3 to add a drop of distilled water on the cut stem section. ";
   document.getElementById("dropperdistwatercss").style.top = 24 + "%";
   document.getElementById("dropperdistwatercss").style.left = 67 + "%";
   document.getElementById("dropperdistwatercss").setAttribute("onclick", "dropperdropdistgslideclick()");
 }
 
 function dropperdropdistgslideclick() {
-  document.getElementById("instshowsteps").innerHTML ="Click on the dropper of fast green to draw fast green from the bottle and the dropper will be place above the glass slide. ";
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper 2 to draw fast green from the bottle and the dropper 2 will be place above the glass slide. ";
   document.getElementById("distwaterdropcss").style.display = "block";
   document.getElementById("droppercss").style.display = "block";
   document.getElementById("dropperdistwatercss").style.display = "none";
@@ -239,14 +239,14 @@ function dropperdropdistgslideclick() {
 
 
 function droppermovefastgdropperclick() {
-  document.getElementById("instshowsteps").innerHTML ="Click on the dropper to add a drop of fast green on the cut stem section.";
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper 2 to add a drop of fast green on the cut stem section.";
   document.getElementById("fastgreendroppercss").style.top = 22 + "%";
   document.getElementById("fastgreendroppercss").style.left = 67 + "%";
   document.getElementById("fastgreendroppercss").setAttribute("onclick", "dropfastgreenclick()");
 }
 
 function dropfastgreenclick() {
-  document.getElementById("instshowsteps").innerHTML ="Click on the dropper to draw distilled water from the beaker.  ";
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper 3 to draw distilled water from the beaker.  ";
   document.getElementById("distwaterdropcss").style.display = "none";
   document.getElementById("fastgreendropcss").style.display = "block";
   document.getElementById("fastgreendroppercss").style.top = 69.8 + "%";
@@ -259,7 +259,7 @@ function dropfastgreenclick() {
 
 
 function droppermovedistbeakerclick1() {
-  document.getElementById("instshowsteps").innerHTML ="Click on the dropper to place the dropper above the glass slide.  ";
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper 3 to place the dropper above the glass slide.  ";
   document.getElementById("droppercss").style.display = "none";
   document.getElementById("dropperdistwatercss").style.display = "block";
   
@@ -270,14 +270,14 @@ function droppermovedistbeakerclick1() {
 }
 
 function droppershowdistdropperclick1() {
-  document.getElementById("instshowsteps").innerHTML ="Click on the dropper to add a drop of distilled water on the cut stem section. ";
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper 3 to add a drop of distilled water on the cut stem section. ";
   document.getElementById("dropperdistwatercss").style.top = 24 + "%";
   document.getElementById("dropperdistwatercss").style.left = 67 + "%";
   document.getElementById("dropperdistwatercss").setAttribute("onclick", "dropperdropdistgslideclick1()");
 }
 
 function dropperdropdistgslideclick1() {
-  document.getElementById("instshowsteps").innerHTML ="Click on the dropper to draw  water from the beaker.  ";
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper 3 to draw  water from the beaker.  ";
   document.getElementById("distwaterdropcss").style.display = "block";
   document.getElementById("fastgreendropcss").style.display = "none";
   document.getElementById("droppercss").style.display = "block";
@@ -296,7 +296,7 @@ function dropperdropdistgslideclick1() {
 
 
 function droppermovetowaterbeakerclick() {
-  document.getElementById("instshowsteps").innerHTML ="Click on the dropper to place the dropper above the glass slide. ";
+  document.getElementById("instshowsteps").innerHTML ="Click on the dropper 3 to place the dropper above the glass slide. ";
   document.getElementById("droppercss").style.display = "none";
   document.getElementById("dropperwatercss").style.display = "block";
   document.getElementById("dropperwatercss").setAttribute("onclick", "droppermovetoglasssliderclick()");
@@ -304,7 +304,7 @@ function droppermovetowaterbeakerclick() {
 }
 
 function droppermovetoglasssliderclick() {
-  document.getElementById("instshowsteps").innerHTML =" Click on the dropper to add a drop of  water on the cut stem section. ";
+  document.getElementById("instshowsteps").innerHTML =" Click on the dropper 3 to add a drop of  water on the cut stem section. ";
   document.getElementById("dropperwatercss").style.top = 24 + "%";
   document.getElementById("dropperwatercss").style.left = 67 + "%";
   document.getElementById("dropperwatercss").setAttribute("onclick", "dropperdropwatergslideclick()");

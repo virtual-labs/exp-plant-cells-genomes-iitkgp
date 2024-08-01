@@ -15,11 +15,14 @@ The major types of roots can be broadly categorized into two main systems:
 **Fibrous Root System:** This is composed of many thin, moderately branching roots growing from the stem. These roots spread out in the soil and are generally shallower than taproots. Fibrous roots are effective at preventing soil erosion and are common in monocotyledons. e.g. Rice (Oryza sativa L.), Corn (Zea mays L.)
 
 <div align="center">
-<img src="images/taproot.jpg" class="img-fluid">
-<img src="images/fibroot.jpg" class="img-fluid">
-<p>Fig.: (A) Tap Root, (B) Fibrous Root</p>
+<img src="images/taproot.jpg" width="30%"> &nbsp;
+<img src="images/fibroot.jpg" width="30%">
+<p>Fig.: (A) Tap Root (B) Fibrous Root</p>
 </div>
 
+
+
+ 
 
 Understanding the internal anatomy of the root assists in understanding how the various functions are carried out as the nature of specialised activities. The different types of cells in a root are as follows:
 
@@ -71,7 +74,7 @@ Phloem is typically located outside the xylem, forming a ring around it in dicot
 The xylem and phloem together make up the vascular cylinder, also known as the stele.
 
 <div align="center">
-<img src="images/root_TS.jpg" class="img-fluid">
+<img src="images/root_TS.jpg" width="50%">
 <p>Fig: T.S of a dicot root</p>
 </div>
 

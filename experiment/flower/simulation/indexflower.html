@@ -23,9 +23,9 @@
 
 					<div class="card-body">
 						<select id="selectflowersection" class="form-select" aria-label="Default select example" onchange="selectflowersec()">
-							<option value="0" selected>Select</option>
-							<option value="1">L.S of flower</option>
-							<option value="2">T.S of flower</option>
+							<option value="0" selected>Select experiment to perform</option>
+							<option value="1">Longitudinal section of flower</option>
+							<option value="2">Transverse section of flower</option>
 							
 						</select>
 <!--
@@ -51,7 +51,24 @@
 						<!--div class="table-responsive"-->
 						<table class="table table-bordered">
 							<tr>
-								<td>
+								<td id="lstr" style="display: none;">
+									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Hibiscus flower</button>
+									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Blade</button>
+										<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Forcep</button>
+									<button class="btn btn-info " type="button" id="gslidei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Glass Slide</button>
+									
+								</td>
+							</tr>
+							<tr >
+								<td id="tstr" style="display: none;">
 									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
 										Hibiscus flower</button>
@@ -85,7 +102,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td colspan="2">
+								<td >
 									<!--button class="btn btn-success " type="button" id="start" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
 										Start the Experiment</button-->
@@ -115,21 +132,25 @@
 					<img src="./images/flower.png" class="img-fluid" data-toggle="tooltip"
 					data-placement="bottom" title="Hibiscus flower" id="flowercss">
 
-				<img src="./images/flower_ls.png" class="img-fluid" data-toggle="tooltip"
+				<img src="./images/flower_glass_slide.png" class="img-fluid" data-toggle="tooltip"
 					data-placement="bottom" title="Hibiscus flower" id="flowersectioncss">
-					<!--img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Blade" id="bladecss" >
+
+					<img src="./images/petal.png" class="img-fluid"  id="petalcss">
+
+					<img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Blade" id="bladecssls" onclick="clickblade()" >
 
 					
 					<img src="./images/forceps.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Forcep" id="forcepcss">
+						title="Forcep" id="forcepcssls">
 					<img src="./images/picksectionforcep.png" class="img-fluid" data-toggle="tooltip"
-						data-placement="bottom" title="Forcep" id="pickforcepcss"-->
+						data-placement="bottom" title="Forcep" id="pickforcepcssls">
 
 				
 					<img src="./images/glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Glass Slide" id="glassslidecss" onclick="clickglassslide()">
-
+						title="Glass Slide" id="glassslidecssls" >
+						<img src="./images/fingerthumb.png" class="img-fluid"  id="fingerthumbcss" >
+						<img src="./images/fingerindex.png" class="img-fluid" id="fingerindexcss" >
 				
 				</div>
 			</div>

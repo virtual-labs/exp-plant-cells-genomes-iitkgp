@@ -10,11 +10,32 @@ margin-bottom: 5px;
     position: relative;
     top:10%;
     left:1%;
-    width:45%;
+    width:35%;
+    cursor: pointer; /* stem outline 2D7600 */
+    display: none;
+    z-index: 2;
+    transform: rotate(-45deg);
+
+}
+#flowersectioncss{
+    position:relative;
+    top:5%;
+    left:48%;
+    width:40%;
     cursor: pointer; /* stem outline 2D7600 */
     display: block;
     z-index: 2;
+}
 
+#petalcss{
+    position:absolute;
+    top:32%;
+    left:44%;
+    width:22%;
+    cursor: pointer; /* stem outline 2D7600 */
+    display: block;
+    z-index: 3;
+    transform: rotate(-45deg);
 }
 
 #fingerthumbcss{
@@ -23,7 +44,7 @@ margin-bottom: 5px;
     left:6%;
     width:7%;
     cursor: pointer; /* stem outline 2D7600 */
-    display: block;
+    display: none;
     z-index: 4;
 }
 
@@ -33,18 +54,59 @@ margin-bottom: 5px;
     left:7%;
     width:6%;
     cursor: pointer; /* stem outline 2D7600 */
-    display: block;
+    display: none;
 }
 
-#flowersectioncss{
-    position:absolute;
-    top:5%;
-    left:45%;
-    width:45%;
-    cursor: pointer; /* stem outline 2D7600 */
+
+
+
+#bladecssls {
+    position: absolute;
+    top: 5%; /* 5 -- 55 -- */
+    left:95%; /* 95 -- 60*/
+    width: 12%;
+    cursor: pointer;
     display: block;
     z-index: 2;
+   /*transform: rotateX(80deg);*/
+   
+    
 }
+
+#forcepcssls{
+    position: absolute;
+    top: 15%;
+    left:98%;
+    width:5%;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+
+
+#pickforcepcssls{
+    position: absolute;
+    top: 52%;
+    left:70%;
+    width:1.5%;
+    cursor: pointer;
+    transform: rotate(46deg);
+    z-index: 2;
+    display: none;
+}
+
+#glassslidecssls {
+    position: absolute;
+    top: 50%;
+    left:95%;
+    width: 20%;
+    cursor: pointer;
+    z-index: 2;
+    opacity:40%;
+}
+
+
+
 
 #flowersectioncssts{
     position:relative;
@@ -79,7 +141,7 @@ margin-bottom: 5px;
 
 #petridishwatercss{
     position: absolute;
-    top: 43%; 
+    top: 45%; 
     left: 45%; 
     width:15%;
     height:6.2%;
@@ -128,7 +190,7 @@ margin-bottom: 5px;
 #glassslidecss {
     position: absolute;
     top: 50%;
-    left:95%;
+    left:70%;
     width: 20%;
     cursor: pointer;
     z-index: 2;
@@ -137,7 +199,7 @@ margin-bottom: 5px;
 
 #coverslipcss {
     position: absolute;
-    top: 25%;  /*25 -- 65 */
+    top: 28%;  /*25 -- 65 */
     left: 68%; /*63 -- 68 */
     width: 4.8%;
     cursor: pointer;

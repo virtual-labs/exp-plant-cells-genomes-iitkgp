@@ -288,7 +288,8 @@
     width:3.5%;
     height:3%;
     transform: rotate(90deg);
-    display:none;
+    display:block;
+    z-index: 2;
 }
 
 /* column 2 ends */

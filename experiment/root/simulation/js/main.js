@@ -114,7 +114,7 @@ function rootmovetoglassslide(){
 }
 
 function brushmovetoorg1(){
-  document.getElementById("instshowsteps").innerHTML = "Click on the dropper 1 of Safranin bottle to place above glassslide.";
+  document.getElementById("instshowsteps").innerHTML = "Click on the dropper 1 of Safranin bottle to draw safranin solution and to place above glassslide.";
   document.getElementById("brushcss").style.top = 0+ "%";
   document.getElementById("brushcss").style.left = 90 + "%";
   document.getElementById("fingerthumbcss").style.display = "none";

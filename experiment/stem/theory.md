@@ -44,20 +44,4 @@ Dicot and monocot stems exhibit distinct differences primarily in their vascular
 <p>Fig. Transverse section of a dicot stem </p>
 </div>
 
-Microscopic study of cells in a plant stem involves a series of steps to prepare, stain, and examine the cells under a microscope. 
 
-### EQUIPMENT REQUIRED:
-- Fresh plant stem (e.g. Amaranthus)
-- Single edged sharp new blades
-- Microscope slides 
-- cover slips
-- Beaker
--  Distilled water 
-- Watch glass
-- Stains (e.g., safranin, fast green, iodine)
-- Dissecting needle
-- Forceps
-- Dropper 
-- Light microscope
-- Distilled water
-- Blotting paper

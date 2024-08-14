@@ -1,7 +1,22 @@
 ## Procedure
 
-Sample collection: Choose a fresh root of a plant.
 
+### Equipment Required
+
+- Fresh tap root (Carrot)
+- Single edged sharp new blades
+- Microscope slides 
+- cover slips
+- Beaker
+- Watch glass
+- Stains (e.g., safranin, fast green, iodine)
+- Dissecting needle
+- Forceps
+- Dropper 
+- Light microscope
+- Blotting paper
+
+Sample collection: Choose a fresh root of a plant.
 #### Sample Preparation: 
 - Select a healthy taproot and rinse it gently under running water to remove soil and debris.
 - Trim the ends of the root to obtain a manageable length for sectioning.

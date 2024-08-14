@@ -2,7 +2,7 @@
 
 ## **To observe and study the structure of a flower by preparing and examining a longitudinal section under a microscope.**
 
-### Equipement required:
+### Equipment required:
 - Fresh flower specimen (e.g., Hibiscus)
 - Sharp razor blade 
 - Forceps
@@ -23,7 +23,7 @@
 
 ## **To observe and study the internal structure of a flower ovary by preparing and examining a transverse section under a microscope.**
 
-### Equipement required:
+### Equipment required:
 - Flower specimen (e.g., Hibiscus)
 - Sharp Razor blade 
 - Petri dish

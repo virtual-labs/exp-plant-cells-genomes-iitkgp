@@ -6,12 +6,8 @@
 - Fresh flower specimen (e.g., Hibiscus)
 - Sharp razor blade 
 - Forceps
-- Needle 
 - Microscope slides 
-- Coverslips
-- Compound microscope
-- Droppers 
-- Blotting paper
+
 
 #### Sample preparation:
 1. Select a fresh, healthy flower

@@ -96,17 +96,3 @@ Prop roots grow from the stem above the ground and provide additional support, e
 e.g. Corn (Zea mays L.)
 
 
-### Equipment Required
-
-- Fresh tap root (Carrot)
-- Single edged sharp new blades
-- Microscope slides 
-- cover slips
-- Beaker
-- Watch glass
-- Stains (e.g., safranin, fast green, iodine)
-- Dissecting needle
-- Forceps
-- Dropper 
-- Light microscope
-- Blotting paper

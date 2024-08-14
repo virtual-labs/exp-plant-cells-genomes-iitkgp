@@ -1,5 +1,20 @@
 ## Procedure
 
+
+
+### Equipment Required:
+- A healthy leaf
+- Single edged Sharp  blades
+- Fine detail paint brush
+- Watch Glass
+- Beaker with distilled water and tap water
+- Microscope glass slides
+- Cover glass
+- Dropper
+- Needle
+- Microscope
+- Blotting paper
+
 Observing leaf cells under a microscope involves several steps such as preparation of the sample and optimizing the viewing conditions. The following steps are required to study leaf cells:
 
 #### Sample Collection:

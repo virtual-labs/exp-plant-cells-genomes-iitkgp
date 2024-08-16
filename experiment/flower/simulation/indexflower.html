@@ -81,7 +81,10 @@
 									<button class="btn btn-info " type="button" id="pdishi" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
 										Petridish containing water</button>
-									<button class="btn btn-info " type="button" id="beakeri" data-bs-toggle="modal"
+										<button class="btn btn-info " type="button" id="beakeri" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Staining solution</button>
+									<button class="btn btn-info " type="button" id="beakeri2" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
 										Beaker containg water</button>
 									<button class="btn btn-info " type="button" id="dropperi" data-bs-toggle="modal"
@@ -170,34 +173,43 @@
 	<div class="col-md-8" id="tscardcol" style="display: none;">
 		<div class="card card-body border border-0" >
 			
-		<img src="./images/flower_ls.png" class="img-fluid" data-toggle="tooltip"
-			data-placement="bottom" title="L.S of Hibiscus flower" id="flowersectioncssts">
+		<img src="./images/flower_ovary.png" class="img-fluid"  id="flowerovarysectioncssts">
+			<img src="./images/flower_ovary_1.png" class="img-fluid"  id="flowerovarysectioncssts1">
+			<img src="./images/smallflowerovarycut.png" class="img-fluid"  id="flowerovarysectioncssts2">
 			<img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-				title="Blade" id="bladecss" >
+				title="Blade" id="bladecssts" onclick="clickbladets()">
 
 			<img src="./images/petridish.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-				title="Petridish containing water" id="petridishcss">
+				title="Petridish containing water" id="petridishcssts">
 			<img src="./images/brush.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-				title="Brush" id="brushcss">
-			<img src="./images/forceps.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-				title="Forcep" id="forcepcss">
+				title="Brush" id="brushcssts">
+			<!--img src="./images/forceps.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+				title="Forcep" id="forcepcssts">
 			<img src="./images/picksectionforcep.png" class="img-fluid" data-toggle="tooltip"
-				data-placement="bottom" title="Forcep" id="pickforcepcss">
+				data-placement="bottom" title="Forcep" id="pickforcepcssts"-->
 
 			<img src="./images/coverglass.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-				title="Coverslip" id="coverslipcss">
+				title="Coverslip" id="coverslipcssts">
 			<img src="./images/glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-				title="Glass Slide" id="glassslidecss" onclick="clickglassslide()">
+				title="Glass Slide" id="glassslidecssts" onclick="clickglassslide()">
+
+
+				<img src="./images/stainingbottle.png" class="img-fluid" data-toggle="tooltip"
+				data-placement="bottom" title="Safranin" id="safbeakercss">
+				<img src="./images/safranin.png" class="img-fluid" id="safranindroppercss">
+				<img src="./images/safdrop.png" class="img-fluid" id="safranindropcss">
 
 			<img src="./images/beaker.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-				title="Beaker" id="beakercss">
+				title="Beaker" id="beakercssts">
+
+
 			<img src="./images/dropper.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-				title="dropper" id="droppercss">
-			<img src="./images/waterdropper.png" class="img-fluid" id="dropperwatercss">
+				title="dropper" id="droppercssts">
+			<img src="./images/waterdropper.png" class="img-fluid" id="dropperwatercssts">
 
 
-			<img src="./images/waterdrop.png" class="img-fluid" id="waterdropcss">
-			<img src="./images/waterdrop.png" class="img-fluid" id="petridishwatercss">
+			<img src="./images/waterdrop.png" class="img-fluid" id="waterdropcssts">
+			<img src="./images/waterdrop.png" class="img-fluid" id="petridishwatercssts">
 		</div>
 	</div>
 
@@ -206,7 +218,7 @@
 			<img src="./images/microscope.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 				title="Microscope" id="mircoscopecss">
 			<img src="./images/user.png" class="img-fluid" id="labpersoncss">
-			<img src="./images/prepared_slide.png" class="img-fluid" data-toggle="tooltip"
+			<img src="./images/preparedslide.png" class="img-fluid" data-toggle="tooltip"
 				data-placement="bottom" title="Prepared slide" id="mircoscopeslidecss">
 		</div>
 	</div>
@@ -220,6 +232,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
 	<!-- Add JS at the bottom of HTML file -->
 	<script src="./js/main.js"></script>
+	<script src="./js/main1.js"></script>
 	<script>
 		$(function () {
 			$('[data-toggle="tooltip"]').tooltip(

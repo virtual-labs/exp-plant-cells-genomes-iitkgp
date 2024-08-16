@@ -106,20 +106,40 @@ margin-bottom: 5px;
 }
 
 
+/************************************* transverse section *************************************************/
 
 
-#flowersectioncssts{
+#flowerovarysectioncssts{
     position:relative;
     top:5%;
-    left:0%;
-    width:45%;
+    left:8%;
+    width:15%;
     cursor: pointer; /* stem outline 2D7600 */
     display: block;
     z-index: 2;
 }
 
+#flowerovarysectioncssts1{
+    position:relative;
+    top:5%;
+    left:8%;
+    width:15%;
+    cursor: pointer; /* stem outline 2D7600 */
+    display: none;
+    z-index: 2;
+}
 
-#beakercss {
+#flowerovarysectioncssts2{
+    position:absolute;
+    top:38.5%;
+    left:50%;
+    width:0.5%;
+    cursor: pointer; /* stem outline 2D7600 */
+    display: none;
+    z-index: 3;
+}
+
+#beakercssts {
     position: absolute;
     top: 75%;
     left:60%;
@@ -128,7 +148,7 @@ margin-bottom: 5px;
     z-index: 2;
 } 
 
-#petridishcss {
+#petridishcssts {
     position: absolute;
     top: 43%;
     left:45%;
@@ -139,9 +159,9 @@ margin-bottom: 5px;
     
 }
 
-#petridishwatercss{
+#petridishwatercssts{
     position: absolute;
-    top: 45%; 
+    top: 44%; 
     left: 45%; 
     width:15%;
     height:6.2%;
@@ -152,7 +172,7 @@ margin-bottom: 5px;
     
 }
 
-#bladecss {
+#bladecssts {
     position: absolute;
     top: 5%; /* -5 -- 5 */
     left:55%; /* 25 -- 2*/
@@ -165,7 +185,7 @@ margin-bottom: 5px;
     
 }
 
-#forcepcss{
+#forcepcssts{
     position: absolute;
     top: 0.5%;
     left:75%;
@@ -176,7 +196,7 @@ margin-bottom: 5px;
 
 
 
-#pickforcepcss{
+#pickforcepcssts{
     position: absolute;
     top: 29.2%;
     left:74%;
@@ -187,7 +207,7 @@ margin-bottom: 5px;
     display: none;
 }
 
-#glassslidecss {
+#glassslidecssts {
     position: absolute;
     top: 50%;
     left:70%;
@@ -197,7 +217,37 @@ margin-bottom: 5px;
     opacity:40%;
 }
 
-#coverslipcss {
+#safbeakercss{
+    position: absolute;
+    top: 77%;
+    left:90%;
+    width:7%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#safranindroppercss{
+    position: absolute;
+    top: 69%; /* 25- 68*/
+    left:91.8%; /*68- 75 */
+    width:3%;
+    cursor: pointer;
+    display: block;
+}
+
+#safranindropcss{
+    position: absolute;
+    top: 53%;  
+    left:79%; 
+    width:3%;
+   cursor: pointer;
+    display: none;
+    z-index: 11;
+    opacity: 85%;
+}
+
+
+#coverslipcssts {
     position: absolute;
     top: 28%;  /*25 -- 65 */
     left: 68%; /*63 -- 68 */
@@ -207,7 +257,7 @@ margin-bottom: 5px;
     z-index: 5;
 }
 
-#brushcss{
+#brushcssts{
     position: absolute;
     top: 0%;  /*0*/
     left:90%; /*90*/
@@ -216,7 +266,7 @@ margin-bottom: 5px;
     transform: rotate(20deg);
     z-index: 3;
 }
-#droppercss{
+#droppercssts{
     position: absolute;
     top: 67.2%;
     left:75%;
@@ -224,20 +274,21 @@ margin-bottom: 5px;
     cursor: pointer;
 }
 
-#dropperwatercss{
+#dropperwatercssts{
     position: absolute;
-    top: 25%; /* 68*/
-    left:68%; /*75 */
+    top: 65%; /* 68*/
+    left:65%; /*75 */
     width:3.5%;
     cursor: pointer;
     display: none;
+    
 }
 
 
-#waterdropcss{
+#waterdropcssts{
     position: absolute;
-    top: 43%;  /*45 */
-    left:72%; 
+    top: 52%;  /*45 */
+    left:78%; 
     width:4%;
     cursor: pointer;
     display: none;
@@ -245,7 +296,7 @@ margin-bottom: 5px;
     opacity: 90%;
 }
 
-#safraninbottlecss{
+#safraninbottlecssts{
     position: absolute;
     top: 45%; /* 25- 68*/
     left: 92%; /*68- 75 */
@@ -255,7 +306,7 @@ margin-bottom: 5px;
     z-index: 2;
 }
 
-#safranindroppercss{
+#safranindroppercssts{
     position: absolute;
     top: 31%; /* 25- 68*/
     left:93.85%; /*68- 75 */
@@ -266,7 +317,7 @@ margin-bottom: 5px;
     
 }
 
-#safranindropcss{
+#safranindropcssts{
     position: absolute;
     top: 70%;  /*45 */
     left:68%; 
@@ -282,11 +333,11 @@ margin-bottom: 5px;
 
 /* column 2 starts */
 #mircoscopecss {
-    cursor: pointer;
     position: relative;
+    cursor: pointer;
     top: 5%;
     left:1%;
-    width:40%
+    width:50%
    
 }
 
@@ -295,18 +346,20 @@ margin-bottom: 5px;
     position: absolute;
     top: 40%;
     left:50%;
-    width:50%
+    width:40%
    
 }
 #mircoscopeslidecss {
-    cursor: pointer;
+   
     position:absolute;
+    cursor: pointer;
     top:61%;
-    left:25.5%;
-    width:5%;
+    left:19%;
+    width:3.5%;
     height:3%;
     transform: rotate(90deg);
     display:block;
+    z-index: 2;
 }
 
 /* column 2 ends */

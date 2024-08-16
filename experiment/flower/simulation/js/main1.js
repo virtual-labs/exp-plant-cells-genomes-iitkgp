@@ -24,7 +24,7 @@ function restartexp() {
        // document.getElementById("forcepcssts").setAttribute("onclick", "forcepclick()");
         document.getElementById("bladecssts").removeAttribute("onclick", "bladejsclick()");
         document.getElementById("bladecssts").setAttribute("onclick", "bladejsclickcutsection()");
-        document.getElementById("instshowsteps").innerHTML = "Click on the blade.";
+        document.getElementById("instshowsteps").innerHTML = "Click on the blade to cut a thin transverse section of the ovary.";
         document.getElementById("bladecssts").style.top =5 + '%';
         document.getElementById("bladecssts").style.left =55 + '%';
         document.getElementById("bladecssts").style.transform="rotateX(0deg)";
@@ -187,6 +187,7 @@ function coverslipclick(){
 }
 
   function clickglassslidets(){
+    document.getElementById("instshowsteps").innerHTML="Click on the lens, to see the ovary wall (pericarp), locules, ovules, and placental attachment";
     document.getElementById("mircoscopeslidecssts").style.display = "block";
     document.getElementById("safranindropcss").style.display = "none";
     document.getElementById("flowerovarysectioncssts2").style.display = "none";

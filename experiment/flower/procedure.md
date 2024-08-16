@@ -1,6 +1,6 @@
 ## Procedure
 
-**To observe and study the structure of a flower by preparing and examining a longitudinal section under a microscope.**
+- **To observe and study the structure of a flower by preparing and examining a longitudinal section under a microscope.**
 
 #### Equipment required:
 - Fresh flower specimen (e.g., Hibiscus)
@@ -23,7 +23,7 @@
 3. Observation: Observe various structures such as: stigma, style, ovary, petals, sepals, and stamens.
 
 
-**To observe and study the internal structure of a flower ovary by preparing and examining a transverse section under a microscope.**
+- **To observe and study the internal structure of a flower ovary by preparing and examining a transverse section under a microscope.**
 
 #### Equipment required:
 - Flower specimen (e.g., Hibiscus)

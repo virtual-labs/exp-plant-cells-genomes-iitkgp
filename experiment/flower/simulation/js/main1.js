@@ -187,6 +187,6 @@ function coverslipclick(){
 }
 
   function clickglassslide(){
-    document.getElementById("glassslidecssls").style.left = 19 + "%";
-    document.getElementById("glassslidecssls").style.top = 61 + "%";
+    document.getElementById("glassslidecssts").style.left = 19 + "%";
+    document.getElementById("glassslidecssts").style.top = 61 + "%";
   }

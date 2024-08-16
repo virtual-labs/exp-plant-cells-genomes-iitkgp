@@ -73,7 +73,7 @@ function forcepclick(){
 
 
 function pickforcepclick(){
-  document.getElementById("instshowsteps").innerHTML="Click on the forcep to move to its orginal position."
+  document.getElementById("instshowsteps").innerHTML="Click on the glass slide to see the L.S of flower."
   document.getElementById("pickforcepcssls").style.top = 47 + "%";
   document.getElementById("pickforcepcssls").style.left = 35 + "%";
   document.getElementById("petalcss").style.left = 10 + "%";
@@ -84,14 +84,13 @@ function pickforcepclick(){
 
 
 }
-
-function pickforcepclickorg(){
+/*function pickforcepclickorg(){
   document.getElementById("instshowsteps").innerHTML="Click on the glass slide to see the L.S of flower."
   document.getElementById("pickforcepcssls").style.display="none";
   document.getElementById("forcepcssls").style.display="block";
   document.getElementById("glassslidecssls").setAttribute("onclick", "clickglassslide()");
 
-}
+}*/
 
 
 function clickglassslide(){

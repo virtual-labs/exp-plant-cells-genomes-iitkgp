@@ -1,8 +1,8 @@
 ## Procedure
 
-## **To observe and study the structure of a flower by preparing and examining a longitudinal section under a microscope.**
+**To observe and study the structure of a flower by preparing and examining a longitudinal section under a microscope.**
 
-### Equipment required:
+#### Equipment required:
 - Fresh flower specimen (e.g., Hibiscus)
 - Sharp razor blade 
 - Forceps
@@ -12,18 +12,20 @@
 #### Sample preparation:
 1. Select a fresh, healthy flower
 2. Ensure all tools (razor blade, forceps, needle) and the working area are clean to avoid contamination.
+
 #### Dissection:
 1. Carefully use forceps to hold the flower steady. Identify the main parts of the flower: stigma, style, ovary, petals, sepals, and stamens.
 2. Using a sharp razor blade, make a longitudinal cut from the top (stigma) down to the bottom (ovary) of the flower. Aim to cut through the centre to reveal the internal structures.
+
 #### Mounting:
 1. Place the longitudinal section on a clean microscope slide.
 2. Add a few drops of water or saline solution to keep the section hydrated.
 3. Observation: Observe various structures such as: stigma, style, ovary, petals, sepals, and stamens.
 
 
-## **To observe and study the internal structure of a flower ovary by preparing and examining a transverse section under a microscope.**
+**To observe and study the internal structure of a flower ovary by preparing and examining a transverse section under a microscope.**
 
-### Equipment required:
+#### Equipment required:
 - Flower specimen (e.g., Hibiscus)
 - Sharp Razor blade 
 - Petri dish

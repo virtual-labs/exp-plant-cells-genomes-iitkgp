@@ -94,6 +94,7 @@ function pickforcepclick(){
 
 
 function clickglassslide(){
+  document.getElementById("instshowsteps").innerHTML="Select Transverse section of flower from the dropdown, to study the internal structure of a flower ovary."
   document.getElementById("glassslidecssls").style.left = 56 + "%";
   document.getElementById("glassslidecssls").style.top = 77 + "%";
 }

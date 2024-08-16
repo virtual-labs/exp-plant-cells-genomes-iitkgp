@@ -358,7 +358,7 @@ margin-bottom: 5px;
     width:3.5%;
     height:3%;
     transform: rotate(90deg);
-    display:block;
+    display:none;
     z-index: 2;
 }
 

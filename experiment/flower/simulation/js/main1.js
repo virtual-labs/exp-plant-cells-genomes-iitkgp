@@ -162,7 +162,7 @@ function movetoglassslideclick(){
   
   function droppermovetoglasssliderclick() {
     document.getElementById("instshowsteps").innerHTML =" Click on the dropper 2 to add a drop of  water on the cut section. ";
-    document.getElementById("dropperwatercssts").style.top = 25 + "%";
+    document.getElementById("dropperwatercssts").style.top = 18 + "%";
     document.getElementById("dropperwatercssts").style.left = 78 + "%";
     document.getElementById("dropperwatercssts").setAttribute("onclick", "dropperdropwatergslideclick()");
   }
@@ -182,10 +182,11 @@ function coverslipclick(){
   document.getElementById("instshowsteps").innerHTML="Click on the glass slide to place the slide on the microscope stage.";
   document.getElementById("coverslipcssts").style.top = 50 + "%";
   document.getElementById("coverslipcssts").style.left = 78 + "%";
-  document.getElementById("glassslidecssts").setAttribute("onclick", "coverslipclick()");
+  document.getElementById("glassslidecssts").setAttribute("onclick", "clickglassslide()");
+  document.getElementById("coverslipcssts").removeAttribute("onclick", "coverslipclick()");
 }
 
   function clickglassslide(){
-    document.getElementById("glassslidecssls").style.left = 56 + "%";
-    document.getElementById("glassslidecssls").style.top = 77 + "%";
+    document.getElementById("glassslidecssls").style.left = 19 + "%";
+    document.getElementById("glassslidecssls").style.top = 61 + "%";
   }

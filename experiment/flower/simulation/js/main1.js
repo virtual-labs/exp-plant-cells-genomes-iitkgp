@@ -182,11 +182,17 @@ function coverslipclick(){
   document.getElementById("instshowsteps").innerHTML="Click on the glass slide to place the slide on the microscope stage.";
   document.getElementById("coverslipcssts").style.top = 50 + "%";
   document.getElementById("coverslipcssts").style.left = 78 + "%";
-  document.getElementById("glassslidecssts").setAttribute("onclick", "clickglassslide()");
+  document.getElementById("glassslidecssts").setAttribute("onclick", "clickglassslidets()");
   document.getElementById("coverslipcssts").removeAttribute("onclick", "coverslipclick()");
 }
 
-  function clickglassslide(){
-    document.getElementById("glassslidecssts").style.left = 19 + "%";
-    document.getElementById("glassslidecssts").style.top = 61 + "%";
+  function clickglassslidets(){
+    document.getElementById("mircoscopeslidecssts").style.display = "block";
+    document.getElementById("safranindropcss").style.display = "none";
+    document.getElementById("flowerovarysectioncssts2").style.display = "none";
+    document.getElementById("waterdropcssts").style.display = "none";
+    document.getElementById("coverslipcssts").style.display="none";
+    document.getElementById("glassslidecssts").style.display="none";
+    document.getElementById("mircoscopeslidecssts").style.left = 19 + "%";
+    document.getElementById("mircoscopeslidecssts").style.top = 61 + "%";
   }

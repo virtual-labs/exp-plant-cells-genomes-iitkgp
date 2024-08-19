@@ -139,6 +139,26 @@ margin-bottom: 5px;
     z-index: 3;
 }
 
+#fingerthumbcssts{
+    position: absolute;
+    top:8%; /* 8 -- 8 -- 12 -- 8-- 12 -- 20 -- 8  */
+    left:91%; /*91 -- 54 --56 -- 91 -- 56 -- 83 --91   */
+    width:6%;
+    cursor: pointer; 
+    display: none;
+    z-index: 3;
+}
+
+#fingerindexcssts{
+    position: absolute;
+    top:8%; /* 8 --  8-- 12 -- 8-- 12 -- 20 -- 8  */
+    left:91%; /*91 -- 54 --56 -- 91 -- 56 -- 83 -- 91 */
+    width:6%;
+    cursor: pointer; 
+    display: none;
+}
+
+
 #beakercssts {
     position: absolute;
     top: 75%;

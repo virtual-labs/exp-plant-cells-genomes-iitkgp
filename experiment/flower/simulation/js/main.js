@@ -27,6 +27,8 @@ function selectflowersec(){
     document.getElementById("lscardcol1").style.display="none";
     document.getElementById("flowersteps").style.display="block";
     document.getElementById("instshowsteps").innerHTML="Click on the blade.";
+   
+    
   }
 }
 

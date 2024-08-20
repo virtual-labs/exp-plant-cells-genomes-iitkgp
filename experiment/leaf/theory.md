@@ -4,7 +4,7 @@ Microscopic study of leaf cells is a fundamental component of plant biology educ
 
 Leaf cells are diverse and specialized to perform various functions essential for plant growth, development, and survival. Plant leaf cells are crucial for photosynthesis, gas exchange, water regulation, protection, structural integrity, nutrient storage, production of metabolites, environmental interaction. Their functions assist in the growth, survival, and reproduction of plants. Another unique aspect of leaves is that they support the ecological chain and form an important part of consumption. Leafy vegetable are an important source of nutrition.
 
-#### Some facts about leaf cells:
+### Some facts about leaf cells:
 
 Spinach is rich in vitamins A, C, K, and folate. It also provides minerals like iron, calcium, and magnesium. Spinach is known for its antioxidant properties due to high levels of lutein and zeaxanthin, which promote eye health and reduce the risk of chronic diseases.
 

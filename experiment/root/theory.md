@@ -8,7 +8,7 @@ Roots of various plants have been used in traditional and modern medicine for th
 
 Asparagus root, specifically from the species Asparagus racemosus Willd. (commonly known as Shatavari), has a long history of traditional use in various cultures, particularly in Ayurveda, the traditional system of medicine in India. Shatavari is renowned for its benefits to female reproductive health. It is used to support lactation in nursing mothers, balance hormones and improve fertility. It is also used to alleviate symptoms of menopause and menstrual disorders. The root is traditionally used to improve digestion, relieve ulcers and treat gastrointestinal disorders. It is thought to have a soothing effect on the digestive tract.
 
-#### Types of roots: 
+### Types of roots: 
 The major types of roots can be broadly categorized into two main systems:  
 
 **Taproot System:** This is characterized by a single, thick primary root that grows directly downward. From this primary root, smaller lateral roots branch out. Taproots are efficient at reaching deep water sources and anchoring the plant firmly in the soil e.g. Carrots (Daucus carota L.), Radishes (Raphanus raphanistrum subsp. sativus (L.) Domin), Mango (Mangifera indica L.), Neem (Azadirachta indica A.Juss.), Fig (Ficus racemosa L.)
@@ -79,7 +79,7 @@ The xylem and phloem together make up the vascular cylinder, also known as the s
 <p>Fig: T.S of a dicot root</p>
 </div>
 
-#### Interesting facts about roots:
+### Interesting facts about roots:
 
 Adventitious roots can grow from parts of the plant other than the root system, such as stems or leaves. Banyan trees develop aerial prop roots that grow down from branches, providing additional support and enabling them to cover a large area.
 e.g.- Banyan Tree (Ficus benghalensis L.)

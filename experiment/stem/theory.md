@@ -14,21 +14,21 @@ A transverse section of an Amaranthus stem, when observed under a microscope, re
 
 *Collenchyma is often found in the stems and petioles (leaf stalks) of plants. In celery, the "strings" you encounter while eating are actually strands of collenchyma cells, giving the stalk its crunch and flexibility.*
 
-Vascular Bundles: They are found scattered all through the stem in a characteristic design of dicotyledonous plants, each vascular bundle includes:  
+**Vascular Bundles:** They are found scattered all through the stem in a characteristic design of dicotyledonous plants, each vascular bundle includes:  
 
-Phloem: The phloem is present on the outer side of the vascular bundle. It is in charge of moving the plant's photosynthetic by-products from the leaves to other parts of the plant.  
+**Phloem:** The phloem is present on the outer side of the vascular bundle. It is in charge of moving the plant's photosynthetic by-products from the leaves to other parts of the plant.  
 
-Cambium: The cambium, positioned between the phloem and xylem, serves as a layer of meristematic tissue vital for the plant's secondary growth. Its primary role is to enable the expansion of the stem's diameter, thereby facilitating the plant's overall growth and development. 
+**Cambium:** The cambium, positioned between the phloem and xylem, serves as a layer of meristematic tissue vital for the plant's secondary growth. Its primary role is to enable the expansion of the stem's diameter, thereby facilitating the plant's overall growth and development. 
 
 *The vascular cambium is responsible for creating tree rings. Each year, the cambium produces a new layer of xylem (wood) and phloem, which can be seen as rings in a cross-section of a tree trunk. By counting these rings, you can determine the age of a tree.*
 
-Xylem: The xylem, located internally within the vascular bundle, plays a crucial role in conducting water and essential nutrients from the roots to various parts of the plant. It comprises vessel elements and tracheids, specialized structures facilitating the efficient transport of fluids. 
+**Xylem:** The xylem, located internally within the vascular bundle, plays a crucial role in conducting water and essential nutrients from the roots to various parts of the plant. It comprises vessel elements and tracheids, specialized structures facilitating the efficient transport of fluids. 
 
 *The tallest plant in the world is Sequoia sempervirens (D. Don) Endl.,The xylem's role in water transport, structural support, resistance to cavitation, efficient water use, and secondary growth are all vital for Sequoia sempervirens to achieve and maintain its remarkable height.*
 
 *The medullary ray, also known as a vascular ray, is a structural feature found in the anatomy of plants, particularly in the stems of vascular plants. These create beautiful patterns known as "ray flecks" in certain types of wood, like oak and maple. These patterns are highly prized in fine woodworking and furniture making for their aesthetic appeal.*
 
-Pith: The central region of the stem contains a tissue called the pith, composed of large, loosely arranged parenchyma cells. It serves as a storage tissue and plays a vital role in maintaining the structural integrity of the stem.  
+**Pith:** The central region of the stem contains a tissue called the pith, composed of large, loosely arranged parenchyma cells. It serves as a storage tissue and plays a vital role in maintaining the structural integrity of the stem.  
 Pericycle: The pericycle, sometimes located just inside the endodermis, possesses the capability to initiate the formation of lateral roots or contribute to secondary growth processes.   
 Endodermis: In stems, the endodermis may not be as prominent as in roots, but certain regions may exhibit a layer of endodermis that regulates the movement of substances between the cortex and the vascular tissues.  
 

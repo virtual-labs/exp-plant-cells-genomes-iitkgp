@@ -14,7 +14,7 @@ Inflorescence refers to the arrangement of flowers on a plant's stem, crucial fo
 
 The rice plant (Oryza sativa) features small, delicate flowers essential for reproduction. Each flower, about 2 to 3 mm long, is housed within a spikelet and protected by bracts known as glumes, with additional bracts called the lemma and palea. The flower contains six stamens with yellow anthers and a central pistil with an ovary and two feathery stigmas, well-suited for wind pollination. Primarily self-pollinating, rice flowers are influenced by environmental factors like light and temperature. After pollination, the ovary matures into a grain, the vital seed for rice cultivation.
 
- **Flower Modifications:**
+### **Flower Modifications:**
 
 ### Adaptations for Pollination:
 

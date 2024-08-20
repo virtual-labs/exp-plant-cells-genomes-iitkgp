@@ -100,3 +100,4 @@ function clickglassslide(){
   document.getElementById("glassslidecssls").style.left = 56 + "%";
   document.getElementById("glassslidecssls").style.top = 77 + "%";
 }
+

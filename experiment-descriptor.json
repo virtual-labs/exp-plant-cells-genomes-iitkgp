@@ -48,7 +48,7 @@
           "label": " Simulation",
           "content-type": "simulation",
           "source": "simulation/indexleaf.html",
-          "target": "indexrice.html"
+          "target": "indexleaf.html"
         }
 
       ]
@@ -80,7 +80,7 @@
           "label": " Simulation",
           "content-type": "simulation",
           "source": "simulation/indexflower.html",
-          "target": "indexrice.html"
+          "target": "indexflower.html"
         }
 
       ]
@@ -112,7 +112,7 @@
           "label": " Simulation",
           "content-type": "simulation",
           "source": "simulation/indexroot.html",
-          "target": "indexrice.html"
+          "target": "indexroot.html"
         }
 
       ]
@@ -144,7 +144,7 @@
           "label": " Simulation",
           "content-type": "simulation",
           "source": "simulation/indexstem.html",
-          "target": "indexrice.html"
+          "target": "indexstem.html"
         }
 
       ]
@@ -176,7 +176,7 @@
           "label": " Simulation",
           "content-type": "simulation",
           "source": "simulation/indexarabidopsis.html",
-          "target": "indexrice.html"
+          "target": "indexarabidopsis.html"
         }
 
       ]

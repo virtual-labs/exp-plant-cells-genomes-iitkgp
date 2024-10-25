@@ -97,9 +97,9 @@ Genomic plasticity refers to the ability of an organism’s genome to undergo ch
   - **Importance:** Helps in developing sustainable biofuels and mitigating climate change by providing renewable energy sources.
 
 #### Golden Rice: A Pioneering Example of Plant Genome Engineering
-**Species:** Oryza sativa L. (Asian rice)
-**Genetic Modification:** GR2E (Golden Rice 2 Event E)
-**Description:** Golden Rice (Oryza sativa L., GR2E) has been genetically modified to synthesize beta-carotene, which serves as a precursor to vitamin A, within the consumable portions of rice grains. The primary goal is to combat widespread vitamin A deficiency in regions where rice is a dietary staple. The deficiency is associated with significant health risks such as vision impairment, compromised immunity, and higher mortality rates, especially impacting children and pregnant women.  
+**Species:** Oryza sativa L. (Asian rice)   
+**Genetic Modification:** GR2E (Golden Rice 2 Event E)  
+**Description:** Golden Rice (Oryza sativa L., GR2E) has been genetically modified to synthesize beta-carotene, which serves as a precursor to vitamin A, within the consumable portions of rice grains. The primary goal is to combat widespread vitamin A deficiency in regions where rice is a dietary staple. The deficiency is associated with significant health risks such as vision impairment, compromised immunity, and higher mortality rates, especially impacting children and pregnant women.     
 **Importance:**
 1.	**Addressing Vitamin A Deficiency:**
 - **Context:** Vitamin A deficiency is a major public health issue, especially in developing countries. It affects millions of children, leading to blindness, immune deficiencies, and increased mortality.

@@ -174,14 +174,14 @@
         },
         {
           "unit-type": "task",
-          "label": " Simulation",
+          "label": " Rice Genome",
           "content-type": "simulation",
           "source": "simulation/indexricegenome.html",
           "target": "indexricegenome.html"
         },
         {
           "unit-type": "task",
-          "label": " Simulation",
+          "label": " Arabdopsis Genome",
           "content-type": "simulation",
           "source": "simulation/indexarabdgenome.html",
           "target": "indexarabdgenome.html"

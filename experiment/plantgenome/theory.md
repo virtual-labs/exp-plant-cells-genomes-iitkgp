@@ -8,7 +8,7 @@ The term “genome” was introduced by Winkler at the beginning of the 20th cen
 Plants are essential for life on Earth. Hence, studying their genomes is very important. Plant genome research helps us understand the huge variability that is there in the plant kingdom. Many plants might become extinct before we even discover them.  This means we could lose important genes and information about how plants can be used. For most plant species we do not yet have even the basic information like chromosome counts and the genetic make-up. This lack of knowledge limits our ability to use plants for breeding and environmental purposes. To address these gaps, international efforts are being made, such as the Royal Botanic Gardens' workshop and the Millennium Seed Bank project. This Seed Bank project aims to collect and preserve seeds from many plant species, ensuring we protect plant genetic diversity for the future.
 
 <div align="center">
-<img src="experiment/images/iitkgp.png" width="10%">
+<img src="images/fig1.png" width="50%">
 <p>Fig 1. Plant species sequenced since 2000-2020</p>
 </div>
 
@@ -17,8 +17,8 @@ Plant and animal genomes exhibit significant differences in their structure, fun
 Plants possess three distinct genomes—the nuclear, chloroplast, and mitochondrial genome. Animals have only nuclear and mitochondrial genomes lacking the chloroplast genome unique to plants. Additionally, plant genomes have lower gene density due to larger intergenic regions and a higher proportion of repetitive DNA compared to animal genomes. Plants frequently undergo gene duplication and polyploidy, contributing to genetic diversity and adaptability, whereas animals rely more on point mutations and recombination. Understanding these differences enhances our knowledge of the distinct evolutionary paths and functional organisation in plants and animals.
 
 <div align="center">
-<img src="experiment/images/iitkgp.png" width="10%">
-<p>Fig 2. Plant species sequenced since 2000-2020</p>
+<img src="images/fig2.png" width="50%">
+<p>Fig 2. Comparison of Plant and animal genomes</p>
 </div>
 
 #### Uniqueness of Plant Genomes:
@@ -99,9 +99,10 @@ Genomic plasticity refers to the ability of an organism’s genome to undergo ch
 #### Golden Rice: A Pioneering Example of Plant Genome Engineering
 **Species:** Oryza sativa L. (Asian rice)   
 **Genetic Modification:** GR2E (Golden Rice 2 Event E)  
-**Description:** Golden Rice (Oryza sativa L., GR2E) has been genetically modified to synthesize beta-carotene, which serves as a precursor to vitamin A, within the consumable portions of rice grains. The primary goal is to combat widespread vitamin A deficiency in regions where rice is a dietary staple. The deficiency is associated with significant health risks such as vision impairment, compromised immunity, and higher mortality rates, especially impacting children and pregnant women.     
-**Importance:**
-1.	**Addressing Vitamin A Deficiency:**
+**Description:** Golden Rice (Oryza sativa L., GR2E) has been genetically modified to synthesize beta-carotene, which serves as a precursor to vitamin A, within the consumable portions of rice grains. The primary goal is to combat widespread vitamin A deficiency in regions where rice is a dietary staple. The deficiency is associated with significant health risks such as vision impairment, compromised immunity, and higher mortality rates, especially impacting children and pregnant women.    
+
+#### **Importance:**
+####	**Addressing Vitamin A Deficiency:**
 - **Context:** Vitamin A deficiency is a major public health issue, especially in developing countries. It affects millions of children, leading to blindness, immune deficiencies, and increased mortality.
 - **Application:** Golden Rice is designed to combat the deficiency by providing a dietary source of vitamin A. The genetic modification involved introducing genes from maize and a bacterium (Erwinia uredovora) into the rice genome to enable the rice plant to produce beta-carotene in its endosperm (the edible part of the rice grain).
 

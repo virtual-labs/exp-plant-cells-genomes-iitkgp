@@ -1,0 +1,638 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'IITKGP',
+        'phase': 'Testing',
+        'expName': 'VIRTUAL EXPERIMENTS TO STUDY CHARACTERISTICS OF PLANT CELLS AND GENOMES',
+        'expShortName': 'plant-cells-genomes'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="plant-cells-genomes">
+    	<meta name="developer-institute" content="IITKGP">
+    	<meta name="learning-unit" content="Flower cell">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="../assets/css/vlabs-style.css">
+    <link rel="stylesheet" href="../assets/css/toast.css">
+    <link rel="stylesheet" href="../assets/katex_assets/katex.min.css">
+    
+    <script src="../assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"></head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="../assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center justify-content-end">
+            <div class="svc-rating-display">
+                <rating-display spreadsheetid="1x12nhpp0QvnsA6x-O1sV4IA9SAbfVsq_wiexWkutOmU" sheetname="Experiment-Database" columnname="Experiment Short Name" columnvalue="plant-cells-genomes" imagesdirectory="./plugins/svc-rating/images/">
+                </rating-display>
+            </div>      <div class="svc-rating-submit">
+                <rating-submit title="Rate" this="" experiment="">
+                </rating-submit>
+            </div>      <bug-report id="bug-report" title="[BUG REPORT] VIRTUAL EXPERIMENTS TO STUDY CHARACTERISTICS OF PLANT CELLS AND GENOMES" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;IITKGP&quot;,&quot;expname&quot;:&quot;VIRTUAL EXPERIMENTS TO STUDY CHARACTERISTICS OF PLANT CELLS AND GENOMES&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" button_style="border: none; color: #fff; background-color: #288ec8; text-align: center; font-size: 1.05rem; border-radius: 1em;padding: 0.6em 1.2em; margin: 0 10px" position="override" custom_button_class="v-button"></bug-report>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+          <div class="row py-4 px-4 breadcrumbs">
+          	<div class="title is-4 tools">Tools</div>
+          	<span class="mx-2">
+          		<i aria-hidden="true" class="fa fa-angle-right"></i>
+          	</span>
+          	<a href="performance-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Performance Tool</button>
+          	</a>
+          	<a href="validator-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Validation Tool</button>
+          	</a>
+          </div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="../assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="../index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="../overview.html" class="p-2 ">
+                                      Overview
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="../pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      
+                                      <a data-bs-toggle="collapse" href="#t-leaf-cell" class="p-2 ">
+                                      Leaf cell
+                                      </a>
+                                      <button class="btn btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#t-leaf-cell" aria-controls="leaf-cell"> 
+                                          <i class="fa fa-angle-down"></i>
+                                      </button>
+                                  </div>
+                                  <div id="t-leaf-cell" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                          <a href="../leaf/index.html" class="py-1 "> Aim </a>
+                                          <a href="../leaf/theory.html" class="py-1 "> Theory </a>
+                                          <a href="../leaf/procedure.html" class="py-1 ">  Procedure </a>
+                                          <a href="../leaf/indexrice.html" class="py-1 ">  Simulation </a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      
+                                      <a data-bs-toggle="collapse" href="#t-flower-cell" class="p-2 ">
+                                      Flower cell
+                                      </a>
+                                      <button class="btn btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#t-flower-cell" aria-controls="flower-cell"> 
+                                          <i class="fa fa-angle-down"></i>
+                                      </button>
+                                  </div>
+                                  <div id="t-flower-cell" class="show">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                          <a href="index.html" class="py-1 "> Aim </a>
+                                          <a href="theory.html" class="py-1  current-item "> Theory </a>
+                                          <a href="procedure.html" class="py-1 ">  Procedure </a>
+                                          <a href="indexrice.html" class="py-1 ">  Simulation </a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      
+                                      <a data-bs-toggle="collapse" href="#t-root-cell" class="p-2 ">
+                                      Root cell
+                                      </a>
+                                      <button class="btn btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#t-root-cell" aria-controls="root-cell"> 
+                                          <i class="fa fa-angle-down"></i>
+                                      </button>
+                                  </div>
+                                  <div id="t-root-cell" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                          <a href="../root/index.html" class="py-1 "> Aim </a>
+                                          <a href="../root/theory.html" class="py-1 "> Theory </a>
+                                          <a href="../root/procedure.html" class="py-1 ">  Procedure </a>
+                                          <a href="../root/indexrice.html" class="py-1 ">  Simulation </a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      
+                                      <a data-bs-toggle="collapse" href="#t-stem-cell" class="p-2 ">
+                                      Stem cell
+                                      </a>
+                                      <button class="btn btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#t-stem-cell" aria-controls="stem-cell"> 
+                                          <i class="fa fa-angle-down"></i>
+                                      </button>
+                                  </div>
+                                  <div id="t-stem-cell" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                          <a href="../stem/index.html" class="py-1 "> Aim </a>
+                                          <a href="../stem/theory.html" class="py-1 "> Theory </a>
+                                          <a href="../stem/procedure.html" class="py-1 ">  Procedure </a>
+                                          <a href="../stem/indexrice.html" class="py-1 ">  Simulation </a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      
+                                      <a data-bs-toggle="collapse" href="#t-plant-genome" class="p-2 ">
+                                      Plant Genome
+                                      </a>
+                                      <button class="btn btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#t-plant-genome" aria-controls="plant-genome"> 
+                                          <i class="fa fa-angle-down"></i>
+                                      </button>
+                                  </div>
+                                  <div id="t-plant-genome" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                          <a href="../plantgenome/index.html" class="py-1 "> Aim </a>
+                                          <a href="../plantgenome/theory.html" class="py-1 "> Theory </a>
+                                          <a href="../plantgenome/procedure.html" class="py-1 ">  Procedure </a>
+                                          <a href="../plantgenome/indexricegenome.html" class="py-1 ">  Rice Genome Simulation </a>
+                                          <a href="../plantgenome/indexarabdgenome.html" class="py-1 ">  Arabdopsis Genome Simulation  </a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="../posttest.html" class="p-2 ">
+                                      Post test
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="../references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="../contributors.html" class="p-2 ">
+                                      Contributors
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="../feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="../index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="../overview.html" class="p-2 ">
+                        Overview
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="../pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        
+                        <a data-bs-toggle="collapse" href="#t-leaf-cell" class="p-2 ">
+                        Leaf cell
+                        </a>
+                        <button class="btn btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#t-leaf-cell" aria-controls="leaf-cell"> 
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                    </div>
+                    <div id="t-leaf-cell" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                            <a href="../leaf/index.html" class="py-1 "> Aim </a>
+                            <a href="../leaf/theory.html" class="py-1 "> Theory </a>
+                            <a href="../leaf/procedure.html" class="py-1 ">  Procedure </a>
+                            <a href="../leaf/indexrice.html" class="py-1 ">  Simulation </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        
+                        <a data-bs-toggle="collapse" href="#t-flower-cell" class="p-2 ">
+                        Flower cell
+                        </a>
+                        <button class="btn btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#t-flower-cell" aria-controls="flower-cell"> 
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                    </div>
+                    <div id="t-flower-cell" class="show">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                            <a href="index.html" class="py-1 "> Aim </a>
+                            <a href="theory.html" class="py-1  current-item "> Theory </a>
+                            <a href="procedure.html" class="py-1 ">  Procedure </a>
+                            <a href="indexrice.html" class="py-1 ">  Simulation </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        
+                        <a data-bs-toggle="collapse" href="#t-root-cell" class="p-2 ">
+                        Root cell
+                        </a>
+                        <button class="btn btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#t-root-cell" aria-controls="root-cell"> 
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                    </div>
+                    <div id="t-root-cell" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                            <a href="../root/index.html" class="py-1 "> Aim </a>
+                            <a href="../root/theory.html" class="py-1 "> Theory </a>
+                            <a href="../root/procedure.html" class="py-1 ">  Procedure </a>
+                            <a href="../root/indexrice.html" class="py-1 ">  Simulation </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        
+                        <a data-bs-toggle="collapse" href="#t-stem-cell" class="p-2 ">
+                        Stem cell
+                        </a>
+                        <button class="btn btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#t-stem-cell" aria-controls="stem-cell"> 
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                    </div>
+                    <div id="t-stem-cell" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                            <a href="../stem/index.html" class="py-1 "> Aim </a>
+                            <a href="../stem/theory.html" class="py-1 "> Theory </a>
+                            <a href="../stem/procedure.html" class="py-1 ">  Procedure </a>
+                            <a href="../stem/indexrice.html" class="py-1 ">  Simulation </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        
+                        <a data-bs-toggle="collapse" href="#t-plant-genome" class="p-2 ">
+                        Plant Genome
+                        </a>
+                        <button class="btn btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#t-plant-genome" aria-controls="plant-genome"> 
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                    </div>
+                    <div id="t-plant-genome" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                            <a href="../plantgenome/index.html" class="py-1 "> Aim </a>
+                            <a href="../plantgenome/theory.html" class="py-1 "> Theory </a>
+                            <a href="../plantgenome/procedure.html" class="py-1 ">  Procedure </a>
+                            <a href="../plantgenome/indexricegenome.html" class="py-1 ">  Rice Genome Simulation </a>
+                            <a href="../plantgenome/indexarabdgenome.html" class="py-1 ">  Arabdopsis Genome Simulation  </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="../posttest.html" class="p-2 ">
+                        Post test
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="../references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="../contributors.html" class="p-2 ">
+                        Contributors
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="../feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="virtual-experiments-to-study-characteristics-of-plant-cells-and-genomes">Virtual experiments to study characteristics of plant cells and genomes</h2>
+          
+            </div>
+              <h2 id="theory">Theory</h2>
+          <p>“A flower, the epitome of botanical elegance, serves as both a vibrant testament to nature's artistry and a crucial vessel for the continuation of plant species through its intricate reproductive structures."</p>
+          <h3 id="structure-of-a-flower">Structure of a Flower:</h3>
+          <p>A typical flower consists of several parts:</p>
+          <ul>
+          <li><strong>Sepals:</strong> These are the outermost part, usually green, and protect the flower bud before it opens.</li>
+          <li><strong>Petals:</strong> Often colorful and fragrant, petals attract pollinators such as insects and birds.</li>
+          <li><strong>Stamens:</strong> The male reproductive parts, consisting of anthers (which produce pollen) and filaments.</li>
+          <li><strong>Carpels (Pistils):</strong> The female reproductive parts, consisting of the stigma (which receives pollen), style, and ovary (which contains ovules).</li>
+          </ul>
+          <h3 id="inflorescence-of-flower">Inflorescence of Flower:</h3>
+          <p>Inflorescence refers to the arrangement of flowers on a plant's stem, crucial for pollination. Types include raceme (flowers on short stalks along a central axis), spike (sessile flowers on a central stem), umbel (stalks arising from a single point), and panicle (branched structure with racemes or spikes). Other forms like corymb (flat-topped with varying stalk lengths), capitulum (dense cluster on a broad receptacle), and cyme (central flowers opening first) showcase diverse strategies for reproductive success. Each type optimizes pollinator attraction and seed dispersal in unique ways.  </p>
+          <p>The rice plant (Oryza sativa) features small, delicate flowers essential for reproduction. Each flower, about 2 to 3 mm long, is housed within a spikelet and protected by bracts known as glumes, with additional bracts called the lemma and palea. The flower contains six stamens with yellow anthers and a central pistil with an ovary and two feathery stigmas, well-suited for wind pollination. Primarily self-pollinating, rice flowers are influenced by environmental factors like light and temperature. After pollination, the ovary matures into a grain, the vital seed for rice cultivation.</p>
+          <h3 id="flower-modifications"><strong>Flower Modifications:</strong></h3>
+          <h3 id="adaptations-for-pollination">Adaptations for Pollination:</h3>
+          <p><strong>Color Variations:</strong> Flowers may evolve specific colours to attract certain pollinators. For instance, red flowers are often favoured by birds such as hummingbirds, which are drawn to this colour.</p>
+          <p><strong>Flower Shape:</strong> The morphology of flowers can be adapted to fit particular pollinators. The tubular structure of the trumpet vine (Campsis radicans) flowers, for example, is designed to accommodate the long tongues of hummingbirds, facilitating efficient pollination.
+          Scent Production: Some flowers develop distinct Odors to attract specific pollinators. The corpse flower <em>(Amorphophallus titanum)</em>, for example, emits a strong, unpleasant odor reminiscent of decaying flesh to attract carrion flies and beetles.</p>
+          <h3 id="structural-adaptations">Structural Adaptations:</h3>
+          <p><strong>Petal Fusion:</strong> In certain flowers, petals may fuse to form a tube or bell shape, guiding pollinators toward the reproductive organs. Bluebell flowers (Hyacinthoides non-scripta), for example, have a bell-shaped structure that attracts bees.  </p>
+          <p><strong>Nectar Guides:</strong> Some flowers feature visual patterns, known as nectar guides, that direct pollinators to the nectar source. The wild pansy (Viola tricolor), for instance, has bright yellow spots on its petals that serve as nectar guides for bees.</p>
+          <h3 id="protective-modifications">Protective Modifications:</h3>
+          <p><strong>Spines and Hairs:</strong> To deter herbivores, some flowers develop protective structures such as spines or hairs. The thistle (Cirsium spp.) is an example of a plant with spiny bracts that shield its flowers.  </p>
+          <p><strong>Cleistogamy:</strong> Certain plants produce flowers that remain closed and self-pollinate, a process known as cleistogamy. The sweet violet (Viola odorata) is an example, producing both open (chasmogamous) and closed (cleistogamous) flowers.</p>
+          <h3 id="reproductive-strategies">Reproductive Strategies:</h3>
+          <p><strong>Dichogamy:</strong>  In some plants, the male and female reproductive organs mature at different times to prevent self-pollination. The common fig exemplifies this strategy, with male and female flowers maturing at different intervals to encourage cross-pollination.</p>
+          <h4 id="pollination">Pollination:</h4>
+          <p>Transfer of pollen from the male part (anther) to the female part (stigma) of a flower.</p>
+          <h3 id="types">Types:</h3>
+          <p><strong>Self-Pollination:</strong> Pollen transfer within the same flower or plant.<br><strong>Cross-Pollination:</strong> Pollen transfer between different plants of the same species.  </p>
+          <h3 id="agents">Agents:</h3>
+          <p><strong>Biotic:</strong> Insects, birds, and bats.<br><strong>Abiotic:</strong> Wind and water.  </p>
+          <h3 id="importance">Importance:</h3>
+          <p>Seed and Fruit Production: Essential for fertilization.<br><strong>Agriculture:</strong> Critical for crop yields.<br><strong>Biodiversity:</strong> Supports genetic diversity and ecosystem stability.</p>
+          <h4 id="photoperiodism">Photoperiodism:</h4>
+          <p>Photoperiodism is the biological response of plants and some animals to the duration of light and darkness in a 24-hour period. It influences key processes like flowering. Plants are classified as short-day, long-day, or day-neutral based on their response to day length. This phenomenon is regulated by phytochrome, a light-sensitive hormone that impacts gene expression. Understanding photoperiodism is essential for optimizing agricultural practices and ensuring that plants bloom and reproduce in sync with environmental conditions.  </p>
+          <p><strong>Studying the nature and characteristics of cells in a flower ovary</strong> involves examining the various cell types and their functions within the ovary. The ovary, which is the enlarged basal portion of the pistil (the female reproductive organ of a flower), contains one or more ovules that develop into seeds upon fertilization. This complex structure is composed of different types of cells, each playing a crucial role in the reproductive process.</p>
+          <p>The outer layer of the ovary is formed by epidermal cells. These cells are thin, flat, and tightly packed, often covered by a waxy cuticle to reduce water loss and protect against pathogens and mechanical injury. Epidermal cells may also contain stomata, which facilitate gas exchange. Beneath the epidermal layer, parenchyma cells are found within the ovary wall and around the ovules. These cells are large, thin-walled, and flexible, often storing nutrients and water. In some cases, parenchyma cells are involved in photosynthesis due to the presence of chloroplasts. They play a key role in nutrient storage, photosynthesis, and tissue repair.  </p>
+          <p>The ovules within the ovary contain several specialized cell types, including integuments, nucellus, and the embryo sac. Integuments are protective layers that eventually form the seed coat, while the nucellus is a nutrient-rich tissue that supports the developing embryo sac. The embryo sac itself contains the female gametophyte, which comprises the egg cell, synergids, central cell (with two polar nuclei), and antipodal cells. The egg cell is haploid and participates in fertilization, while synergids assist in guiding the pollen tube to the egg cell. The central cell fuses with a sperm cell to form the endosperm, which nourishes the developing embryo. The role of antipodal cells is less understood, but they may aid in nutrient absorption.</p>
+          <h3 id="key-features-of-ts-of-a-flower-ovary">Key Features of T.S. of a Flower Ovary:</h3>
+          <p><strong>Ovary Wall (Pericarp):</strong> The outermost layer of the ovary, composed of three layers:<br>Exocarp: The outermost layer, usually protective.<br>Mesocarp: The middle layer, often fleshy or fibrous.<br>Endocarp: The innermost layer, surrounding the ovules.  </p>
+          <p><strong>Ovules:</strong> Located within the ovary, attached to the inner wall by a structure called the placenta.<br>Each ovule contains the female gametophyte (embryo sac), which includes the egg cell that will develop into a seed after fertilization.  </p>
+          <p><strong>Locules:</strong> The chambers within the ovary that house the ovules.<br>The number of locules can vary depending on the species, and they are separated by partitions called septa.  </p>
+          <p><strong>Placentation:</strong> The arrangement of ovules within the ovary, which can be:<br>Axile: Ovules attached to a central column.<br>Parietal: Ovules attached to the ovary wall.<br>Basal: Ovules attached at the base of the ovary.  </p>
+          <p><strong>Vascular Bundles:</strong> Vascular tissues that supply nutrients and water to the ovary, visible within the ovary wall.</p>
+          <h3 id="interesting-facts-about-flowers">Interesting facts about flowers:</h3>
+          <p><strong>Colourful Pigments:</strong> Cells in flower petals contain pigments like anthocyanins and carotenoids, which give flowers their vibrant colours. These pigments not only attract pollinators but also protect the plant from UV radiation.</p>
+          <p><strong>Scented Secrets:</strong> Specialized cells in flowers produce volatile organic compounds that create their unique scents. These scents play a crucial role in attracting pollinators such as bees, butterflies, and hummingbirds.</p>
+          <p><strong>Cell Communication:</strong> Flower cells communicate through chemical signals. For example, the synergid cells in the ovule release attractants that guide the pollen tube to the egg cell.</p>
+          <p><strong>Double Fertilization:</strong> Flowers exhibit a unique process called double fertilization. One sperm cell fuses with the egg cell to form the zygote, while another sperm cell fuses with the central cell to form the endosperm, which nourishes the developing embryo.</p>
+          <p><strong>Bioluminescence:</strong> Some flowers, like certain species of tulips, have cells that can produce a faint glow in the dark. This bioluminescence is due to the presence of certain chemicals and is more pronounced in the early morning or evening.</p>
+          <p><strong>Genetic Mosaicism:</strong> Some flowers exhibit genetic mosaicism, where different parts of the flower contain different genetic information. This can result in petals with varied colours and patterns within the same flower.</p>
+          <p><strong>Microscopic Hairs:</strong> Trichomes, or tiny hair-like structures, on flower petals and other parts can serve various functions, such as deterring herbivores, trapping insects, or reducing water loss.</p>
+          <p><strong>Pollutant Sensitivity:</strong> Certain flowers are sensitive to air pollutants like sulfur dioxide, ozone, and heavy metals. For example, the presence of lesions or discoloration on petals can indicate high levels of air pollution. </p>
+          <p><strong>Cauliflory</strong> is a botanical adaptation where flowers and fruits grow directly from a tree's trunk or mature branches, rather than from new growth. This phenomenon is common in tropical trees and serves specific ecological purposes. By producing flowers on the trunk, these trees increase accessibility to pollinators like bats and birds. Additionally, large fruits that develop from cauliflorous flowers often fall to the ground, facilitating seed dispersal by terrestrial animals. Examples include the cacao tree (Theobroma cacao), jackfruit (Artocarpus heterophyllus), and jabuticaba (Plinia cauliflora). This growth pattern helps these plants ensure successful reproduction in dense forest environments.</p>
+          <p><strong>Polyflory</strong> refers to the production of multiple flowers from a single node or point on a plant. This floral arrangement can enhance pollination efficiency and reproductive success. Examples include lilacs (Syringa species) and bougainvillea, where clusters of flowers form at each node. Polyflory is an evolutionary strategy that increases a plant's ability to attract pollinators and maximize seed production.</p>
+          <h3 id="importance-of-flowers">Importance of Flowers</h3>
+          <p><strong>Reproduction:</strong> Flowers are crucial for the reproduction of angiosperms. They facilitate the transfer of pollen (male gametes) to the ovule (female gametes) either through wind, water, or animal pollinators.  </p>
+          <p><strong>Biodiversity:</strong> Flowers contribute to the biodiversity of ecosystems by supporting a wide range of pollinators. The relationships between flowers and their pollinators are key to the survival of many species.  </p>
+          <p><strong>Food Production:</strong> Many of the foods we consume are the direct result of flower fertilization. Fruits, vegetables, nuts, and seeds are produced from fertilized flowers. Additionally, many flowers themselves are edible. </p>
+          <p>The saffron flower (Crocus sativus) is primarily valued for its red stigmas, which are dried and used as the spice saffron. These threads impart a rich golden colour and a distinctive, earthy flavour to dishes like risotto, paella, and desserts. The flower’s purple petals are also edible and can be used in salads or as garnishes, though they are less commonly utilized. Saffron is rich in antioxidants and has been traditionally used for its potential health benefits, including mood enhancement and memory improvement.  </p>
+          <p>The banana flower, also referred to as banana blossom or "mocha" in certain regions, is a nutritious and edible component widely utilized in various culinary traditions, particularly throughout South and Southeast Asia. Known for its slightly bitter taste, the banana flower is a rich source of dietary fibre, essential vitamins, and minerals, contributing both flavour and nutritional value to a diverse array of dishes.</p>
+          <p><strong>Economic Value:</strong> Flowers have significant economic value in horticulture and agriculture. The flower industry includes cut flowers, ornamental plants, and related businesses. Flower-based products, such as perfumes and essential oils, are also economically important.  </p>
+          <p><strong>Cultural Significance:</strong> Flowers hold considerable cultural and symbolic significance in many societies. They are used in rituals, celebrations, and as symbols of emotions such as love, remembrance, and mourning.  </p>
+          <p><strong>Environmental Indicators:</strong> Flowers can be indicators of environmental health. Changes in flowering patterns can signal shifts in climate, the presence of pollutants, or other ecological changes.  </p>
+          <p><strong>Aesthetic and Psychological Benefits:</strong> Flowers enhance the beauty of natural and cultivated landscapes. Their presence can have positive psychological effects, promoting well-being and reducing stress.  </p>
+          
+          </div>
+          <div class="bug-report-mobile">
+              <bug-report id="bug-report" title="[BUG REPORT] VIRTUAL EXPERIMENTS TO STUDY CHARACTERISTICS OF PLANT CELLS AND GENOMES" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;IITKGP&quot;,&quot;expname&quot;:&quot;VIRTUAL EXPERIMENTS TO STUDY CHARACTERISTICS OF PLANT CELLS AND GENOMES&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" position="override" button_style="
+                          position: fixed; 
+                          bottom: 20px;
+                          right: 20px;
+                          z-index: 1;
+                          font-size: 0;
+                          padding: 25px;
+                          border-radius: 50%;
+                          border: none;
+                          background-color: #0fc0ff;
+                          background-image: url(data:image/png;base64,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);
+                          background-repeat: no-repeat;
+                          background-position: center;
+                          background-size: 30px;
+                          filter: invert(1);">
+              </bug-report>
+          </div>        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fab fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fab fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fab fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fab fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+    <script src="../assets/js/toggleSidebar.js"></script>
+    <script src="../assets/js/event-handler.js"></script>
+
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+  
+
+<script type="module" src="https://virtual-labs.github.io/svc-bug-report/client/src/bug-report.js"></script><script type="module" src="plugins/svc-rating/index.js"></script><script type="module" src="plugins/svc-rating/config.js"></script><script type="module" src="https://apis.google.com/js/api.js"></script></body></html>

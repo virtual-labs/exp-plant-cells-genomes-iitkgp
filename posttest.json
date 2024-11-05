@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is the first step in preparing a transverse section of a leaf for microscopic observation?",
+      "answers": {
+        "a": "Staining the leaf with iodine",
+        "b": "Embedding the leaf in wax",
+        "c": "Cutting a thin slice using a new razor blade",
+        "d": "Hydrating the leaf in water"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. In the procedure of a stem transverse section, which stain is used to distinguish between xylem and phloem?",
+      "answers": {
+        "a": "Iodine",
+        "b": "Toluidine blue",
+        "c": "Safranin",
+        "d": "Acetocarmine"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is the purpose of placing the prepared stem transverse section in water during the experiment?",
+      "answers": {
+        "a": "To soften the tissue for slicing",
+        "b": "To keep the section hydrated during observation",
+        "c": "To highlight vascular tissue",
+        "d": "To wash away excess stain"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. After staining and mounting a root transverse section on a slide, what is the correct order for microscopic observation?",
+      "answers": {
+        "a": "Start with the highest magnification first",
+        "b": "Start with low magnification, then gradually increase",
+        "c": "Apply heat to the slide before observation",
+        "d": "Dehydrate the section with alcohol before viewing"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. What procedural mistake could result in poorly defined root epidermis cells in a transverse section?",
+      "answers": {
+        "a": "Failure to use a microtome for sectioning",
+        "b": "Overstaining the section",
+        "c": "Insufficient dehydration before embedding",
+        "d": "Using glycerine instead of water for mounting"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

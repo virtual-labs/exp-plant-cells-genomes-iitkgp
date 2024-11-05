@@ -1,0 +1,101 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which structure in plant cells provides rigidity and support?",
+      "answers": {
+        "a": "Chloroplast",
+        "b": "Mitochondria",
+        "c": "Cell wall",
+        "d": "Nucleus"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which organelle is responsible for photosynthesis in plant cells?",
+      "answers": {
+        "a": "Mitochondria",
+        "b": "Chloroplast",
+        "c": "Nucleus",
+        "d": "Ribosome"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which of the following is NOT found in plant cells?",
+      "answers": {
+        "a": "Cell wall",
+        "b": "Chloroplast",
+        "c": "Centrioles",
+        "d": "Vacuole"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. In which part of the plant cell does cellular respiration occur?",
+      "answers": {
+        "a": "Chloroplast",
+        "b": "Nucleus",
+        "c": "Mitochondria",
+        "d": "Ribosome"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The small openings on the underside of a leaf that allow for gas exchange are called:",
+      "answers": {
+        "a": "Stomata",
+        "b": "Guard cells",
+        "c": "Xylem",
+        "d": "Phloem"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. In a flower cell simulation, what happens if the stigma is removed?",
+      "answers": {
+        "a": "Pollen cannot be produced",
+        "b": "Fertilization cannot occur",
+        "c": "Ovary development stops",
+        "d": "Petals lose color"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. A plant stem simulation shows vascular bundles forming in a scattered pattern. This characteristic suggests that the plant is a:",
+      "answers": {
+        "a": "Dicot",
+        "b": "Monocot",
+        "c": "Woody plant",
+        "d": "Herbaceous dicot"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. Which layer of the leaf is primarily responsible for photosynthesis?",
+      "answers": {
+        "a": "Upper epidermis",
+        "b": "Spongy mesophyll",
+        "c": "Palisade mesophyll",
+        "d": "Lower epidermis"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

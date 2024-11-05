@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+	<div class="container-fluid p-2 mt-2 ">
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Flower Cell
+
+					</div>
+
+					<div class="card-body">
+						<select id="selectflowersection" class="form-select" aria-label="Default select example"
+							onchange="selectflowersec()">
+							<option value="0" selected>Select experiment to perform</option>
+							<option value="1">Longitudinal section of flower</option>
+							<option value="2">Transverse section of flower</option>
+
+						</select>
+						<!--
+					<p id="ls" style="display: none;"> A Hibiscus flower is chosen. Click on the glass slide. </p>	
+					<p id="ts" style="display: none;"> A Hibiscus flower is chosen. Click on the blade to cut a section of ovary of the flower. Follow the instrtuction as they appear. </p>	
+
+-->
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Equipment required
+
+					</div>
+
+					<div class="card-body">
+						<!--div class="table-responsive"-->
+						<table class="table table-bordered">
+							<tr>
+								<td id="lstr" style="display: none;">
+									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Hibiscus flower</button>
+									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Blade</button>
+									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Forcep</button>
+									<button class="btn btn-info " type="button" id="gslidei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Glass Slide</button>
+
+								</td>
+							</tr>
+							<tr>
+								<td id="tstr" style="display: none;">
+									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Hibiscus flower</button>
+									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Blade</button>
+									<button class="btn btn-info " type="button" id="corki" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Brush</button>
+									<button class="btn btn-info " type="button" id="pdishi" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Petridish containing water</button>
+									<button class="btn btn-info " type="button" id="beakeri" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Staining solution</button>
+									<button class="btn btn-info " type="button" id="beakeri2" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Beaker containg water</button>
+									<button class="btn btn-info " type="button" id="dropperi" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Dropper</button>
+									<button class="btn btn-info " type="button" id="gslidei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Glass Slide</button>
+									<button class="btn btn-info " type="button" id="cglassi" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Cover Glass</button>
+
+
+									<button class="btn btn-info " type="button" id="microscopei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Mircoscope</button>
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<!--button class="btn btn-success " type="button" id="start" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Start the Experiment</button-->
+									<button class="btn btn-warning " style="float:right;" type="button" id="restart"
+										onclick="restartexp()">
+										Re-Do the Experiment</button>
+								</td>
+							</tr>
+
+
+						</table>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card card-body border border-1" style="display: none;" id="flowersteps">
+					<h5 id="instshowsteps" style="text-align: center;"> A fresh hibiscus flower is chosen and petals has
+						been removed. Click on the glass slide. </h5>
+				</div>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-md-8" id="lscardcol" style="display: none;">
+				<div class="card card-body border border-0">
+					<img src="./images/flower.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Hibiscus flower" id="flowercss">
+
+					<img src="./images/flower_glass_slide.png" class="img-fluid" data-toggle="tooltip"
+						data-placement="bottom" title="Hibiscus flower" id="flowersectioncss">
+
+					<img src="./images/petal.png" class="img-fluid" id="petalcss">
+
+					<img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Blade" id="bladecssls" onclick="clickblade()">
+
+
+					<img src="./images/forceps.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Forcep" id="forcepcssls">
+					<img src="./images/picksectionforcep.png" class="img-fluid" data-toggle="tooltip"
+						data-placement="bottom" title="Forcep" id="pickforcepcssls">
+
+
+					<img src="./images/glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Glass Slide" id="glassslidecssls">
+					<img src="./images/fingerthumb.png" class="img-fluid" id="fingerthumbcss">
+					<img src="./images/fingerindex.png" class="img-fluid" id="fingerindexcss">
+
+				</div>
+			</div>
+
+			<div class="col-md-4" id="lscardcol1" style="display: none;">
+				<div class="card card-body border border-0">
+
+					<img src="./images/user.png" class="img-fluid" id="labpersoncss">
+
+				</div>
+			</div>
+		</div>
+
+		<!---------------------------------------  TS flower --------------------------------------------------------------------->
+
+		<div class="row">
+			<div class="col-md-8" id="tscardcol" style="display: none;">
+				<div class="card card-body border border-0">
+
+					<img src="./images/flower_ovary.png" class="img-fluid" id="flowerovarysectioncssts">
+					<img src="./images/flower_ovary_1.png" class="img-fluid" id="flowerovarysectioncssts1">
+					<img src="./images/smallflowerovarycut.png" class="img-fluid" id="flowerovarysectioncssts2">
+					<img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Blade" id="bladecssts" onclick="clickbladets()">
+
+					<img src="./images/petridish.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Petridish containing water" id="petridishcssts">
+					<img src="./images/brush.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Brush" id="brushcssts">
+					<img src="./images/fingerthumb.png" class="img-fluid" id="fingerthumbcssts">
+					<img src="./images/fingerindex.png" class="img-fluid" id="fingerindexcssts">
+					<!--img src="./images/forceps.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+				title="Forcep" id="forcepcssts">
+			<img src="./images/picksectionforcep.png" class="img-fluid" data-toggle="tooltip"
+				data-placement="bottom" title="Forcep" id="pickforcepcssts"-->
+
+					<img src="./images/coverglass.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Coverslip" id="coverslipcssts">
+					<img src="./images/glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Glass Slide" id="glassslidecssts">
+
+
+					<img src="./images/stainingbottle.png" class="img-fluid" data-toggle="tooltip"
+						data-placement="bottom" title="Safranin" id="safbeakercss">
+					<img src="./images/safranin.png" class="img-fluid" id="safranindroppercss">
+					<img src="./images/safdrop.png" class="img-fluid" id="safranindropcss">
+
+					<img src="./images/beaker.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Beaker" id="beakercssts">
+
+
+					<img src="./images/dropper.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="dropper" id="droppercssts">
+					<img src="./images/waterdropper.png" class="img-fluid" id="dropperwatercssts">
+
+
+					<img src="./images/waterdrop.png" class="img-fluid" id="waterdropcssts">
+					<img src="./images/waterdrop.png" class="img-fluid" id="petridishwatercssts">
+				</div>
+			</div>
+
+			<div class="col-md-4" id="tscardcol1" style="display: none;">
+				<div class="card card-body border border-0">
+					<img src="./images/microscope.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Microscope" id="mircoscopecss">
+					<img src="./images/user.png" class="img-fluid" id="labpersoncss">
+					<img src="./images/preparedslide.png" class="img-fluid" data-toggle="tooltip"
+						data-placement="bottom" title="Prepared slide" id="mircoscopeslidecssts">
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+	
+	<script src="./js/main.js"></script>
+	<script src="./js/main1.js"></script>
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip(
+				{
+					placement: 'bottom'
+				}
+			);
+		})
+
+	</script>
+<script src="../../assets/js/iframeResize.js"></script></body>
+
+</html>

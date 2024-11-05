@@ -192,7 +192,7 @@
     
     {
       "unit-type": "task",
-      "label": "Posttest",
+      "label": "Post test",
       "content-type": "assesment",
       "source": "posttest.json",
       "target": "posttest.html"

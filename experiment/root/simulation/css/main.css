@@ -233,9 +233,9 @@
 #labpersoncss {
     cursor: pointer;
     position: absolute;
-    top: 40%;
-    left:50%;
-    width:50%
+    top: 80%;
+    left:60%;
+    width:30%
    
 }
 
@@ -248,6 +248,15 @@
     height:3%;
     transform: rotate(90deg);
     display:none;
+}
+
+#rootshowimg{
+    cursor: pointer;
+    position:absolute;
+    top:15%;
+    left:15%; 
+    display: none;
+    width:50%;
 }
 
 /* column 2 ends */

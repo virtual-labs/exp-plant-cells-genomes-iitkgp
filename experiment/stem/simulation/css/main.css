@@ -339,9 +339,9 @@
 #labpersoncss {
     cursor: pointer;
     position: absolute;
-    top: 40%;
-    left:50%;
-    width:50%
+    top: 90%;
+    left:60%;
+    width:30%
    
 }
 
@@ -354,6 +354,16 @@
     height:3%;
     transform: rotate(90deg);
     display:none;
+}
+
+
+#stemshowimg{
+    cursor: pointer;
+    position:absolute;
+    top:10%;
+    left:15%; 
+    display: none;
+    width:70%;
 }
 
 /* column 2 ends */

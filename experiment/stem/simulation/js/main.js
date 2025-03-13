@@ -337,4 +337,11 @@ function clicktomovetomicroscope() {
   document.getElementById("smallcutstemseccss").style.display = "none";
   document.getElementById("waterdropcss").style.display = "none";
   document.getElementById("distwaterdropcss").style.display = "none";
+  document.getElementById("mircoscopecss").setAttribute("onclick", "microstemimgshow()");
+
+
+}
+
+function microstemimgshow(){
+  document.getElementById("stemshowimg").style.display = "block";
 }

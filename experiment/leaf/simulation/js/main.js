@@ -323,6 +323,11 @@ function glasslidetomicroscope() {
   document.getElementById("glassslidecss").style.display = "none";
   document.getElementById("coverslipcss").style.display = "none";
   document.getElementById("watercss").style.display = "none";
+  document.getElementById("mircoscopecss").setAttribute("onclick", "microleafimgshow()");
 
 
+}
+
+function microleafimgshow(){
+  document.getElementById("leafshowimg").style.display = "block";
 }

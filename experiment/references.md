@@ -1,6 +1,7 @@
 ## References
 
-
+- https://link.springer.com/journal/425
+- Murat, Florent & Van de Peer, Yves & Salse, Jérôme. (2012). Decoding Plant and Animal Genome Plasticity from Differential Paleo-Evolutionary Patterns and Processes. Genome biology and evolution. 4. 805-16. 10.1093/gbe/evs066.
 
 
 #### Images

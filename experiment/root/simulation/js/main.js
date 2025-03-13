@@ -213,6 +213,11 @@ function clickglassslide(){
   document.getElementById("glassslidecss").style.display="none";
   document.getElementById("coverslipcss").style.display="none";
   document.getElementById("rootsectioncss").style.display="none";
+  document.getElementById("mircoscopecss").setAttribute("onclick", "microrootimgshow()");
 
 
+}
+
+function microrootimgshow(){
+  document.getElementById("rootshowimg").style.display = "block";
 }

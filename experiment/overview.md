@@ -28,13 +28,13 @@ Nehemiah Grew, an English botanist, made similar contributions around the same t
      - Intercalary Meristem  (Growth at internodes)  
 
 
-   - Permanent Tissues (Differentiated cells)
-     - Simple Tissues (Made of one type of cell)  
-       - Parenchyma (Storage & photosynthesis)  
-       - Collenchyma (Support & flexibility)  
-       - Sclerenchyma (Mechanical strength)  
+    - Permanent Tissues (Differentiated cells)
+      - Simple Tissues (Made of one type of cell)  
+        - Parenchyma (Storage & photosynthesis)  
+        - Collenchyma (Support & flexibility)  
+        - Sclerenchyma (Mechanical strength)  
 
-     - Complex Tissues (Made of multiple cell types)
-        - Xylem (Water & mineral conduction)  
-        - Phloem (Transport of food)  
+      - Complex Tissues (Made of multiple cell types)
+         - Xylem (Water & mineral conduction)  
+         - Phloem (Transport of food)  
 

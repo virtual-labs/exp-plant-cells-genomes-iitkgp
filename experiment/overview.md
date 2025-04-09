@@ -19,22 +19,21 @@ Marcello Malpighi, an Italian physician and biologist, is often regarded as one 
 Nehemiah Grew, an English botanist, made similar contributions around the same time. His seminal work, "The Anatomy of Plants" (1682), provided extensive descriptions and illustrations of plant anatomy. Grew's observations included the study of roots, stems, leaves, and flowers, and he is often credited with the discovery of plant cells and the detailed structure of plant tissues.
 
 ### Types of plant tissues (Flow chat)
+ #### Plant Tissue
 
-- Plant Tissue
-
-   - Meristematic Tissues (Actively dividing cells) 
-     - Apocal Meristem (Growth at tips of roots and shoots)  
-     - Lateral Meristem (Increases girth/thickness) 
-     - Intercalary Meristem  (Growth at internodes)  
+- Meristematic Tissues (Actively dividing cells) 
+  - Apocal Meristem (Growth at tips of roots and shoots)  
+  - Lateral Meristem (Increases girth/thickness) 
+  - Intercalary Meristem  (Growth at internodes)  
 
 
-    - Permanent Tissues (Differentiated cells)
-      - Simple Tissues (Made of one type of cell)  
-        - Parenchyma (Storage & photosynthesis)  
-        - Collenchyma (Support & flexibility)  
-        - Sclerenchyma (Mechanical strength)  
+- Permanent Tissues (Differentiated cells)
+  - Simple Tissues (Made of one type of cell)  
+    - Parenchyma (Storage & photosynthesis)  
+    - Collenchyma (Support & flexibility)  
+    - Sclerenchyma (Mechanical strength)  
 
-      - Complex Tissues (Made of multiple cell types)
-         - Xylem (Water & mineral conduction)  
-         - Phloem (Transport of food)  
+  - Complex Tissues (Made of multiple cell types)
+     - Xylem (Water & mineral conduction)  
+     - Phloem (Transport of food)  
 

@@ -16,10 +16,7 @@ Plants are essential for life on Earth. Hence, studying their genomes is very im
 Plant and animal genomes exhibit significant differences in their structure, function, and evolutionary processes. Plant genomes are often larger and more variable in size.  They range from small genomes (~135 Mb of Arabidopsis thaliana) to the large genomes (such as that of wheat which is ~17 Gb). Polyploidy, a condition with multiple sets of chromosomes, is frequently observed. In contrast, the animal genomes are typically more uniform in size. The human genome is approximately 3.2 Gb in size. Polyploidy is relatively rare in animal genomes.  
 Plants possess three distinct genomes—the nuclear, chloroplast, and mitochondrial genome. Animals have only nuclear and mitochondrial genomes lacking the chloroplast genome unique to plants. Additionally, plant genomes have lower gene density due to larger intergenic regions and a higher proportion of repetitive DNA compared to animal genomes. Plants frequently undergo gene duplication and polyploidy, contributing to genetic diversity and adaptability, whereas animals rely more on point mutations and recombination. Understanding these differences enhances our knowledge of the distinct evolutionary paths and functional organisation in plants and animals.
 
-<div align="center">
-<img src="images/fig2.png" width="50%">
-<p>Fig 2. Comparison of Plant and animal genomes</p>
-</div>
+
 
 #### Uniqueness of Plant Genomes:
 1.	**Nuclear Genome:**   

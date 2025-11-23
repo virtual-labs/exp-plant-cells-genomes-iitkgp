@@ -272,9 +272,9 @@
 #labpersoncss {
     cursor: pointer;
     position: absolute;
-    top: 40%;
+    top: 80%;
     left:50%;
-    width:50%
+    width:30%
    
 }
 
@@ -290,6 +290,14 @@
     z-index: 2;
 }
 
+#leafshowimg{
+    cursor: pointer;
+    position:absolute;
+    top:10%;
+    left:5%;
+    display: none;
+    width:90%;
+}
 /* column 2 ends */
 
 

@@ -317,7 +317,7 @@ function coverslipcover() {
 }
 
 function glasslidetomicroscope() {
-  document.getElementById("instshowsteps").innerHTML = "Click on the lens to see the cross section of the leaf.";
+  document.getElementById("instshowsteps").innerHTML = "Click on the lens of the microscope and then the dropdown to see the cross section of the leaf for both 40x and 10x.";
   document.getElementById("mircoscopeslidecss").style.display = "block";
   document.getElementById("leafthinsection1").style.display = "none";
   document.getElementById("glassslidecss").style.display = "none";
@@ -329,5 +329,17 @@ function glasslidetomicroscope() {
 }
 
 function microleafimgshow(){
-  document.getElementById("leafshowimg").style.display = "block";
+   document.getElementById("selectmicroscopelens").disabled= false;
+}
+
+
+function selectmicroscopelenssize(){
+  var selectlens=document.getElementById("selectmicroscopelens");
+
+  if (selectlens.value== 1){
+document.getElementById("leafshowimg40x").style.display = "block";
+  }
+  else if (selectlens.value== 2){
+document.getElementById("leafshowimg10x").style.display = "block";
+  }
 }

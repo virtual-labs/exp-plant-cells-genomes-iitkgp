@@ -86,16 +86,65 @@
       "difficulty": "beginner"
     },
     {
-      "question": "8. Which layer of the leaf is primarily responsible for photosynthesis?",
+      "question": "8. The basic structural and functional unit of a plant is called:",
       "answers": {
-        "a": "Upper epidermis",
-        "b": "Spongy mesophyll",
-        "c": "Palisade mesophyll",
-        "d": "Lower epidermis"
+        "a": "Tissue",
+        "b": "Organ",
+        "c": "Cell",
+        "d": "System"
       },
       
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+     {
+      "question": "9. The plant cell wall is mainly composed of:",
+      "answers": {
+        "a": "Protein",
+        "b": "Lipid",
+        "c": "Cellulose",
+        "d": "Chitin"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "10. Which type of leaf cell contains maximum chloroplasts?",
+      "answers": {
+        "a": "Epidermal cell",
+        "b": "Palisade mesophyll cell",
+        "c": "Spongy mesophyll cell",
+        "d": "Guard cell"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "11. Guard cells help in:",
+      "answers": {
+        "a": "Water absorption",
+        "b": "Food transport",
+        "c": "Gas exchange",
+        "d": "Mechanical support"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "12. Which layer of the leaf is primarily responsible for photosynthesis?",
+      "answers": {
+        "a": "Xylem",
+        "b": "Phloem",
+        "c": "Parenchyma",
+        "d": "Epidermis"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
+    
   ]
 }

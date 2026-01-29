@@ -233,7 +233,7 @@
 #labpersoncss {
     cursor: pointer;
     position: absolute;
-    top: 80%;
+    top: 90%;
     left:60%;
     width:30%
    
@@ -254,9 +254,10 @@
     cursor: pointer;
     position:absolute;
     top:15%;
-    left:15%; 
+    left:0%; 
     display: none;
-    width:50%;
+    z-index: 2;
+    
 }
 
 /* column 2 ends */

@@ -330,7 +330,7 @@ function coverslipclick() {
 
 }
 function clicktomovetomicroscope() {
-  document.getElementById("instshowsteps").innerHTML="Click on the lens of the microscope.";
+  document.getElementById("instshowsteps").innerHTML="Click on the lens of the microscope to see the 10x cross sectional view of the stem.";
   document.getElementById("mircoscopeslidecss").style.display = "block";
   document.getElementById("glassslidecss").style.display = "none";
   document.getElementById("coverslipcss").style.display = "none";

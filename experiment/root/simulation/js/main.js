@@ -205,7 +205,7 @@ function addcoverslip(){
 }
 
 function clickglassslide(){
-  document.getElementById("instshowsteps").innerHTML = "Click on the lens to see the cross section of the root.";
+  document.getElementById("instshowsteps").innerHTML = "Click on the lens to see the 10x cross section of the root.";
   document.getElementById("mircoscopeslidecss").style.display="block";
   document.getElementById("safranindropcss").style.display="none";
   document.getElementById("watercss").style.display="none";

@@ -227,4 +227,10 @@ function clickglassslidets() {
   document.getElementById("glassslidecssts").style.display = "none";
   document.getElementById("mircoscopeslidecssts").style.left = 19 + "%";
   document.getElementById("mircoscopeslidecssts").style.top = 61 + "%";
+  document.getElementById("mircoscopecss").setAttribute("onclick", "showhibiscusovary()");
+}
+
+function showhibiscusovary(){
+document.getElementById("mircoscopeslideovaryimg").style.display = "block";
+ 
 }

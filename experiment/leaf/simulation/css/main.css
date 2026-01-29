@@ -290,13 +290,23 @@
     z-index: 2;
 }
 
-#leafshowimg{
+#leafshowimg40x{
     cursor: pointer;
     position:absolute;
-    top:10%;
+    top:20%;
     left:5%;
     display: none;
     width:90%;
+    z-index: 2;
+}
+#leafshowimg10x{
+    cursor: pointer;
+    position:absolute;
+    top:20%;
+    left:5%;
+    display: none;
+    width:90%;
+    z-index: 2;
 }
 /* column 2 ends */
 

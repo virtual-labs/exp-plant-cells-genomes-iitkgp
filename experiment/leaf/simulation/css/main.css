@@ -295,7 +295,7 @@
     position:absolute;
     top:16%;
     left:5%;
-    display: block;
+    display: none;
     width:90%;
     z-index: 2;
 }
@@ -304,7 +304,7 @@
     position:absolute;
     top:16%;
     left:5%;
-    display: block;
+    display: none;
     width:90%;
     z-index: 2;
 }

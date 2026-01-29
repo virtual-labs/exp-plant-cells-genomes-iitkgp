@@ -338,8 +338,10 @@ function selectmicroscopelenssize(){
 
   if (selectlens.value== 1){
 document.getElementById("leafshowimg40x").style.display = "block";
+document.getElementById("leafshowimg10x").style.display = "none";
   }
   else if (selectlens.value== 2){
 document.getElementById("leafshowimg10x").style.display = "block";
+document.getElementById("leafshowimg40x").style.display = "none";
   }
 }

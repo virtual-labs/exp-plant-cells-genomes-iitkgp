@@ -60,6 +60,67 @@
       
       "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+    {
+      "question": "6. Which part of flower Transverse Section contains ovules?",
+      "answers": {
+        "a": "Anther",
+        "b": "Filament",
+        "c": "Ovary",
+        "d": "Petal"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. Which layer in root Transverse Section controls the movement of water into the vascular tissue?",
+      "answers": {
+        "a": "Epidermis",
+        "b": "Cortex",
+        "c": "Endodermis",
+        "d": "Endodermis"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. Which tissue lies just below the epidermis in stem Transverse Section?",
+      "answers": {
+        "a": "Cortex",
+        "b": "Endodermis",
+        "c": "Pith",
+        "d": "Phloem"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. Air spaces in leaf Transverse Section are mainly associated with:",
+      "answers": {
+        "a": "Palisade tissue",
+        "b": "Spongy tissue",
+        "c": "Epidermis",
+        "d": "Vascular bundle"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "10. Mesophyll tissue in leaf Transverse Section is mainly involved in:",
+      "answers": {
+        "a": "Transport",
+        "b": "Protection",
+        "c": "Photosynthesis",
+        "d": "Storage"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
     }
+
   ]
 }

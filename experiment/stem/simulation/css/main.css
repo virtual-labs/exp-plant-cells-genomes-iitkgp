@@ -360,10 +360,10 @@
 #stemshowimg{
     cursor: pointer;
     position:absolute;
-    top:10%;
-    left:15%; 
+    top:5%;
+    left:0%; 
     display: none;
-    width:70%;
+   
 }
 
 /* column 2 ends */

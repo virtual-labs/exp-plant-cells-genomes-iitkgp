@@ -1,7 +1,11 @@
 ## References
 
-- https://link.springer.com/journal/425
+- [Planta](https://link.springer.com/journal/425)
 - Murat, Florent & Van de Peer, Yves & Salse, Jérôme. (2012). Decoding Plant and Animal Genome Plasticity from Differential Paleo-Evolutionary Patterns and Processes. Genome biology and evolution. 4. 805-16. 10.1093/gbe/evs066.
+- Rajput, K. S., Rao, K. S., & Patil, U. G. (2006). Stem anatomy of Dolichos lablab Linn (Fabaceae): origin of cambium and reverse orientation of vascular bundles. Flora-Morphology, Distribution, Functional Ecology of Plants, 201(1), 65-73.
+- Crivellaro, A., & Schweingruber, F. (2015). Stem anatomical features of dicotyledons. Xylem, phloem, cortex and periderm characteristics for ecological and taxonomical analyses (pp. 1-159). Kessel, Norbert.
+- Scarpella, E., & Meijer, A. H. (2004). Pattern formation in the vascular system of monocot and dicot plant species. New Phytologist, 164(2), 209-242.
+
 
 
 #### Images

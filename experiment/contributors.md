@@ -15,5 +15,5 @@
 Sr No | Name |  Designation | Department| Institute| 
 :--|:--|:--|:--|:--|
 1 | **Madhusmita Nanda** | Project Student| Interdisciplinary Sciences and Engineering | IIT Kharagpur |
-1 | **Manju Sri** | Student| Interdisciplinary Sciences and Engineering | IIT Kharagpur |
+1 | **Manju Sri** | BTech Student| Biotechnology and Bioscience | IIT Kharagpur |
 

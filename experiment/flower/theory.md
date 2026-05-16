@@ -53,7 +53,7 @@ Seed and Fruit Production: Essential for fertilization.
 **Biodiversity:** Supports genetic diversity and ecosystem stability.
 
 #### Photoperiodism:
-Photoperiodism is the biological response of plants and some animals to the duration of light and darkness in a 24-hour period. It influences key processes like flowering. Plants are classified as short-day, long-day, or day-neutral based on their response to day length. This phenomenon is regulated by phytochrome, a light-sensitive hormone that impacts gene expression. Understanding photoperiodism is essential for optimizing agricultural practices and ensuring that plants bloom and reproduce in sync with environmental conditions.  
+Photoperiodism is the biological response of plants and some animals to the duration of light and darkness in a 24-hour period. It influences key processes like flowering. Plants are classified as short-day, long-day, or day-neutral based on their response to day length. This phenomenon is regulated by phytochrome, a light-sensitive pigment (photoreceptor) that impacts gene expression. Understanding photoperiodism is essential for optimizing agricultural practices and ensuring that plants bloom and reproduce in sync with environmental conditions.  
 
 **Studying the nature and characteristics of cells in a flower ovary** involves examining the various cell types and their functions within the ovary. The ovary, which is the enlarged basal portion of the pistil (the female reproductive organ of a flower), contains one or more ovules that develop into seeds upon fertilization. This complex structure is composed of different types of cells, each playing a crucial role in the reproductive process.
 

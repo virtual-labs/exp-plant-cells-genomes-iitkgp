@@ -86,15 +86,15 @@
       "difficulty": "beginner"
     },
     {
-      "question": "8. The basic structural and functional unit of a plant is called:",
+      "question": "8. Which layer of the leaf is primarily responsible for photosynthesis?",
       "answers": {
-        "a": "Tissue",
-        "b": "Organ",
-        "c": "Cell",
-        "d": "System"
+        "a": "Epidermal layer",
+        "b": "Palisade layer",
+        "c": "Cuticle layer",
+        "d": "Vascular layer"
       },
       
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
      {
@@ -142,7 +142,7 @@
         "d": "Epidermis"
       },
       
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
     

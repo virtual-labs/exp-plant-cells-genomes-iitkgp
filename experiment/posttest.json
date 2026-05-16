@@ -14,7 +14,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2. In the procedure of a stem transverse section, which stain is used to distinguish between xylem and phloem?",
+      "question": "2. In the procedure of a stem transverse section, which stain is used to distinguish xylem?",
       "answers": {
         "a": "Iodine",
         "b": "Toluidine blue",
@@ -38,24 +38,24 @@
       "difficulty": "beginner"
     },
     {
-      "question": "4. After staining and mounting a root transverse section on a slide, what is the correct order for microscopic observation?",
+      "question": "4. After mounting a stained transverse section of a root, what is the correct sequence of objective lenses for observation?",
       "answers": {
-        "a": "Start with the highest magnification first",
-        "b": "Start with low magnification, then gradually increase",
-        "c": "Apply heat to the slide before observation",
-        "d": "Dehydrate the section with alcohol before viewing"
+        "a": "High power -> Medium power -> Low power",
+        "b": "Medium power -> Low power -> High power",
+        "c": "Low power -> Medium power -> High power",
+        "d": "Low power -> High power -> Medium power"
       },
       
-      "correctAnswer": "d",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "5. What procedural mistake could result in poorly defined root epidermis cells in a transverse section?",
+      "question": "5. While observing a transverse section of a dicot root, a student notices that the epidermal cells appear crushed and the edges are ragged, kaing it impossible to see individual cell boundaries. Which of the following is the most likely cause of this error?",
       "answers": {
-        "a": "Failure to use a microtome for sectioning",
-        "b": "Overstaining the section",
-        "c": "Insufficient dehydration before embedding",
-        "d": "Using glycerine instead of water for mounting"
+        "a": "The student used a high-power objective first",
+        "b": "The student used a dull razor blade to cut the section",
+        "c": "The section was left in Fast Green for too long",
+        "d": "The specimen was not stained with Safranin"
       },
       
       "correctAnswer": "b",

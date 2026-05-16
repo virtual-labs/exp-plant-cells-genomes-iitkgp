@@ -5,36 +5,34 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Add CSS at the head of HTML file -->
+	
 	<link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-	<!-- Your code goes here-->
+
 	<div class="container-fluid p-2 mt-2 ">
 
 		<div class="row ">
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-header fs-5 fw-bold">
-						Instructions
-
+						Leaf Cell
 					</div>
 
 					<div class="card-body">
 						<ol id="inst1">
+							A fresh leaf is chosen. Click on the blade to cut small portion of leaf. Follow the instructions as they appear.
 
-
-							<li> Click on the blade to take a small section of leaf area between veins.</li>
-
+							<!--li> Click on the blade to take a small section of leaf area between veins.</li>
 							<li> Click on the small section of the leaf to place it in a cork.</li>
 							<li> Click on the blade to cut a small section of the leaf.</li>
-							<li> The leaf section is shifted section in watch glass / petridish containing water with the help of a brush or blade.</li>
-							<li> Click on the leaf section in the petridish to transfer onto a glass microscope slide.</li>
-							<li> Click on the dropper to draw water from the beaker. Click to move the dropper above glass slide. Click to add a drop of water to the leaf.</li>
-							<li> Click on the coverslip to place over the leaf section</li>
+							<li> Click on the brush to place near blade. Click on the brush to shift the leaf section in watch glass / petridish containing water. Click on the brush to move the brush to its original position.</li>
+							<li> Click on the brush to place over petridish. Click on the brush to transfer the leaf section onto a glass microscope slide. Click on the brush to move the brush to its original position.</li>
+							<li> Click on the dropper to draw water from the beaker. Click to place the dropper above glass slide. Click to add a drop of water to the leaf.</li>
+							<li> Click on the coverslip to place over the leaf section.</li>
 							<li> Click on the prepared slide to place on the stage of the microscope.</li>
-							<li> Start with the magnification objective lens. You will see a figure like this of the cross section of the leaf</li>
+							<li> Start with the magnification objective lens. You will see the cross section of the leaf.</li-->
 							
 						</ol>
 					</div>
@@ -46,7 +44,7 @@
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-header fs-5 fw-bold">
-						Equipement required
+						Equipment required
 
 					</div>
 
@@ -69,16 +67,19 @@
 								<td>
 									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
+										Hibiscus Leaf</button>
+									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
 										Blade</button>
-									<button class="btn btn-info " type="button" id="corki" data-bs-toggle="modal"
+										<button class="btn btn-info " type="button" id="pdishi" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
 										Cork</button>
 									<button class="btn btn-info " type="button" id="pdishi" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
-										Petri dish</button>
+										Petridish containing water</button>
 										<button class="btn btn-info " type="button" id="beakeri" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
-										Beaker</button>
+										Beaker containing water</button>
 									<button class="btn btn-info " type="button" id="dropperi" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
 										Dropper</button>
@@ -105,7 +106,7 @@
 										Start the Experiment</button-->
 									<button class="btn btn-warning " style="float:right;" type="button" id="restart"
 										onclick="restartexp()">
-										Re-Do the Experiment</button>
+										Reset</button>
 								</td>
 							</tr>
 						</table>
@@ -114,26 +115,31 @@
 			</div>
 		</div>
 		<div class="row ">
+			<div class="col-md-12">
+				<div class="card card-body border border-1">
+					<h5 id="instshowsteps" style="text-align: center;"> A fresh hibiscus leaf is chosen. Click on the blade to cut a small portion of leaf.</h5>
+					</div>
+					</div>
+					</div>
+		<div class="row ">
 			<div class="col-md-8 ">
-				<div class="card card-body" style="background-color: #362020bb;"><!-- style="background-color: #362020bb;"-->
-					<img src="./images/hibiscus.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Leaf" id="leafcss">
-						<img src="./images/leafcutsection.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Leaf" id="leafcutsection">
-					<img src="./images/hibiscuscut.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Leaf" id="leafcutcss" onclick="placeincork()">
+				<div class="card card-body border border-0" ><!-- style="background-color: #362020bb;"-->
+					<img src="./images/hibiscus_leaf.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Leaf of Hibiscus" id="leafcss">
+						<img src="./images/hibiscus_leaf_cut.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Leaf of Hibiscus" id="leafcutcss">
+					<img src="./images/hibiscus_leafcut_section.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Leaf" id="leafcutsectioncss" onclick="placeincork()">
 
-						<!--canvas id="canvasleafsection" style="border: 0px solid black;" data-toggle="tooltip" data-placement="bottom"
-						title="Cutting sheet board"> </canvas-->
-						<img src="./images/cuttingsheet.png" class="img-fluid" id="cuttingsheetcss" >
-
-						<!--canvas id="canvasleafsection" style="border: 0px solid black;"> </canvas-->
+						<img src="./images/fingerthumb.png" class="img-fluid"  id="fingerthumbcss" >
+						<img src="./images/fingerindex.png" class="img-fluid" id="fingerindexcss" >
+						
 						<img src="./images/leafsection.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Leaf" id="leafsection">
+						title="Leaf" id="leafthinsection">
 						<img src="./images/leafsection_glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-							title="Leaf" id="leafsection1" onclick="putinglassslide()">
+							title="Leaf" id="leafthinsection1" > <!-- onclick="putinglassslide()"-->
 							<img src="./images/petridish.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Petridish" id="petridishcss">
+						title="Petridish containing water" id="petridishcss">
 
 					<img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="Blade" id="bladecss" onclick="bladejsclick()">
@@ -144,13 +150,16 @@
 
 					<img src="./images/cork.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="Cork" id="corkcss">
-					
+
+						
+						<img src="./images/brush.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Brush" id="brushcss" >
 					<img src="./images/glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="Glass Slide" id="glassslidecss">
 						<img src="./images/coverglass.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="Coverslip" id="coverslipcss" >
 					<img src="./images/beaker.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-						title="Beaker" id="beakercss">
+						title="Water" id="beakercss">
 
 						<img src="./images/dropper.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="dropper" id="droppercss" >
@@ -158,6 +167,8 @@
 						<img src="./images/drop.png" class="img-fluid"  id="dropcss" >
 						
 						<img src="./images/water.png" class="img-fluid"  id="watercss" >
+						<img src="./images/water.png" class="img-fluid"  id="petridishwatercss"  data-toggle="tooltip" data-placement="bottom"
+						title="Petridish containing water">
 						
 
 				</div>
@@ -201,12 +212,28 @@
 			</div>
 		</div-->
 			<div class="col-md-4 ">
-				<div class="card card-body">
-				<img src="./images/mr.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-					title="Microscope" id="mircoscopecss">
+				<div class="card card-body border border-0">
+					
+    <select id="selectmicroscopelens" class="form-select" onchange="selectmicroscopelenssize()" disabled>
+      <option selected>Select microsocpic lens view</option>
+      <option value="1">40x</option>
+      <option value="2">10x</option>
+      
+    </select>
+  </form>
+				<img src="./images/microscope.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+					title="Microscope" id="mircoscopecss" >
+					<form>
+    <!-- Basic Select -->
+    
 
+					<!--img src="./images/leaf.jpg" class="img-fluid"  id="leafshowimg"-->
+					<img src="./images/user.png" class="img-fluid"  id="labpersoncss">
 					<img src="./images/micro_glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 					title="Prepared slide" id="mircoscopeslidecss">
+				
+<img src="./images/microsocope-img40x.png" class="img-fluid"  id="leafshowimg40x" >
+<img src="./images/microsocope-img10x.png" class="img-fluid"  id="leafshowimg10x" >
 				</div>
 			</div>
 		</div>
@@ -216,7 +243,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
-	<!-- Add JS at the bottom of HTML file -->
+
 	<script src="./js/main.js"></script>
 	<script>
 		$(function () {

@@ -149,10 +149,11 @@
 
       ]
     },
+
     {
       "unit-type": "lu",
-      "label": "Arabidopsis genome",
-      "basedir": "arabidopsis",
+      "label": "Plant Genome",
+      "basedir": "plantgenome",
       "units": [
         {
           "unit-type": "aim"
@@ -170,52 +171,14 @@
           "content-type": "text",
           "source": "procedure.md",
           "target": "procedure.html"
-        },
-        {
-          "unit-type": "task",
-          "label": " Simulation",
-          "content-type": "simulation",
-          "source": "simulation/indexarabidopsis.html",
-          "target": "indexrice.html"
         }
-
+       
       ]
     },
-    {
-      "unit-type": "lu",
-      "label": "Rice genome",
-      "basedir": "rice",
-      "units": [
-        {
-          "unit-type": "aim"
-        },
-        {
-          "unit-type": "task",
-          "label": "Theory",
-          "content-type": "text",
-          "source": "theory.md",
-          "target": "theory.html"
-        },
-        {
-          "unit-type": "task",
-          "label": " Procedure",
-          "content-type": "text",
-          "source": "procedure.md",
-          "target": "procedure.html"
-        },
-        {
-          "unit-type": "task",
-          "label": " Simulation",
-          "content-type": "simulation",
-          "source": "simulation/indexrice.html",
-          "target": "indexrice.html"
-        }
-
-      ]
-    },
+    
     {
       "unit-type": "task",
-      "label": "Posttest",
+      "label": "Post test",
       "content-type": "assesment",
       "source": "posttest.json",
       "target": "posttest.html"

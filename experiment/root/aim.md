@@ -1,6 +1,6 @@
 ## Aim 
 
-To study characteristics of root cell.
+To study nature of cells in root and their characteristics.
 
 
 

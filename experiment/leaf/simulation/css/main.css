@@ -1,41 +1,40 @@
-/* You CSS goes in here */
 
-
-
+.card{
+    margin-bottom: 5px;
+    }
+    
 #leafcss {
     cursor: pointer;
     position: relative;
     top: 85%;
     left:7%;
-    width:38%;
-    transform: rotate(19deg);
+    width:30%;
     z-index: 1;
 }
 
 
-#leafcutsection {
+#leafcutcss {
     cursor: pointer;
     position: relative;
     top: 85%;
     left:7%;
-    width:38%;
+    width:30%;
     display: none;
-    transform: rotate(19deg);
     z-index: 1;
 }
 
-#leafcutcss {
+#leafcutsectioncss {
     cursor: pointer;
     display: none;
     position: absolute;
     top:18%;
     left:40%;
     width: 12.2%;
-    z-index: 2;
+    z-index: 1;
     
 }
 
-#leafsection {
+#leafthinsection {
     cursor: pointer;
     position: absolute;
     top: 23.5%;
@@ -44,6 +43,39 @@
     display: none;
     z-index: 2;
     transform:rotate(90deg);
+}
+
+#leafthinsection1 {
+    
+    position: absolute;
+    top: 17.5%;  /*23 */
+    left:80%; /* 80*/
+    width:2%;
+    height:0.2%;
+    display: none;
+    z-index: 10;
+    cursor: pointer;
+   transform: rotate(30deg);
+}
+
+
+#fingerthumbcss{
+    position: absolute;
+    top:8%;
+    left:95%;
+    width:6%;
+    cursor: pointer; /* stem outline 2D7600 */
+    display: none;
+    z-index: 3;
+}
+
+#fingerindexcss{
+    position: absolute;
+    top:8%;
+    left:95%;
+    width:6%;
+    cursor: pointer; /* stem outline 2D7600 */
+    display: none;
 }
 
 
@@ -60,17 +92,6 @@
 }
 
 
-#leafsection1 {
-    
-    position: absolute;
-    top: 23%;  /*23 */
-    left:80%; /* 80*/
-    width:2.2%;
-    display: none;
-    z-index: 10;
-    cursor: pointer;
-   transform: rotate(30deg);
-}
 
 
  /*#canvasleafsection{
@@ -167,6 +188,29 @@
     z-index: 5;
 }
 
+#brushcss{
+    position: absolute;
+    top: 0%;  /*0 -- -10 --  15  */
+    left:95%; /*95 -- 85 --  72 */
+    width:1.4%;
+    cursor: pointer;
+    transform: rotate(20deg);
+    z-index: 2;
+}
+
+#petridishwatercss{
+
+    position: absolute;
+    top: 21.5%;  /*45 */
+    left:75%; 
+    width:15%;
+    height: 4%;
+    cursor: pointer;
+    display: block;
+    z-index: 11;
+    opacity: 70%;
+}
+
 #beakercss {
     position: absolute;
     top: 75%;
@@ -212,6 +256,9 @@
     cursor: pointer;
     display: none;
 }
+/* column 1 ends */
+
+/* column 2 starts */
 
 
 #mircoscopecss {
@@ -219,22 +266,49 @@
     position: relative;
     top: 5%;
     left:1%;
-    width:100%
+    width:40%
+   
+}
+#labpersoncss {
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left:50%;
+    width:30%
    
 }
 
 #mircoscopeslidecss {
     cursor: pointer;
     position:absolute;
-    top:58.5%;
-    left:39%;
-    width:5%;
+    top:61%;
+    left:16%;
+    width:3.5%;
     height:3%;
     transform: rotate(90deg);
     display:none;
+    z-index: 2;
 }
 
-/* column 1 ends */
+#leafshowimg40x{
+    cursor: pointer;
+    position:absolute;
+    top:16%;
+    left:5%;
+    display: none;
+    width:90%;
+    z-index: 2;
+}
+#leafshowimg10x{
+    cursor: pointer;
+    position:absolute;
+    top:16%;
+    left:5%;
+    display: none;
+    width:90%;
+    z-index: 2;
+}
+/* column 2 ends */
 
 
 

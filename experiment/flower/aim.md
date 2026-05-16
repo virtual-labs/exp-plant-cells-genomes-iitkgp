@@ -1,7 +1,6 @@
 ## Aim 
 
-To study characteristics of flower cell.
-
+To study nature of cells in a flower and their characteristics.
 
 
 

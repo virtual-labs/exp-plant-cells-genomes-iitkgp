@@ -30,8 +30,8 @@
 1. Use a pair of fine-pointed forceps to transfer the root section onto a glass microscope slide.
 2. Add 2- 3 drops solution of safranin for 2-5 minutes. Safranin stains lignified and cutinized cell walls red.
 3. Rinse the sections briefly in water to remove excess safranin.
-4. Add a drop of water to the leaf section to prevent drying out and to create a wet mount.
-5. Carefully place a coverslip over the leaf section, using a needle to gently lower it to and avoid trapping air bubbles.
+4. Add a drop of water to the root section to prevent drying out and to create a wet mount.
+5. Carefully place a coverslip over the root section, using a needle to gently lower it to and avoid trapping air bubbles.
 
 
 #### Microscope Setup:

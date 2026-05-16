@@ -16,7 +16,8 @@ Vasicine is a vital alkaloid found in the leaves of Adhatoda vasica, with signif
 
 ### Epidermal Cells:
 
-**Upper Epidermis:** These cells form the outermost layer of the leaf and are often transparent to allow light penetration. The upper epidermis in plant leaves typically consists of a single layer of parenchyma cells.  
+**Upper Epidermis:** The upper epidermis is the outer protective surface of a leaf, made up of a single sheet of compactly arranged cells that are clear in nature. A thin, wax-like coating known as the cuticle covers this layer, helping to conserve moisture by reducing evaporation. These cells usually lack photosynthetic pigments, which ensures that sunlight can easily reach the tissues beneath where food synthesis takes place. This layer mainly serves to shield the inner parts of the leaf, control water loss, and assist in maintaining proper exchange of gases with the environment.  
+
 The cuticle is a waxy covering that covers the upper epidermal cells. This layer, which acts as a barrier against pathogen invasion and water loss, is mostly made up of waxes and cutin.  
 **Lower Epidermis:** It is similar to the upper epidermis, but may contain specialized structures like stomata and trichomes.
 

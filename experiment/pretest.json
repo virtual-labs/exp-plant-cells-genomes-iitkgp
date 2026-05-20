@@ -132,19 +132,8 @@
       
       "correctAnswer": "c",
       "difficulty": "beginner"
-    },
-     {
-      "question": "12. Which layer of the leaf is primarily responsible for photosynthesis?",
-      "answers": {
-        "a": "Xylem",
-        "b": "Phloem",
-        "c": "Parenchyma",
-        "d": "Epidermis"
-      },
-      
-      "correctAnswer": "c",
-      "difficulty": "beginner"
     }
+     
     
   ]
 }

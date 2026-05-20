@@ -1,0 +1,11 @@
+{
+  _: [],
+  f: [
+    '/home/runner/work/exp-plant-cells-genomes-iitkgp/exp-plant-cells-genomes-iitkgp/experiment-descriptor.json'
+  ],
+  files: [
+    '/home/runner/work/exp-plant-cells-genomes-iitkgp/exp-plant-cells-genomes-iitkgp/experiment-descriptor.json'
+  ],
+  '$0': 'validate'
+}
+Validated true

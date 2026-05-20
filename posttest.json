@@ -1,0 +1,126 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is the first step in preparing a transverse section of a leaf for microscopic observation?",
+      "answers": {
+        "a": "Staining the leaf with iodine",
+        "b": "Embedding the leaf in wax",
+        "c": "Cutting a thin slice using a new razor blade",
+        "d": "Hydrating the leaf in water"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. In the procedure of a stem transverse section, which stain is used to distinguish xylem?",
+      "answers": {
+        "a": "Iodine",
+        "b": "Toluidine blue",
+        "c": "Safranin",
+        "d": "Acetocarmine"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is the purpose of placing the prepared stem transverse section in water during the experiment?",
+      "answers": {
+        "a": "To soften the tissue for slicing",
+        "b": "To keep the section hydrated during observation",
+        "c": "To highlight vascular tissue",
+        "d": "To wash away excess stain"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. After mounting a stained transverse section of a root, what is the correct sequence of objective lenses for observation?",
+      "answers": {
+        "a": "High power -> Medium power -> Low power",
+        "b": "Medium power -> Low power -> High power",
+        "c": "Low power -> Medium power -> High power",
+        "d": "Low power -> High power -> Medium power"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. While observing a transverse section of a dicot root, a student notices that the epidermal cells appear crushed and the edges are ragged, kaing it impossible to see individual cell boundaries. Which of the following is the most likely cause of this error?",
+      "answers": {
+        "a": "The student used a high-power objective first",
+        "b": "The student used a dull razor blade to cut the section",
+        "c": "The section was left in Fast Green for too long",
+        "d": "The specimen was not stained with Safranin"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. Which part of flower Transverse Section contains ovules?",
+      "answers": {
+        "a": "Anther",
+        "b": "Filament",
+        "c": "Ovary",
+        "d": "Petal"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. Which layer in root Transverse Section controls the movement of water into the vascular tissue?",
+      "answers": {
+        "a": "Epidermis",
+        "b": "Cortex",
+        "c": "Endodermis",
+        "d": "Pith"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. Which tissue lies just below the epidermis in stem Transverse Section?",
+      "answers": {
+        "a": "Cortex",
+        "b": "Endodermis",
+        "c": "Pith",
+        "d": "Phloem"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. Air spaces in leaf Transverse Section are mainly associated with:",
+      "answers": {
+        "a": "Palisade tissue",
+        "b": "Spongy tissue",
+        "c": "Epidermis",
+        "d": "Vascular bundle"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "10. Mesophyll tissue in leaf Transverse Section is mainly involved in:",
+      "answers": {
+        "a": "Transport",
+        "b": "Protection",
+        "c": "Photosynthesis",
+        "d": "Storage"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+
+  ]
+}
